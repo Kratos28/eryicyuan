@@ -14,135 +14,111 @@
 		4704B8BD2B33DC970012BBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8BC2B33DC970012BBBB /* Assets.xcassets */; };
 		4704B8C02B33DC970012BBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8BE2B33DC970012BBBB /* LaunchScreen.storyboard */; };
 		4704B8C32B33DC970012BBBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B8C22B33DC970012BBBB /* main.m */; };
-		4704B92F2B33E3B70012BBBB /* 对战.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8CB2B33E3B60012BBBB /* 对战.jpg */; };
-		4704B9302B33E3B70012BBBB /* 7天福利.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8CC2B33E3B60012BBBB /* 7天福利.jpg */; };
-		4704B9312B33E3B70012BBBB /* 角色界面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8CD2B33E3B60012BBBB /* 角色界面.jpg */; };
-		4704B9322B33E3B70012BBBB /* 背包.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8CE2B33E3B60012BBBB /* 背包.jpg */; };
-		4704B9332B33E3B70012BBBB /* 商城-提示2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8CF2B33E3B60012BBBB /* 商城-提示2.jpg */; };
-		4704B9342B33E3B70012BBBB /* 商城-钻石.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D02B33E3B60012BBBB /* 商城-钻石.jpg */; };
-		4704B9352B33E3B70012BBBB /* 对战-是否终止挑战.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D12B33E3B60012BBBB /* 对战-是否终止挑战.jpg */; };
-		4704B9362B33E3B70012BBBB /* 商城-道具.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D22B33E3B60012BBBB /* 商城-道具.jpg */; };
-		4704B9372B33E3B70012BBBB /* 挑战.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D32B33E3B60012BBBB /* 挑战.jpg */; };
-		4704B9382B33E3B70012BBBB /* 主界面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D42B33E3B60012BBBB /* 主界面.jpg */; };
-		4704B9392B33E3B70012BBBB /* 商城-提示.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D52B33E3B60012BBBB /* 商城-提示.jpg */; };
-		4704B93A2B33E3B70012BBBB /* 选角3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D62B33E3B60012BBBB /* 选角3.jpg */; };
-		4704B93B2B33E3B70012BBBB /* 选角2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D72B33E3B60012BBBB /* 选角2.jpg */; };
-		4704B93C2B33E3B70012BBBB /* 钻石3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8D92B33E3B60012BBBB /* 钻石3.png */; };
-		4704B93D2B33E3B70012BBBB /* 对战技能.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8DA2B33E3B60012BBBB /* 对战技能.png */; };
-		4704B93E2B33E3B70012BBBB /* 主界面信息条.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8DB2B33E3B60012BBBB /* 主界面信息条.png */; };
-		4704B93F2B33E3B70012BBBB /* 阵容2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8DC2B33E3B60012BBBB /* 阵容2.png */; };
-		4704B9402B33E3B70012BBBB /* 角色3场景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8DD2B33E3B60012BBBB /* 角色3场景.png */; };
-		4704B9412B33E3B70012BBBB /* tiaoz6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8DE2B33E3B60012BBBB /* tiaoz6.png */; };
-		4704B9422B33E3B70012BBBB /* 按钮1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8DF2B33E3B60012BBBB /* 按钮1.png */; };
-		4704B9432B33E3B70012BBBB /* 钻石2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E02B33E3B60012BBBB /* 钻石2.png */; };
-		4704B9442B33E3B70012BBBB /* 按钮3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E12B33E3B60012BBBB /* 按钮3.png */; };
-		4704B9452B33E3B70012BBBB /* 阵容1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E22B33E3B60012BBBB /* 阵容1.png */; };
-		4704B9462B33E3B70012BBBB /* tiaoz5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E32B33E3B60012BBBB /* tiaoz5.png */; };
-		4704B9472B33E3B70012BBBB /* tiaoz4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E42B33E3B60012BBBB /* tiaoz4.png */; };
-		4704B9482B33E3B70012BBBB /* 角色1场景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E52B33E3B60012BBBB /* 角色1场景.png */; };
-		4704B9492B33E3B70012BBBB /* 按钮2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E62B33E3B60012BBBB /* 按钮2.png */; };
-		4704B94A2B33E3B70012BBBB /* 钻石1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E72B33E3B60012BBBB /* 钻石1.png */; };
-		4704B94B2B33E3B70012BBBB /* 头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E82B33E3B60012BBBB /* 头像.png */; };
-		4704B94C2B33E3B70012BBBB /* 钻石5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8E92B33E3B60012BBBB /* 钻石5.png */; };
-		4704B94D2B33E3B70012BBBB /* 角色2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8EA2B33E3B60012BBBB /* 角色2.png */; };
-		4704B94E2B33E3B70012BBBB /* tiaoz1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8EB2B33E3B60012BBBB /* tiaoz1.png */; };
-		4704B94F2B33E3B70012BBBB /* 角色3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8EC2B33E3B60012BBBB /* 角色3.png */; };
-		4704B9502B33E3B70012BBBB /* 钻石4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8ED2B33E3B60012BBBB /* 钻石4.png */; };
-		4704B9512B33E3B70012BBBB /* shali.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8EE2B33E3B60012BBBB /* shali.png */; };
-		4704B9522B33E3B70012BBBB /* 钻石6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8EF2B33E3B60012BBBB /* 钻石6.png */; };
-		4704B9532B33E3B70012BBBB /* 角色1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F02B33E3B60012BBBB /* 角色1.png */; };
-		4704B9542B33E3B70012BBBB /* 阵营3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F12B33E3B60012BBBB /* 阵营3.png */; };
-		4704B9552B33E3B70012BBBB /* tiaoz3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F22B33E3B60012BBBB /* tiaoz3.png */; };
-		4704B9562B33E3B70012BBBB /* 主界面下方条.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F32B33E3B60012BBBB /* 主界面下方条.png */; };
-		4704B9572B33E3B70012BBBB /* tiaoz2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F42B33E3B60012BBBB /* tiaoz2.png */; };
-		4704B9582B33E3B70012BBBB /* 按钮4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F52B33E3B60012BBBB /* 按钮4.png */; };
-		4704B9592B33E3B70012BBBB /* 开始按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F62B33E3B60012BBBB /* 开始按钮.png */; };
-		4704B95A2B33E3B70012BBBB /* 角色2场景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F72B33E3B60012BBBB /* 角色2场景.png */; };
-		4704B95B2B33E3B70012BBBB /* 失败.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F82B33E3B60012BBBB /* 失败.png */; };
-		4704B95C2B33E3B70012BBBB /* 鞋子.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8F92B33E3B60012BBBB /* 鞋子.png */; };
-		4704B95D2B33E3B70012BBBB /* 确定按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8FA2B33E3B60012BBBB /* 确定按钮.png */; };
-		4704B95E2B33E3B70012BBBB /* jiemianlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8FB2B33E3B60012BBBB /* jiemianlan.png */; };
-		4704B95F2B33E3B70012BBBB /* 活动更新.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8FC2B33E3B60012BBBB /* 活动更新.png */; };
-		4704B9602B33E3B70012BBBB /* jiesejiemianbeij.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8FD2B33E3B60012BBBB /* jiesejiemianbeij.png */; };
-		4704B9612B33E3B70012BBBB /* zhouyu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8FE2B33E3B60012BBBB /* zhouyu.png */; };
-		4704B9622B33E3B70012BBBB /* x血条.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8FF2B33E3B60012BBBB /* x血条.png */; };
-		4704B9632B33E3B70012BBBB /* shoutao.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9002B33E3B60012BBBB /* shoutao.png */; };
-		4704B9642B33E3B70012BBBB /* zhuangbeikuang.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9012B33E3B60012BBBB /* zhuangbeikuang.png */; };
-		4704B9652B33E3B70012BBBB /* wuzhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9022B33E3B60012BBBB /* wuzhi.png */; };
-		4704B9662B33E3B70012BBBB /* shu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9032B33E3B60012BBBB /* shu.png */; };
-		4704B9672B33E3B70012BBBB /* caisxieann.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9042B33E3B60012BBBB /* caisxieann.png */; };
-		4704B9682B33E3B70012BBBB /* 商店框.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9052B33E3B60012BBBB /* 商店框.png */; };
-		4704B9692B33E3B70012BBBB /* xurtiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9062B33E3B60012BBBB /* xurtiao.png */; };
-		4704B96A2B33E3B70012BBBB /* chibang.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9072B33E3B60012BBBB /* chibang.png */; };
-		4704B96B2B33E3B70012BBBB /* 技能.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9082B33E3B60012BBBB /* 技能.png */; };
-		4704B96C2B33E3B70012BBBB /* 选角按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9092B33E3B60012BBBB /* 选角按钮.png */; };
-		4704B96D2B33E3B70012BBBB /* nengliangping.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B90A2B33E3B60012BBBB /* nengliangping.png */; };
-		4704B96E2B33E3B70012BBBB /* mofabang.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B90B2B33E3B60012BBBB /* mofabang.png */; };
-		4704B96F2B33E3B70012BBBB /* 界面人物.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B90C2B33E3B60012BBBB /* 界面人物.png */; };
-		4704B9702B33E3B70012BBBB /* 福利礼物.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B90D2B33E3B60012BBBB /* 福利礼物.png */; };
-		4704B9712B33E3B70012BBBB /* vs.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B90E2B33E3B60012BBBB /* vs.png */; };
-		4704B9722B33E3B70012BBBB /* shuxlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B90F2B33E3B60012BBBB /* shuxlan.png */; };
-		4704B9732B33E3B70012BBBB /* 技能2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9102B33E3B60012BBBB /* 技能2.png */; };
-		4704B9742B33E3B70012BBBB /* yifu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9112B33E3B60012BBBB /* yifu.png */; };
-		4704B9752B33E3B70012BBBB /* chuandaiann.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9122B33E3B70012BBBB /* chuandaiann.png */; };
-		4704B9762B33E3B70012BBBB /* 技能3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9132B33E3B70012BBBB /* 技能3.png */; };
-		4704B9772B33E3B70012BBBB /* zuans.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9142B33E3B70012BBBB /* zuans.png */; };
-		4704B9782B33E3B70012BBBB /* 界面背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9152B33E3B70012BBBB /* 界面背景.png */; };
-		4704B9792B33E3B70012BBBB /* 提示框.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9162B33E3B70012BBBB /* 提示框.png */; };
-		4704B97A2B33E3B70012BBBB /* mogu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9172B33E3B70012BBBB /* mogu.png */; };
-		4704B97B2B33E3B70012BBBB /* xuanwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9182B33E3B70012BBBB /* xuanwo.png */; };
-		4704B97C2B33E3B70012BBBB /* shujing.png in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9192B33E3B70012BBBB /* shujing.png */; };
-		4704B97D2B33E3B70012BBBB /* 加载页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B91A2B33E3B70012BBBB /* 加载页.jpg */; };
-		4704B97E2B33E3B70012BBBB /* 7天福利-提示.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B91B2B33E3B70012BBBB /* 7天福利-提示.jpg */; };
-		4704B97F2B33E3B70012BBBB /* 选角1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B91C2B33E3B70012BBBB /* 选角1.jpg */; };
-		4704B9802B33E3B70012BBBB /* 对战失败.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B91D2B33E3B70012BBBB /* 对战失败.jpg */; };
-		4704B9812B33E3B70012BBBB /* 二次元icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B91F2B33E3B70012BBBB /* 二次元icon.jpg */; };
-		4704B9822B33E3B70012BBBB /* 1290x2796.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9202B33E3B70012BBBB /* 1290x2796.jpg */; };
-		4704B9832B33E3B70012BBBB /* 1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9212B33E3B70012BBBB /* 1242x2208.jpg */; };
-		4704B9842B33E3B70012BBBB /* 2048x2732-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9222B33E3B70012BBBB /* 2048x2732-3.jpg */; };
-		4704B9852B33E3B70012BBBB /* 1290x2796-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9232B33E3B70012BBBB /* 1290x2796-2.jpg */; };
-		4704B9862B33E3B70012BBBB /* 1290x2796-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9242B33E3B70012BBBB /* 1290x2796-3.jpg */; };
-		4704B9872B33E3B70012BBBB /* 2048x2732-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9252B33E3B70012BBBB /* 2048x2732-2.jpg */; };
-		4704B9882B33E3B70012BBBB /* 1242x2208-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9262B33E3B70012BBBB /* 1242x2208-5.jpg */; };
-		4704B9892B33E3B70012BBBB /* 1242x2208-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9272B33E3B70012BBBB /* 1242x2208-4.jpg */; };
-		4704B98A2B33E3B70012BBBB /* 2048x2732.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9282B33E3B70012BBBB /* 2048x2732.jpg */; };
-		4704B98B2B33E3B70012BBBB /* 2048x2732-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B9292B33E3B70012BBBB /* 2048x2732-5.jpg */; };
-		4704B98C2B33E3B70012BBBB /* 1290x2796-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B92A2B33E3B70012BBBB /* 1290x2796-4.jpg */; };
-		4704B98D2B33E3B70012BBBB /* 1290x2796-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B92B2B33E3B70012BBBB /* 1290x2796-5.jpg */; };
-		4704B98E2B33E3B70012BBBB /* 2048x2732-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B92C2B33E3B70012BBBB /* 2048x2732-4.jpg */; };
-		4704B98F2B33E3B70012BBBB /* 1242x2208-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B92D2B33E3B70012BBBB /* 1242x2208-3.jpg */; };
-		4704B9902B33E3B70012BBBB /* 1242x2208-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4704B92E2B33E3B70012BBBB /* 1242x2208-2.jpg */; };
-		4704B9A02B33E5B70012BBBB /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B9942B33E5B70012BBBB /* FMDatabaseQueue.m */; };
-		4704B9A12B33E5B70012BBBB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B9972B33E5B70012BBBB /* FMDatabaseAdditions.m */; };
-		4704B9A22B33E5B70012BBBB /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B9982B33E5B70012BBBB /* FMDatabase.m */; };
-		4704B9A32B33E5B70012BBBB /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B99C2B33E5B70012BBBB /* FMDatabasePool.m */; };
-		4704B9A42B33E5B70012BBBB /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B99D2B33E5B70012BBBB /* FMResultSet.m */; };
-		472458912B50092400A1EE68 /* cls_equipValueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472457E12B50092400A1EE68 /* cls_equipValueModel.m */; };
-		472458922B50092400A1EE68 /* cls_ViewNameTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 472457E22B50092400A1EE68 /* cls_ViewNameTag.m */; };
-		472458FE2B50092400A1EE68 /* cls_SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724585F2B50092400A1EE68 /* cls_SignViewController.m */; };
-		472458FF2B50092400A1EE68 /* cls_victoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458622B50092400A1EE68 /* cls_victoryViewController.m */; };
-		472459002B50092400A1EE68 /* cls_BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458642B50092400A1EE68 /* cls_BaseViewController.m */; };
-		472459012B50092400A1EE68 /* cls_UIViewFrameCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458652B50092400A1EE68 /* cls_UIViewFrameCategory.m */; };
-		472459022B50092400A1EE68 /* cls_warehouseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458672B50092400A1EE68 /* cls_warehouseModel.m */; };
-		472459032B50092400A1EE68 /* MSYHL.TTC in Resources */ = {isa = PBXBuildFile; fileRef = 472458682B50092400A1EE68 /* MSYHL.TTC */; };
-		472459042B50092400A1EE68 /* cls_userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458692B50092400A1EE68 /* cls_userInfo.m */; };
-		472459052B50092400A1EE68 /* cls_gamescene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724586A2B50092400A1EE68 /* cls_gamescene.m */; };
-		472459062B50092400A1EE68 /* cls_GameSenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724586B2B50092400A1EE68 /* cls_GameSenceViewController.m */; };
-		472459072B50092400A1EE68 /* cls_guankaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724586C2B50092400A1EE68 /* cls_guankaViewController.m */; };
-		472459082B50092400A1EE68 /* cls_StashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724586D2B50092400A1EE68 /* cls_StashViewController.m */; };
-		472459092B50092400A1EE68 /* cls_MainHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724586E2B50092400A1EE68 /* cls_MainHomePageViewController.m */; };
-		4724590A2B50092400A1EE68 /* cls_SkillupgradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724586F2B50092400A1EE68 /* cls_SkillupgradeViewController.m */; };
-		4724590B2B50092500A1EE68 /* cls_equipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458702B50092400A1EE68 /* cls_equipModel.m */; };
-		4724590D2B50092500A1EE68 /* cls_SigninModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458722B50092400A1EE68 /* cls_SigninModel.m */; };
-		4724590E2B50092500A1EE68 /* cls_conjzebutton.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458732B50092400A1EE68 /* cls_conjzebutton.m */; };
-		4724590F2B50092500A1EE68 /* cls_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458742B50092400A1EE68 /* cls_Tool.m */; };
-		472459102B50092500A1EE68 /* cls_shopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458752B50092400A1EE68 /* cls_shopViewController.m */; };
-		472459112B50092500A1EE68 /* cls_MonsterNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458762B50092400A1EE68 /* cls_MonsterNode.m */; };
-		472459122B50092500A1EE68 /* cls_baseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724587A2B50092400A1EE68 /* cls_baseModel.m */; };
-		472459132B50092500A1EE68 /* cls_buttonBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724587C2B50092400A1EE68 /* cls_buttonBlock.m */; };
-		472459142B50092500A1EE68 /* cls_loseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4724587E2B50092400A1EE68 /* cls_loseViewController.m */; };
-		472459152B50092500A1EE68 /* cls_xuetiaoNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458812B50092400A1EE68 /* cls_xuetiaoNode.m */; };
-		472459162B50092500A1EE68 /* cls_itemSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 472458822B50092400A1EE68 /* cls_itemSpriteNode.m */; };
+		47A2F0A62B5A425200526595 /* 对战.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0332B5A425100526595 /* 对战.jpg */; };
+		47A2F0A72B5A425200526595 /* 7天福利.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0342B5A425100526595 /* 7天福利.jpg */; };
+		47A2F0A82B5A425200526595 /* 角色界面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0352B5A425100526595 /* 角色界面.jpg */; };
+		47A2F0A92B5A425200526595 /* 背包.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0362B5A425100526595 /* 背包.jpg */; };
+		47A2F0AA2B5A425200526595 /* 商城-提示2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0372B5A425100526595 /* 商城-提示2.jpg */; };
+		47A2F0AB2B5A425200526595 /* 商城-钻石.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0382B5A425100526595 /* 商城-钻石.jpg */; };
+		47A2F0AC2B5A425200526595 /* 对战-是否终止挑战.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0392B5A425100526595 /* 对战-是否终止挑战.jpg */; };
+		47A2F0AD2B5A425200526595 /* 商城-道具.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F03A2B5A425100526595 /* 商城-道具.jpg */; };
+		47A2F0AE2B5A425200526595 /* 挑战.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F03B2B5A425100526595 /* 挑战.jpg */; };
+		47A2F0AF2B5A425200526595 /* 主界面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F03C2B5A425100526595 /* 主界面.jpg */; };
+		47A2F0B02B5A425200526595 /* 商城-提示.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F03D2B5A425100526595 /* 商城-提示.jpg */; };
+		47A2F0B12B5A425200526595 /* 选角3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F03E2B5A425100526595 /* 选角3.jpg */; };
+		47A2F0B22B5A425200526595 /* 选角2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F03F2B5A425100526595 /* 选角2.jpg */; };
+		47A2F0B32B5A425200526595 /* 钻石3.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0412B5A425100526595 /* 钻石3.png */; };
+		47A2F0B42B5A425200526595 /* 对战技能.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0422B5A425100526595 /* 对战技能.png */; };
+		47A2F0B52B5A425200526595 /* 主界面信息条.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0432B5A425100526595 /* 主界面信息条.png */; };
+		47A2F0B62B5A425200526595 /* 阵容2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0442B5A425100526595 /* 阵容2.png */; };
+		47A2F0B72B5A425200526595 /* 角色3场景.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0452B5A425100526595 /* 角色3场景.png */; };
+		47A2F0B82B5A425200526595 /* tiaoz6.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0462B5A425100526595 /* tiaoz6.png */; };
+		47A2F0B92B5A425200526595 /* 按钮1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0472B5A425100526595 /* 按钮1.png */; };
+		47A2F0BA2B5A425200526595 /* 钻石2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0482B5A425100526595 /* 钻石2.png */; };
+		47A2F0BB2B5A425200526595 /* 按钮3.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0492B5A425100526595 /* 按钮3.png */; };
+		47A2F0BC2B5A425200526595 /* 阵容1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F04A2B5A425100526595 /* 阵容1.png */; };
+		47A2F0BD2B5A425200526595 /* tiaoz5.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F04B2B5A425100526595 /* tiaoz5.png */; };
+		47A2F0BE2B5A425200526595 /* tiaoz4.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F04C2B5A425100526595 /* tiaoz4.png */; };
+		47A2F0BF2B5A425200526595 /* 角色1场景.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F04D2B5A425100526595 /* 角色1场景.png */; };
+		47A2F0C02B5A425200526595 /* 按钮2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F04E2B5A425100526595 /* 按钮2.png */; };
+		47A2F0C12B5A425200526595 /* 钻石1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F04F2B5A425100526595 /* 钻石1.png */; };
+		47A2F0C22B5A425200526595 /* 头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0502B5A425100526595 /* 头像.png */; };
+		47A2F0C32B5A425200526595 /* 钻石5.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0512B5A425100526595 /* 钻石5.png */; };
+		47A2F0C42B5A425200526595 /* 角色2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0522B5A425100526595 /* 角色2.png */; };
+		47A2F0C52B5A425200526595 /* tiaoz1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0532B5A425100526595 /* tiaoz1.png */; };
+		47A2F0C62B5A425200526595 /* 角色3.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0542B5A425100526595 /* 角色3.png */; };
+		47A2F0C72B5A425200526595 /* 钻石4.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0552B5A425100526595 /* 钻石4.png */; };
+		47A2F0C82B5A425200526595 /* shali.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0562B5A425100526595 /* shali.png */; };
+		47A2F0C92B5A425200526595 /* 钻石6.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0572B5A425100526595 /* 钻石6.png */; };
+		47A2F0CA2B5A425200526595 /* 角色1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0582B5A425100526595 /* 角色1.png */; };
+		47A2F0CB2B5A425200526595 /* 阵营3.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0592B5A425100526595 /* 阵营3.png */; };
+		47A2F0CC2B5A425200526595 /* tiaoz3.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F05A2B5A425100526595 /* tiaoz3.png */; };
+		47A2F0CD2B5A425200526595 /* 主界面下方条.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F05B2B5A425100526595 /* 主界面下方条.png */; };
+		47A2F0CE2B5A425200526595 /* tiaoz2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F05C2B5A425100526595 /* tiaoz2.png */; };
+		47A2F0CF2B5A425200526595 /* 按钮4.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F05D2B5A425100526595 /* 按钮4.png */; };
+		47A2F0D02B5A425200526595 /* 开始按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F05E2B5A425100526595 /* 开始按钮.png */; };
+		47A2F0D12B5A425200526595 /* 角色2场景.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F05F2B5A425100526595 /* 角色2场景.png */; };
+		47A2F0D22B5A425200526595 /* 失败.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0602B5A425100526595 /* 失败.png */; };
+		47A2F0D32B5A425200526595 /* 鞋子.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0612B5A425100526595 /* 鞋子.png */; };
+		47A2F0D42B5A425200526595 /* 确定按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0622B5A425100526595 /* 确定按钮.png */; };
+		47A2F0D52B5A425200526595 /* jiemianlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0632B5A425100526595 /* jiemianlan.png */; };
+		47A2F0D62B5A425200526595 /* 活动更新.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0642B5A425100526595 /* 活动更新.png */; };
+		47A2F0D72B5A425200526595 /* jiesejiemianbeij.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0652B5A425100526595 /* jiesejiemianbeij.png */; };
+		47A2F0D82B5A425200526595 /* zhouyu.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0662B5A425100526595 /* zhouyu.png */; };
+		47A2F0D92B5A425200526595 /* x血条.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0672B5A425100526595 /* x血条.png */; };
+		47A2F0DA2B5A425200526595 /* shoutao.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0682B5A425100526595 /* shoutao.png */; };
+		47A2F0DB2B5A425200526595 /* zhuangbeikuang.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0692B5A425100526595 /* zhuangbeikuang.png */; };
+		47A2F0DC2B5A425200526595 /* wuzhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F06A2B5A425100526595 /* wuzhi.png */; };
+		47A2F0DD2B5A425200526595 /* shu.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F06B2B5A425100526595 /* shu.png */; };
+		47A2F0DE2B5A425200526595 /* caisxieann.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F06C2B5A425100526595 /* caisxieann.png */; };
+		47A2F0DF2B5A425200526595 /* 商店框.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F06D2B5A425100526595 /* 商店框.png */; };
+		47A2F0E02B5A425200526595 /* xurtiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F06E2B5A425100526595 /* xurtiao.png */; };
+		47A2F0E12B5A425200526595 /* chibang.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F06F2B5A425100526595 /* chibang.png */; };
+		47A2F0E22B5A425200526595 /* 技能.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0702B5A425100526595 /* 技能.png */; };
+		47A2F0E32B5A425200526595 /* 选角按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0712B5A425100526595 /* 选角按钮.png */; };
+		47A2F0E42B5A425200526595 /* nengliangping.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0722B5A425100526595 /* nengliangping.png */; };
+		47A2F0E52B5A425200526595 /* mofabang.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0732B5A425100526595 /* mofabang.png */; };
+		47A2F0E62B5A425200526595 /* 界面人物.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0742B5A425100526595 /* 界面人物.png */; };
+		47A2F0E72B5A425200526595 /* 福利礼物.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0752B5A425100526595 /* 福利礼物.png */; };
+		47A2F0E82B5A425200526595 /* vs.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0762B5A425100526595 /* vs.png */; };
+		47A2F0E92B5A425200526595 /* shuxlan.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0772B5A425100526595 /* shuxlan.png */; };
+		47A2F0EA2B5A425200526595 /* 技能2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0782B5A425100526595 /* 技能2.png */; };
+		47A2F0EB2B5A425200526595 /* yifu.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0792B5A425100526595 /* yifu.png */; };
+		47A2F0EC2B5A425200526595 /* chuandaiann.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F07A2B5A425100526595 /* chuandaiann.png */; };
+		47A2F0ED2B5A425200526595 /* 技能3.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F07B2B5A425100526595 /* 技能3.png */; };
+		47A2F0EE2B5A425200526595 /* zuans.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F07C2B5A425100526595 /* zuans.png */; };
+		47A2F0EF2B5A425200526595 /* 界面背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F07D2B5A425100526595 /* 界面背景.png */; };
+		47A2F0F02B5A425200526595 /* 提示框.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F07E2B5A425100526595 /* 提示框.png */; };
+		47A2F0F12B5A425200526595 /* mogu.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F07F2B5A425100526595 /* mogu.png */; };
+		47A2F0F22B5A425200526595 /* xuanwo.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0802B5A425100526595 /* xuanwo.png */; };
+		47A2F0F32B5A425200526595 /* shujing.png in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0812B5A425100526595 /* shujing.png */; };
+		47A2F0F42B5A425200526595 /* 加载页.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0822B5A425100526595 /* 加载页.jpg */; };
+		47A2F0F52B5A425200526595 /* 7天福利-提示.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0832B5A425100526595 /* 7天福利-提示.jpg */; };
+		47A2F0F62B5A425200526595 /* 选角1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0842B5A425100526595 /* 选角1.jpg */; };
+		47A2F0F72B5A425200526595 /* 对战失败.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0852B5A425100526595 /* 对战失败.jpg */; };
+		47A2F0F82B5A425200526595 /* 二次元icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0872B5A425100526595 /* 二次元icon.jpg */; };
+		47A2F0F92B5A425200526595 /* 1290x2796.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0882B5A425100526595 /* 1290x2796.jpg */; };
+		47A2F0FA2B5A425200526595 /* 1242x2208.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0892B5A425100526595 /* 1242x2208.jpg */; };
+		47A2F0FB2B5A425200526595 /* 2048x2732-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F08A2B5A425100526595 /* 2048x2732-3.jpg */; };
+		47A2F0FC2B5A425200526595 /* 1290x2796-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F08B2B5A425100526595 /* 1290x2796-2.jpg */; };
+		47A2F0FD2B5A425200526595 /* 1290x2796-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F08C2B5A425100526595 /* 1290x2796-3.jpg */; };
+		47A2F0FE2B5A425200526595 /* 2048x2732-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F08D2B5A425100526595 /* 2048x2732-2.jpg */; };
+		47A2F0FF2B5A425200526595 /* 1242x2208-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F08E2B5A425100526595 /* 1242x2208-5.jpg */; };
+		47A2F1002B5A425200526595 /* 1242x2208-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F08F2B5A425100526595 /* 1242x2208-4.jpg */; };
+		47A2F1012B5A425200526595 /* 2048x2732.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0902B5A425100526595 /* 2048x2732.jpg */; };
+		47A2F1022B5A425200526595 /* 2048x2732-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0912B5A425100526595 /* 2048x2732-5.jpg */; };
+		47A2F1032B5A425200526595 /* 1290x2796-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0922B5A425100526595 /* 1290x2796-4.jpg */; };
+		47A2F1042B5A425200526595 /* 1290x2796-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0932B5A425100526595 /* 1290x2796-5.jpg */; };
+		47A2F1052B5A425200526595 /* 2048x2732-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0942B5A425100526595 /* 2048x2732-4.jpg */; };
+		47A2F1062B5A425200526595 /* 1242x2208-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0952B5A425100526595 /* 1242x2208-3.jpg */; };
+		47A2F1072B5A425200526595 /* 1242x2208-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0962B5A425100526595 /* 1242x2208-2.jpg */; };
+		47A2F1082B5A425200526595 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A2F0992B5A425100526595 /* FMDatabaseQueue.m */; };
+		47A2F1092B5A425200526595 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A2F09C2B5A425200526595 /* FMDatabaseAdditions.m */; };
+		47A2F10A2B5A425200526595 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A2F09D2B5A425200526595 /* FMDatabase.m */; };
+		47A2F10B2B5A425200526595 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A2F0A12B5A425200526595 /* FMDatabasePool.m */; };
+		47A2F10C2B5A425200526595 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A2F0A22B5A425200526595 /* FMResultSet.m */; };
+		47A2F10D2B5A425200526595 /* YpImMessage.json in Resources */ = {isa = PBXBuildFile; fileRef = 47A2F0A42B5A425200526595 /* YpImMessage.json */; };
+		47A2F10E2B5A425200526595 /* YpImMessageDao.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A2F0A52B5A425200526595 /* YpImMessageDao.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -158,166 +134,118 @@
 		4704B8BF2B33DC970012BBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4704B8C12B33DC970012BBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4704B8C22B33DC970012BBBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4704B8CB2B33E3B60012BBBB /* 对战.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "对战.jpg"; sourceTree = "<group>"; };
-		4704B8CC2B33E3B60012BBBB /* 7天福利.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7天福利.jpg"; sourceTree = "<group>"; };
-		4704B8CD2B33E3B60012BBBB /* 角色界面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "角色界面.jpg"; sourceTree = "<group>"; };
-		4704B8CE2B33E3B60012BBBB /* 背包.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背包.jpg"; sourceTree = "<group>"; };
-		4704B8CF2B33E3B60012BBBB /* 商城-提示2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商城-提示2.jpg"; sourceTree = "<group>"; };
-		4704B8D02B33E3B60012BBBB /* 商城-钻石.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商城-钻石.jpg"; sourceTree = "<group>"; };
-		4704B8D12B33E3B60012BBBB /* 对战-是否终止挑战.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "对战-是否终止挑战.jpg"; sourceTree = "<group>"; };
-		4704B8D22B33E3B60012BBBB /* 商城-道具.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商城-道具.jpg"; sourceTree = "<group>"; };
-		4704B8D32B33E3B60012BBBB /* 挑战.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "挑战.jpg"; sourceTree = "<group>"; };
-		4704B8D42B33E3B60012BBBB /* 主界面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "主界面.jpg"; sourceTree = "<group>"; };
-		4704B8D52B33E3B60012BBBB /* 商城-提示.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商城-提示.jpg"; sourceTree = "<group>"; };
-		4704B8D62B33E3B60012BBBB /* 选角3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选角3.jpg"; sourceTree = "<group>"; };
-		4704B8D72B33E3B60012BBBB /* 选角2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选角2.jpg"; sourceTree = "<group>"; };
-		4704B8D92B33E3B60012BBBB /* 钻石3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石3.png"; sourceTree = "<group>"; };
-		4704B8DA2B33E3B60012BBBB /* 对战技能.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对战技能.png"; sourceTree = "<group>"; };
-		4704B8DB2B33E3B60012BBBB /* 主界面信息条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面信息条.png"; sourceTree = "<group>"; };
-		4704B8DC2B33E3B60012BBBB /* 阵容2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阵容2.png"; sourceTree = "<group>"; };
-		4704B8DD2B33E3B60012BBBB /* 角色3场景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色3场景.png"; sourceTree = "<group>"; };
-		4704B8DE2B33E3B60012BBBB /* tiaoz6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz6.png; sourceTree = "<group>"; };
-		4704B8DF2B33E3B60012BBBB /* 按钮1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮1.png"; sourceTree = "<group>"; };
-		4704B8E02B33E3B60012BBBB /* 钻石2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石2.png"; sourceTree = "<group>"; };
-		4704B8E12B33E3B60012BBBB /* 按钮3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮3.png"; sourceTree = "<group>"; };
-		4704B8E22B33E3B60012BBBB /* 阵容1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阵容1.png"; sourceTree = "<group>"; };
-		4704B8E32B33E3B60012BBBB /* tiaoz5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz5.png; sourceTree = "<group>"; };
-		4704B8E42B33E3B60012BBBB /* tiaoz4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz4.png; sourceTree = "<group>"; };
-		4704B8E52B33E3B60012BBBB /* 角色1场景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色1场景.png"; sourceTree = "<group>"; };
-		4704B8E62B33E3B60012BBBB /* 按钮2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮2.png"; sourceTree = "<group>"; };
-		4704B8E72B33E3B60012BBBB /* 钻石1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石1.png"; sourceTree = "<group>"; };
-		4704B8E82B33E3B60012BBBB /* 头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像.png"; sourceTree = "<group>"; };
-		4704B8E92B33E3B60012BBBB /* 钻石5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石5.png"; sourceTree = "<group>"; };
-		4704B8EA2B33E3B60012BBBB /* 角色2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色2.png"; sourceTree = "<group>"; };
-		4704B8EB2B33E3B60012BBBB /* tiaoz1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz1.png; sourceTree = "<group>"; };
-		4704B8EC2B33E3B60012BBBB /* 角色3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色3.png"; sourceTree = "<group>"; };
-		4704B8ED2B33E3B60012BBBB /* 钻石4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石4.png"; sourceTree = "<group>"; };
-		4704B8EE2B33E3B60012BBBB /* shali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shali.png; sourceTree = "<group>"; };
-		4704B8EF2B33E3B60012BBBB /* 钻石6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石6.png"; sourceTree = "<group>"; };
-		4704B8F02B33E3B60012BBBB /* 角色1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色1.png"; sourceTree = "<group>"; };
-		4704B8F12B33E3B60012BBBB /* 阵营3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阵营3.png"; sourceTree = "<group>"; };
-		4704B8F22B33E3B60012BBBB /* tiaoz3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz3.png; sourceTree = "<group>"; };
-		4704B8F32B33E3B60012BBBB /* 主界面下方条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面下方条.png"; sourceTree = "<group>"; };
-		4704B8F42B33E3B60012BBBB /* tiaoz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz2.png; sourceTree = "<group>"; };
-		4704B8F52B33E3B60012BBBB /* 按钮4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮4.png"; sourceTree = "<group>"; };
-		4704B8F62B33E3B60012BBBB /* 开始按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始按钮.png"; sourceTree = "<group>"; };
-		4704B8F72B33E3B60012BBBB /* 角色2场景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色2场景.png"; sourceTree = "<group>"; };
-		4704B8F82B33E3B60012BBBB /* 失败.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "失败.png"; sourceTree = "<group>"; };
-		4704B8F92B33E3B60012BBBB /* 鞋子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鞋子.png"; sourceTree = "<group>"; };
-		4704B8FA2B33E3B60012BBBB /* 确定按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确定按钮.png"; sourceTree = "<group>"; };
-		4704B8FB2B33E3B60012BBBB /* jiemianlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiemianlan.png; sourceTree = "<group>"; };
-		4704B8FC2B33E3B60012BBBB /* 活动更新.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动更新.png"; sourceTree = "<group>"; };
-		4704B8FD2B33E3B60012BBBB /* jiesejiemianbeij.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiesejiemianbeij.png; sourceTree = "<group>"; };
-		4704B8FE2B33E3B60012BBBB /* zhouyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhouyu.png; sourceTree = "<group>"; };
-		4704B8FF2B33E3B60012BBBB /* x血条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x血条.png"; sourceTree = "<group>"; };
-		4704B9002B33E3B60012BBBB /* shoutao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoutao.png; sourceTree = "<group>"; };
-		4704B9012B33E3B60012BBBB /* zhuangbeikuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhuangbeikuang.png; sourceTree = "<group>"; };
-		4704B9022B33E3B60012BBBB /* wuzhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wuzhi.png; sourceTree = "<group>"; };
-		4704B9032B33E3B60012BBBB /* shu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shu.png; sourceTree = "<group>"; };
-		4704B9042B33E3B60012BBBB /* caisxieann.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caisxieann.png; sourceTree = "<group>"; };
-		4704B9052B33E3B60012BBBB /* 商店框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商店框.png"; sourceTree = "<group>"; };
-		4704B9062B33E3B60012BBBB /* xurtiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xurtiao.png; sourceTree = "<group>"; };
-		4704B9072B33E3B60012BBBB /* chibang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chibang.png; sourceTree = "<group>"; };
-		4704B9082B33E3B60012BBBB /* 技能.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "技能.png"; sourceTree = "<group>"; };
-		4704B9092B33E3B60012BBBB /* 选角按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选角按钮.png"; sourceTree = "<group>"; };
-		4704B90A2B33E3B60012BBBB /* nengliangping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nengliangping.png; sourceTree = "<group>"; };
-		4704B90B2B33E3B60012BBBB /* mofabang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mofabang.png; sourceTree = "<group>"; };
-		4704B90C2B33E3B60012BBBB /* 界面人物.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "界面人物.png"; sourceTree = "<group>"; };
-		4704B90D2B33E3B60012BBBB /* 福利礼物.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "福利礼物.png"; sourceTree = "<group>"; };
-		4704B90E2B33E3B60012BBBB /* vs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vs.png; sourceTree = "<group>"; };
-		4704B90F2B33E3B60012BBBB /* shuxlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuxlan.png; sourceTree = "<group>"; };
-		4704B9102B33E3B60012BBBB /* 技能2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "技能2.png"; sourceTree = "<group>"; };
-		4704B9112B33E3B60012BBBB /* yifu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yifu.png; sourceTree = "<group>"; };
-		4704B9122B33E3B70012BBBB /* chuandaiann.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chuandaiann.png; sourceTree = "<group>"; };
-		4704B9132B33E3B70012BBBB /* 技能3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "技能3.png"; sourceTree = "<group>"; };
-		4704B9142B33E3B70012BBBB /* zuans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuans.png; sourceTree = "<group>"; };
-		4704B9152B33E3B70012BBBB /* 界面背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "界面背景.png"; sourceTree = "<group>"; };
-		4704B9162B33E3B70012BBBB /* 提示框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框.png"; sourceTree = "<group>"; };
-		4704B9172B33E3B70012BBBB /* mogu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mogu.png; sourceTree = "<group>"; };
-		4704B9182B33E3B70012BBBB /* xuanwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuanwo.png; sourceTree = "<group>"; };
-		4704B9192B33E3B70012BBBB /* shujing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shujing.png; sourceTree = "<group>"; };
-		4704B91A2B33E3B70012BBBB /* 加载页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加载页.jpg"; sourceTree = "<group>"; };
-		4704B91B2B33E3B70012BBBB /* 7天福利-提示.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7天福利-提示.jpg"; sourceTree = "<group>"; };
-		4704B91C2B33E3B70012BBBB /* 选角1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选角1.jpg"; sourceTree = "<group>"; };
-		4704B91D2B33E3B70012BBBB /* 对战失败.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "对战失败.jpg"; sourceTree = "<group>"; };
-		4704B91F2B33E3B70012BBBB /* 二次元icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二次元icon.jpg"; sourceTree = "<group>"; };
-		4704B9202B33E3B70012BBBB /* 1290x2796.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1290x2796.jpg; sourceTree = "<group>"; };
-		4704B9212B33E3B70012BBBB /* 1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1242x2208.jpg; sourceTree = "<group>"; };
-		4704B9222B33E3B70012BBBB /* 2048x2732-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-3.jpg"; sourceTree = "<group>"; };
-		4704B9232B33E3B70012BBBB /* 1290x2796-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1290x2796-2.jpg"; sourceTree = "<group>"; };
-		4704B9242B33E3B70012BBBB /* 1290x2796-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1290x2796-3.jpg"; sourceTree = "<group>"; };
-		4704B9252B33E3B70012BBBB /* 2048x2732-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-2.jpg"; sourceTree = "<group>"; };
-		4704B9262B33E3B70012BBBB /* 1242x2208-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-5.jpg"; sourceTree = "<group>"; };
-		4704B9272B33E3B70012BBBB /* 1242x2208-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-4.jpg"; sourceTree = "<group>"; };
-		4704B9282B33E3B70012BBBB /* 2048x2732.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2048x2732.jpg; sourceTree = "<group>"; };
-		4704B9292B33E3B70012BBBB /* 2048x2732-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-5.jpg"; sourceTree = "<group>"; };
-		4704B92A2B33E3B70012BBBB /* 1290x2796-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1290x2796-4.jpg"; sourceTree = "<group>"; };
-		4704B92B2B33E3B70012BBBB /* 1290x2796-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1290x2796-5.jpg"; sourceTree = "<group>"; };
-		4704B92C2B33E3B70012BBBB /* 2048x2732-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-4.jpg"; sourceTree = "<group>"; };
-		4704B92D2B33E3B70012BBBB /* 1242x2208-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-3.jpg"; sourceTree = "<group>"; };
-		4704B92E2B33E3B70012BBBB /* 1242x2208-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-2.jpg"; sourceTree = "<group>"; };
-		4704B9932B33E5B70012BBBB /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		4704B9942B33E5B70012BBBB /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		4704B9952B33E5B70012BBBB /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		4704B9962B33E5B70012BBBB /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		4704B9972B33E5B70012BBBB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		4704B9982B33E5B70012BBBB /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		4704B9992B33E5B70012BBBB /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		4704B99A2B33E5B70012BBBB /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		4704B99B2B33E5B70012BBBB /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		4704B99C2B33E5B70012BBBB /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		4704B99D2B33E5B70012BBBB /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		472457E12B50092400A1EE68 /* cls_equipValueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_equipValueModel.m; sourceTree = "<group>"; };
-		472457E22B50092400A1EE68 /* cls_ViewNameTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_ViewNameTag.m; sourceTree = "<group>"; };
-		472457E32B50092400A1EE68 /* cls_baseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_baseModel.h; sourceTree = "<group>"; };
-		4724585F2B50092400A1EE68 /* cls_SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_SignViewController.m; sourceTree = "<group>"; };
-		472458602B50092400A1EE68 /* cls_itemSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_itemSpriteNode.h; sourceTree = "<group>"; };
-		472458612B50092400A1EE68 /* cls_xuetiaoNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_xuetiaoNode.h; sourceTree = "<group>"; };
-		472458622B50092400A1EE68 /* cls_victoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_victoryViewController.m; sourceTree = "<group>"; };
-		472458632B50092400A1EE68 /* cls_loseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_loseViewController.h; sourceTree = "<group>"; };
-		472458642B50092400A1EE68 /* cls_BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_BaseViewController.m; sourceTree = "<group>"; };
-		472458652B50092400A1EE68 /* cls_UIViewFrameCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_UIViewFrameCategory.m; sourceTree = "<group>"; };
-		472458662B50092400A1EE68 /* cls_buttonBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_buttonBlock.h; sourceTree = "<group>"; };
-		472458672B50092400A1EE68 /* cls_warehouseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_warehouseModel.m; sourceTree = "<group>"; };
-		472458682B50092400A1EE68 /* MSYHL.TTC */ = {isa = PBXFileReference; lastKnownFileType = file; path = MSYHL.TTC; sourceTree = "<group>"; };
-		472458692B50092400A1EE68 /* cls_userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_userInfo.m; sourceTree = "<group>"; };
-		4724586A2B50092400A1EE68 /* cls_gamescene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_gamescene.m; sourceTree = "<group>"; };
-		4724586B2B50092400A1EE68 /* cls_GameSenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_GameSenceViewController.m; sourceTree = "<group>"; };
-		4724586C2B50092400A1EE68 /* cls_guankaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_guankaViewController.m; sourceTree = "<group>"; };
-		4724586D2B50092400A1EE68 /* cls_StashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_StashViewController.m; sourceTree = "<group>"; };
-		4724586E2B50092400A1EE68 /* cls_MainHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_MainHomePageViewController.m; sourceTree = "<group>"; };
-		4724586F2B50092400A1EE68 /* cls_SkillupgradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_SkillupgradeViewController.m; sourceTree = "<group>"; };
-		472458702B50092400A1EE68 /* cls_equipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_equipModel.m; sourceTree = "<group>"; };
-		472458722B50092400A1EE68 /* cls_SigninModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_SigninModel.m; sourceTree = "<group>"; };
-		472458732B50092400A1EE68 /* cls_conjzebutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_conjzebutton.m; sourceTree = "<group>"; };
-		472458742B50092400A1EE68 /* cls_Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_Tool.m; sourceTree = "<group>"; };
-		472458752B50092400A1EE68 /* cls_shopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_shopViewController.m; sourceTree = "<group>"; };
-		472458762B50092400A1EE68 /* cls_MonsterNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_MonsterNode.m; sourceTree = "<group>"; };
-		472458772B50092400A1EE68 /* cls_SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_SignViewController.h; sourceTree = "<group>"; };
-		472458782B50092400A1EE68 /* cls_ViewNameTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_ViewNameTag.h; sourceTree = "<group>"; };
-		472458792B50092400A1EE68 /* cls_equipValueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_equipValueModel.h; sourceTree = "<group>"; };
-		4724587A2B50092400A1EE68 /* cls_baseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_baseModel.m; sourceTree = "<group>"; };
-		4724587B2B50092400A1EE68 /* cls_warehouseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_warehouseModel.h; sourceTree = "<group>"; };
-		4724587C2B50092400A1EE68 /* cls_buttonBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_buttonBlock.m; sourceTree = "<group>"; };
-		4724587D2B50092400A1EE68 /* cls_BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_BaseViewController.h; sourceTree = "<group>"; };
-		4724587E2B50092400A1EE68 /* cls_loseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_loseViewController.m; sourceTree = "<group>"; };
-		4724587F2B50092400A1EE68 /* cls_UIViewFrameCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_UIViewFrameCategory.h; sourceTree = "<group>"; };
-		472458802B50092400A1EE68 /* cls_victoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_victoryViewController.h; sourceTree = "<group>"; };
-		472458812B50092400A1EE68 /* cls_xuetiaoNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_xuetiaoNode.m; sourceTree = "<group>"; };
-		472458822B50092400A1EE68 /* cls_itemSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cls_itemSpriteNode.m; sourceTree = "<group>"; };
-		472458832B50092400A1EE68 /* cls_StashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_StashViewController.h; sourceTree = "<group>"; };
-		472458842B50092400A1EE68 /* cls_MainHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_MainHomePageViewController.h; sourceTree = "<group>"; };
-		472458852B50092400A1EE68 /* cls_guankaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_guankaViewController.h; sourceTree = "<group>"; };
-		472458862B50092400A1EE68 /* cls_GameSenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_GameSenceViewController.h; sourceTree = "<group>"; };
-		472458872B50092400A1EE68 /* cls_gamescene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_gamescene.h; sourceTree = "<group>"; };
-		472458882B50092400A1EE68 /* cls_userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_userInfo.h; sourceTree = "<group>"; };
-		472458892B50092400A1EE68 /* cls_MonsterNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_MonsterNode.h; sourceTree = "<group>"; };
-		4724588A2B50092400A1EE68 /* cls_shopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_shopViewController.h; sourceTree = "<group>"; };
-		4724588B2B50092400A1EE68 /* cls_Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_Tool.h; sourceTree = "<group>"; };
-		4724588C2B50092400A1EE68 /* cls_conjzebutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_conjzebutton.h; sourceTree = "<group>"; };
-		4724588D2B50092400A1EE68 /* cls_SigninModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_SigninModel.h; sourceTree = "<group>"; };
-		4724588F2B50092400A1EE68 /* cls_equipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_equipModel.h; sourceTree = "<group>"; };
-		472458902B50092400A1EE68 /* cls_SkillupgradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cls_SkillupgradeViewController.h; sourceTree = "<group>"; };
+		47A2F0332B5A425100526595 /* 对战.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "对战.jpg"; sourceTree = "<group>"; };
+		47A2F0342B5A425100526595 /* 7天福利.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7天福利.jpg"; sourceTree = "<group>"; };
+		47A2F0352B5A425100526595 /* 角色界面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "角色界面.jpg"; sourceTree = "<group>"; };
+		47A2F0362B5A425100526595 /* 背包.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背包.jpg"; sourceTree = "<group>"; };
+		47A2F0372B5A425100526595 /* 商城-提示2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商城-提示2.jpg"; sourceTree = "<group>"; };
+		47A2F0382B5A425100526595 /* 商城-钻石.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商城-钻石.jpg"; sourceTree = "<group>"; };
+		47A2F0392B5A425100526595 /* 对战-是否终止挑战.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "对战-是否终止挑战.jpg"; sourceTree = "<group>"; };
+		47A2F03A2B5A425100526595 /* 商城-道具.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商城-道具.jpg"; sourceTree = "<group>"; };
+		47A2F03B2B5A425100526595 /* 挑战.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "挑战.jpg"; sourceTree = "<group>"; };
+		47A2F03C2B5A425100526595 /* 主界面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "主界面.jpg"; sourceTree = "<group>"; };
+		47A2F03D2B5A425100526595 /* 商城-提示.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商城-提示.jpg"; sourceTree = "<group>"; };
+		47A2F03E2B5A425100526595 /* 选角3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选角3.jpg"; sourceTree = "<group>"; };
+		47A2F03F2B5A425100526595 /* 选角2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选角2.jpg"; sourceTree = "<group>"; };
+		47A2F0412B5A425100526595 /* 钻石3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石3.png"; sourceTree = "<group>"; };
+		47A2F0422B5A425100526595 /* 对战技能.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对战技能.png"; sourceTree = "<group>"; };
+		47A2F0432B5A425100526595 /* 主界面信息条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面信息条.png"; sourceTree = "<group>"; };
+		47A2F0442B5A425100526595 /* 阵容2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阵容2.png"; sourceTree = "<group>"; };
+		47A2F0452B5A425100526595 /* 角色3场景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色3场景.png"; sourceTree = "<group>"; };
+		47A2F0462B5A425100526595 /* tiaoz6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz6.png; sourceTree = "<group>"; };
+		47A2F0472B5A425100526595 /* 按钮1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮1.png"; sourceTree = "<group>"; };
+		47A2F0482B5A425100526595 /* 钻石2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石2.png"; sourceTree = "<group>"; };
+		47A2F0492B5A425100526595 /* 按钮3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮3.png"; sourceTree = "<group>"; };
+		47A2F04A2B5A425100526595 /* 阵容1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阵容1.png"; sourceTree = "<group>"; };
+		47A2F04B2B5A425100526595 /* tiaoz5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz5.png; sourceTree = "<group>"; };
+		47A2F04C2B5A425100526595 /* tiaoz4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz4.png; sourceTree = "<group>"; };
+		47A2F04D2B5A425100526595 /* 角色1场景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色1场景.png"; sourceTree = "<group>"; };
+		47A2F04E2B5A425100526595 /* 按钮2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮2.png"; sourceTree = "<group>"; };
+		47A2F04F2B5A425100526595 /* 钻石1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石1.png"; sourceTree = "<group>"; };
+		47A2F0502B5A425100526595 /* 头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像.png"; sourceTree = "<group>"; };
+		47A2F0512B5A425100526595 /* 钻石5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石5.png"; sourceTree = "<group>"; };
+		47A2F0522B5A425100526595 /* 角色2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色2.png"; sourceTree = "<group>"; };
+		47A2F0532B5A425100526595 /* tiaoz1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz1.png; sourceTree = "<group>"; };
+		47A2F0542B5A425100526595 /* 角色3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色3.png"; sourceTree = "<group>"; };
+		47A2F0552B5A425100526595 /* 钻石4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石4.png"; sourceTree = "<group>"; };
+		47A2F0562B5A425100526595 /* shali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shali.png; sourceTree = "<group>"; };
+		47A2F0572B5A425100526595 /* 钻石6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石6.png"; sourceTree = "<group>"; };
+		47A2F0582B5A425100526595 /* 角色1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色1.png"; sourceTree = "<group>"; };
+		47A2F0592B5A425100526595 /* 阵营3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阵营3.png"; sourceTree = "<group>"; };
+		47A2F05A2B5A425100526595 /* tiaoz3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz3.png; sourceTree = "<group>"; };
+		47A2F05B2B5A425100526595 /* 主界面下方条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主界面下方条.png"; sourceTree = "<group>"; };
+		47A2F05C2B5A425100526595 /* tiaoz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiaoz2.png; sourceTree = "<group>"; };
+		47A2F05D2B5A425100526595 /* 按钮4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮4.png"; sourceTree = "<group>"; };
+		47A2F05E2B5A425100526595 /* 开始按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始按钮.png"; sourceTree = "<group>"; };
+		47A2F05F2B5A425100526595 /* 角色2场景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "角色2场景.png"; sourceTree = "<group>"; };
+		47A2F0602B5A425100526595 /* 失败.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "失败.png"; sourceTree = "<group>"; };
+		47A2F0612B5A425100526595 /* 鞋子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鞋子.png"; sourceTree = "<group>"; };
+		47A2F0622B5A425100526595 /* 确定按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "确定按钮.png"; sourceTree = "<group>"; };
+		47A2F0632B5A425100526595 /* jiemianlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiemianlan.png; sourceTree = "<group>"; };
+		47A2F0642B5A425100526595 /* 活动更新.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "活动更新.png"; sourceTree = "<group>"; };
+		47A2F0652B5A425100526595 /* jiesejiemianbeij.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiesejiemianbeij.png; sourceTree = "<group>"; };
+		47A2F0662B5A425100526595 /* zhouyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhouyu.png; sourceTree = "<group>"; };
+		47A2F0672B5A425100526595 /* x血条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x血条.png"; sourceTree = "<group>"; };
+		47A2F0682B5A425100526595 /* shoutao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoutao.png; sourceTree = "<group>"; };
+		47A2F0692B5A425100526595 /* zhuangbeikuang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhuangbeikuang.png; sourceTree = "<group>"; };
+		47A2F06A2B5A425100526595 /* wuzhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wuzhi.png; sourceTree = "<group>"; };
+		47A2F06B2B5A425100526595 /* shu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shu.png; sourceTree = "<group>"; };
+		47A2F06C2B5A425100526595 /* caisxieann.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caisxieann.png; sourceTree = "<group>"; };
+		47A2F06D2B5A425100526595 /* 商店框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商店框.png"; sourceTree = "<group>"; };
+		47A2F06E2B5A425100526595 /* xurtiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xurtiao.png; sourceTree = "<group>"; };
+		47A2F06F2B5A425100526595 /* chibang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chibang.png; sourceTree = "<group>"; };
+		47A2F0702B5A425100526595 /* 技能.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "技能.png"; sourceTree = "<group>"; };
+		47A2F0712B5A425100526595 /* 选角按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选角按钮.png"; sourceTree = "<group>"; };
+		47A2F0722B5A425100526595 /* nengliangping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nengliangping.png; sourceTree = "<group>"; };
+		47A2F0732B5A425100526595 /* mofabang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mofabang.png; sourceTree = "<group>"; };
+		47A2F0742B5A425100526595 /* 界面人物.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "界面人物.png"; sourceTree = "<group>"; };
+		47A2F0752B5A425100526595 /* 福利礼物.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "福利礼物.png"; sourceTree = "<group>"; };
+		47A2F0762B5A425100526595 /* vs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vs.png; sourceTree = "<group>"; };
+		47A2F0772B5A425100526595 /* shuxlan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuxlan.png; sourceTree = "<group>"; };
+		47A2F0782B5A425100526595 /* 技能2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "技能2.png"; sourceTree = "<group>"; };
+		47A2F0792B5A425100526595 /* yifu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yifu.png; sourceTree = "<group>"; };
+		47A2F07A2B5A425100526595 /* chuandaiann.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chuandaiann.png; sourceTree = "<group>"; };
+		47A2F07B2B5A425100526595 /* 技能3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "技能3.png"; sourceTree = "<group>"; };
+		47A2F07C2B5A425100526595 /* zuans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuans.png; sourceTree = "<group>"; };
+		47A2F07D2B5A425100526595 /* 界面背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "界面背景.png"; sourceTree = "<group>"; };
+		47A2F07E2B5A425100526595 /* 提示框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框.png"; sourceTree = "<group>"; };
+		47A2F07F2B5A425100526595 /* mogu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mogu.png; sourceTree = "<group>"; };
+		47A2F0802B5A425100526595 /* xuanwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuanwo.png; sourceTree = "<group>"; };
+		47A2F0812B5A425100526595 /* shujing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shujing.png; sourceTree = "<group>"; };
+		47A2F0822B5A425100526595 /* 加载页.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加载页.jpg"; sourceTree = "<group>"; };
+		47A2F0832B5A425100526595 /* 7天福利-提示.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7天福利-提示.jpg"; sourceTree = "<group>"; };
+		47A2F0842B5A425100526595 /* 选角1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "选角1.jpg"; sourceTree = "<group>"; };
+		47A2F0852B5A425100526595 /* 对战失败.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "对战失败.jpg"; sourceTree = "<group>"; };
+		47A2F0872B5A425100526595 /* 二次元icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "二次元icon.jpg"; sourceTree = "<group>"; };
+		47A2F0882B5A425100526595 /* 1290x2796.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1290x2796.jpg; sourceTree = "<group>"; };
+		47A2F0892B5A425100526595 /* 1242x2208.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1242x2208.jpg; sourceTree = "<group>"; };
+		47A2F08A2B5A425100526595 /* 2048x2732-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-3.jpg"; sourceTree = "<group>"; };
+		47A2F08B2B5A425100526595 /* 1290x2796-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1290x2796-2.jpg"; sourceTree = "<group>"; };
+		47A2F08C2B5A425100526595 /* 1290x2796-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1290x2796-3.jpg"; sourceTree = "<group>"; };
+		47A2F08D2B5A425100526595 /* 2048x2732-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-2.jpg"; sourceTree = "<group>"; };
+		47A2F08E2B5A425100526595 /* 1242x2208-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-5.jpg"; sourceTree = "<group>"; };
+		47A2F08F2B5A425100526595 /* 1242x2208-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-4.jpg"; sourceTree = "<group>"; };
+		47A2F0902B5A425100526595 /* 2048x2732.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2048x2732.jpg; sourceTree = "<group>"; };
+		47A2F0912B5A425100526595 /* 2048x2732-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-5.jpg"; sourceTree = "<group>"; };
+		47A2F0922B5A425100526595 /* 1290x2796-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1290x2796-4.jpg"; sourceTree = "<group>"; };
+		47A2F0932B5A425100526595 /* 1290x2796-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1290x2796-5.jpg"; sourceTree = "<group>"; };
+		47A2F0942B5A425100526595 /* 2048x2732-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-4.jpg"; sourceTree = "<group>"; };
+		47A2F0952B5A425100526595 /* 1242x2208-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-3.jpg"; sourceTree = "<group>"; };
+		47A2F0962B5A425100526595 /* 1242x2208-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-2.jpg"; sourceTree = "<group>"; };
+		47A2F0982B5A425100526595 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		47A2F0992B5A425100526595 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		47A2F09A2B5A425100526595 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		47A2F09B2B5A425200526595 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		47A2F09C2B5A425200526595 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		47A2F09D2B5A425200526595 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		47A2F09E2B5A425200526595 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		47A2F09F2B5A425200526595 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		47A2F0A02B5A425200526595 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		47A2F0A12B5A425200526595 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		47A2F0A22B5A425200526595 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		47A2F0A32B5A425200526595 /* YpImMessageDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YpImMessageDao.h; sourceTree = "<group>"; };
+		47A2F0A42B5A425200526595 /* YpImMessage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = YpImMessage.json; sourceTree = "<group>"; };
+		47A2F0A52B5A425200526595 /* YpImMessageDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YpImMessageDao.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,9 +278,11 @@
 		4704B8AF2B33DC940012BBBB /* erciyuan */ = {
 			isa = PBXGroup;
 			children = (
-				472457E02B50092400A1EE68 /* Mini */,
-				4704B9912B33E5B70012BBBB /* fmdb */,
-				4704B8C92B33E3B60012BBBB /* 二次元竖版 */,
+				47A2F0312B5A425100526595 /* 二次元竖版 */,
+				47A2F0972B5A425100526595 /* fmdb */,
+				47A2F0A42B5A425200526595 /* YpImMessage.json */,
+				47A2F0A32B5A425200526595 /* YpImMessageDao.h */,
+				47A2F0A52B5A425200526595 /* YpImMessageDao.m */,
 				4704B8B02B33DC940012BBBB /* AppDelegate.h */,
 				4704B8B12B33DC940012BBBB /* AppDelegate.m */,
 				4704B8B32B33DC940012BBBB /* SceneDelegate.h */,
@@ -368,209 +298,151 @@
 			path = erciyuan;
 			sourceTree = "<group>";
 		};
-		4704B8C92B33E3B60012BBBB /* 二次元竖版 */ = {
+		47A2F0312B5A425100526595 /* 二次元竖版 */ = {
 			isa = PBXGroup;
 			children = (
-				4704B8CA2B33E3B60012BBBB /* UI */,
-				4704B91E2B33E3B70012BBBB /* 五图ICON */,
+				47A2F0322B5A425100526595 /* UI */,
+				47A2F0862B5A425100526595 /* 五图ICON */,
 			);
 			path = "二次元竖版";
 			sourceTree = "<group>";
 		};
-		4704B8CA2B33E3B60012BBBB /* UI */ = {
+		47A2F0322B5A425100526595 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				4704B91B2B33E3B70012BBBB /* 7天福利-提示.jpg */,
-				4704B8CC2B33E3B60012BBBB /* 7天福利.jpg */,
-				4704B8CE2B33E3B60012BBBB /* 背包.jpg */,
-				4704B8D82B33E3B60012BBBB /* 拆分 */,
-				4704B8D12B33E3B60012BBBB /* 对战-是否终止挑战.jpg */,
-				4704B8CB2B33E3B60012BBBB /* 对战.jpg */,
-				4704B91D2B33E3B70012BBBB /* 对战失败.jpg */,
-				4704B91A2B33E3B70012BBBB /* 加载页.jpg */,
-				4704B8CD2B33E3B60012BBBB /* 角色界面.jpg */,
-				4704B8D22B33E3B60012BBBB /* 商城-道具.jpg */,
-				4704B8D52B33E3B60012BBBB /* 商城-提示.jpg */,
-				4704B8CF2B33E3B60012BBBB /* 商城-提示2.jpg */,
-				4704B8D02B33E3B60012BBBB /* 商城-钻石.jpg */,
-				4704B8D32B33E3B60012BBBB /* 挑战.jpg */,
-				4704B91C2B33E3B70012BBBB /* 选角1.jpg */,
-				4704B8D72B33E3B60012BBBB /* 选角2.jpg */,
-				4704B8D62B33E3B60012BBBB /* 选角3.jpg */,
-				4704B8D42B33E3B60012BBBB /* 主界面.jpg */,
+				47A2F0332B5A425100526595 /* 对战.jpg */,
+				47A2F0342B5A425100526595 /* 7天福利.jpg */,
+				47A2F0352B5A425100526595 /* 角色界面.jpg */,
+				47A2F0362B5A425100526595 /* 背包.jpg */,
+				47A2F0372B5A425100526595 /* 商城-提示2.jpg */,
+				47A2F0382B5A425100526595 /* 商城-钻石.jpg */,
+				47A2F0392B5A425100526595 /* 对战-是否终止挑战.jpg */,
+				47A2F03A2B5A425100526595 /* 商城-道具.jpg */,
+				47A2F03B2B5A425100526595 /* 挑战.jpg */,
+				47A2F03C2B5A425100526595 /* 主界面.jpg */,
+				47A2F03D2B5A425100526595 /* 商城-提示.jpg */,
+				47A2F03E2B5A425100526595 /* 选角3.jpg */,
+				47A2F03F2B5A425100526595 /* 选角2.jpg */,
+				47A2F0402B5A425100526595 /* 拆分 */,
+				47A2F0822B5A425100526595 /* 加载页.jpg */,
+				47A2F0832B5A425100526595 /* 7天福利-提示.jpg */,
+				47A2F0842B5A425100526595 /* 选角1.jpg */,
+				47A2F0852B5A425100526595 /* 对战失败.jpg */,
 			);
 			path = UI;
 			sourceTree = "<group>";
 		};
-		4704B8D82B33E3B60012BBBB /* 拆分 */ = {
+		47A2F0402B5A425100526595 /* 拆分 */ = {
 			isa = PBXGroup;
 			children = (
-				4704B8D92B33E3B60012BBBB /* 钻石3.png */,
-				4704B8DA2B33E3B60012BBBB /* 对战技能.png */,
-				4704B8DB2B33E3B60012BBBB /* 主界面信息条.png */,
-				4704B8DC2B33E3B60012BBBB /* 阵容2.png */,
-				4704B8DD2B33E3B60012BBBB /* 角色3场景.png */,
-				4704B8DE2B33E3B60012BBBB /* tiaoz6.png */,
-				4704B8DF2B33E3B60012BBBB /* 按钮1.png */,
-				4704B8E02B33E3B60012BBBB /* 钻石2.png */,
-				4704B8E12B33E3B60012BBBB /* 按钮3.png */,
-				4704B8E22B33E3B60012BBBB /* 阵容1.png */,
-				4704B8E32B33E3B60012BBBB /* tiaoz5.png */,
-				4704B8E42B33E3B60012BBBB /* tiaoz4.png */,
-				4704B8E52B33E3B60012BBBB /* 角色1场景.png */,
-				4704B8E62B33E3B60012BBBB /* 按钮2.png */,
-				4704B8E72B33E3B60012BBBB /* 钻石1.png */,
-				4704B8E82B33E3B60012BBBB /* 头像.png */,
-				4704B8E92B33E3B60012BBBB /* 钻石5.png */,
-				4704B8EA2B33E3B60012BBBB /* 角色2.png */,
-				4704B8EB2B33E3B60012BBBB /* tiaoz1.png */,
-				4704B8EC2B33E3B60012BBBB /* 角色3.png */,
-				4704B8ED2B33E3B60012BBBB /* 钻石4.png */,
-				4704B8EE2B33E3B60012BBBB /* shali.png */,
-				4704B8EF2B33E3B60012BBBB /* 钻石6.png */,
-				4704B8F02B33E3B60012BBBB /* 角色1.png */,
-				4704B8F12B33E3B60012BBBB /* 阵营3.png */,
-				4704B8F22B33E3B60012BBBB /* tiaoz3.png */,
-				4704B8F32B33E3B60012BBBB /* 主界面下方条.png */,
-				4704B8F42B33E3B60012BBBB /* tiaoz2.png */,
-				4704B8F52B33E3B60012BBBB /* 按钮4.png */,
-				4704B8F62B33E3B60012BBBB /* 开始按钮.png */,
-				4704B8F72B33E3B60012BBBB /* 角色2场景.png */,
-				4704B8F82B33E3B60012BBBB /* 失败.png */,
-				4704B8F92B33E3B60012BBBB /* 鞋子.png */,
-				4704B8FA2B33E3B60012BBBB /* 确定按钮.png */,
-				4704B8FB2B33E3B60012BBBB /* jiemianlan.png */,
-				4704B8FC2B33E3B60012BBBB /* 活动更新.png */,
-				4704B8FD2B33E3B60012BBBB /* jiesejiemianbeij.png */,
-				4704B8FE2B33E3B60012BBBB /* zhouyu.png */,
-				4704B8FF2B33E3B60012BBBB /* x血条.png */,
-				4704B9002B33E3B60012BBBB /* shoutao.png */,
-				4704B9012B33E3B60012BBBB /* zhuangbeikuang.png */,
-				4704B9022B33E3B60012BBBB /* wuzhi.png */,
-				4704B9032B33E3B60012BBBB /* shu.png */,
-				4704B9042B33E3B60012BBBB /* caisxieann.png */,
-				4704B9052B33E3B60012BBBB /* 商店框.png */,
-				4704B9062B33E3B60012BBBB /* xurtiao.png */,
-				4704B9072B33E3B60012BBBB /* chibang.png */,
-				4704B9082B33E3B60012BBBB /* 技能.png */,
-				4704B9092B33E3B60012BBBB /* 选角按钮.png */,
-				4704B90A2B33E3B60012BBBB /* nengliangping.png */,
-				4704B90B2B33E3B60012BBBB /* mofabang.png */,
-				4704B90C2B33E3B60012BBBB /* 界面人物.png */,
-				4704B90D2B33E3B60012BBBB /* 福利礼物.png */,
-				4704B90E2B33E3B60012BBBB /* vs.png */,
-				4704B90F2B33E3B60012BBBB /* shuxlan.png */,
-				4704B9102B33E3B60012BBBB /* 技能2.png */,
-				4704B9112B33E3B60012BBBB /* yifu.png */,
-				4704B9122B33E3B70012BBBB /* chuandaiann.png */,
-				4704B9132B33E3B70012BBBB /* 技能3.png */,
-				4704B9142B33E3B70012BBBB /* zuans.png */,
-				4704B9152B33E3B70012BBBB /* 界面背景.png */,
-				4704B9162B33E3B70012BBBB /* 提示框.png */,
-				4704B9172B33E3B70012BBBB /* mogu.png */,
-				4704B9182B33E3B70012BBBB /* xuanwo.png */,
-				4704B9192B33E3B70012BBBB /* shujing.png */,
+				47A2F0412B5A425100526595 /* 钻石3.png */,
+				47A2F0422B5A425100526595 /* 对战技能.png */,
+				47A2F0432B5A425100526595 /* 主界面信息条.png */,
+				47A2F0442B5A425100526595 /* 阵容2.png */,
+				47A2F0452B5A425100526595 /* 角色3场景.png */,
+				47A2F0462B5A425100526595 /* tiaoz6.png */,
+				47A2F0472B5A425100526595 /* 按钮1.png */,
+				47A2F0482B5A425100526595 /* 钻石2.png */,
+				47A2F0492B5A425100526595 /* 按钮3.png */,
+				47A2F04A2B5A425100526595 /* 阵容1.png */,
+				47A2F04B2B5A425100526595 /* tiaoz5.png */,
+				47A2F04C2B5A425100526595 /* tiaoz4.png */,
+				47A2F04D2B5A425100526595 /* 角色1场景.png */,
+				47A2F04E2B5A425100526595 /* 按钮2.png */,
+				47A2F04F2B5A425100526595 /* 钻石1.png */,
+				47A2F0502B5A425100526595 /* 头像.png */,
+				47A2F0512B5A425100526595 /* 钻石5.png */,
+				47A2F0522B5A425100526595 /* 角色2.png */,
+				47A2F0532B5A425100526595 /* tiaoz1.png */,
+				47A2F0542B5A425100526595 /* 角色3.png */,
+				47A2F0552B5A425100526595 /* 钻石4.png */,
+				47A2F0562B5A425100526595 /* shali.png */,
+				47A2F0572B5A425100526595 /* 钻石6.png */,
+				47A2F0582B5A425100526595 /* 角色1.png */,
+				47A2F0592B5A425100526595 /* 阵营3.png */,
+				47A2F05A2B5A425100526595 /* tiaoz3.png */,
+				47A2F05B2B5A425100526595 /* 主界面下方条.png */,
+				47A2F05C2B5A425100526595 /* tiaoz2.png */,
+				47A2F05D2B5A425100526595 /* 按钮4.png */,
+				47A2F05E2B5A425100526595 /* 开始按钮.png */,
+				47A2F05F2B5A425100526595 /* 角色2场景.png */,
+				47A2F0602B5A425100526595 /* 失败.png */,
+				47A2F0612B5A425100526595 /* 鞋子.png */,
+				47A2F0622B5A425100526595 /* 确定按钮.png */,
+				47A2F0632B5A425100526595 /* jiemianlan.png */,
+				47A2F0642B5A425100526595 /* 活动更新.png */,
+				47A2F0652B5A425100526595 /* jiesejiemianbeij.png */,
+				47A2F0662B5A425100526595 /* zhouyu.png */,
+				47A2F0672B5A425100526595 /* x血条.png */,
+				47A2F0682B5A425100526595 /* shoutao.png */,
+				47A2F0692B5A425100526595 /* zhuangbeikuang.png */,
+				47A2F06A2B5A425100526595 /* wuzhi.png */,
+				47A2F06B2B5A425100526595 /* shu.png */,
+				47A2F06C2B5A425100526595 /* caisxieann.png */,
+				47A2F06D2B5A425100526595 /* 商店框.png */,
+				47A2F06E2B5A425100526595 /* xurtiao.png */,
+				47A2F06F2B5A425100526595 /* chibang.png */,
+				47A2F0702B5A425100526595 /* 技能.png */,
+				47A2F0712B5A425100526595 /* 选角按钮.png */,
+				47A2F0722B5A425100526595 /* nengliangping.png */,
+				47A2F0732B5A425100526595 /* mofabang.png */,
+				47A2F0742B5A425100526595 /* 界面人物.png */,
+				47A2F0752B5A425100526595 /* 福利礼物.png */,
+				47A2F0762B5A425100526595 /* vs.png */,
+				47A2F0772B5A425100526595 /* shuxlan.png */,
+				47A2F0782B5A425100526595 /* 技能2.png */,
+				47A2F0792B5A425100526595 /* yifu.png */,
+				47A2F07A2B5A425100526595 /* chuandaiann.png */,
+				47A2F07B2B5A425100526595 /* 技能3.png */,
+				47A2F07C2B5A425100526595 /* zuans.png */,
+				47A2F07D2B5A425100526595 /* 界面背景.png */,
+				47A2F07E2B5A425100526595 /* 提示框.png */,
+				47A2F07F2B5A425100526595 /* mogu.png */,
+				47A2F0802B5A425100526595 /* xuanwo.png */,
+				47A2F0812B5A425100526595 /* shujing.png */,
 			);
 			path = "拆分";
 			sourceTree = "<group>";
 		};
-		4704B91E2B33E3B70012BBBB /* 五图ICON */ = {
+		47A2F0862B5A425100526595 /* 五图ICON */ = {
 			isa = PBXGroup;
 			children = (
-				4704B91F2B33E3B70012BBBB /* 二次元icon.jpg */,
-				4704B9202B33E3B70012BBBB /* 1290x2796.jpg */,
-				4704B9212B33E3B70012BBBB /* 1242x2208.jpg */,
-				4704B9222B33E3B70012BBBB /* 2048x2732-3.jpg */,
-				4704B9232B33E3B70012BBBB /* 1290x2796-2.jpg */,
-				4704B9242B33E3B70012BBBB /* 1290x2796-3.jpg */,
-				4704B9252B33E3B70012BBBB /* 2048x2732-2.jpg */,
-				4704B9262B33E3B70012BBBB /* 1242x2208-5.jpg */,
-				4704B9272B33E3B70012BBBB /* 1242x2208-4.jpg */,
-				4704B9282B33E3B70012BBBB /* 2048x2732.jpg */,
-				4704B9292B33E3B70012BBBB /* 2048x2732-5.jpg */,
-				4704B92A2B33E3B70012BBBB /* 1290x2796-4.jpg */,
-				4704B92B2B33E3B70012BBBB /* 1290x2796-5.jpg */,
-				4704B92C2B33E3B70012BBBB /* 2048x2732-4.jpg */,
-				4704B92D2B33E3B70012BBBB /* 1242x2208-3.jpg */,
-				4704B92E2B33E3B70012BBBB /* 1242x2208-2.jpg */,
+				47A2F0872B5A425100526595 /* 二次元icon.jpg */,
+				47A2F0882B5A425100526595 /* 1290x2796.jpg */,
+				47A2F0892B5A425100526595 /* 1242x2208.jpg */,
+				47A2F08A2B5A425100526595 /* 2048x2732-3.jpg */,
+				47A2F08B2B5A425100526595 /* 1290x2796-2.jpg */,
+				47A2F08C2B5A425100526595 /* 1290x2796-3.jpg */,
+				47A2F08D2B5A425100526595 /* 2048x2732-2.jpg */,
+				47A2F08E2B5A425100526595 /* 1242x2208-5.jpg */,
+				47A2F08F2B5A425100526595 /* 1242x2208-4.jpg */,
+				47A2F0902B5A425100526595 /* 2048x2732.jpg */,
+				47A2F0912B5A425100526595 /* 2048x2732-5.jpg */,
+				47A2F0922B5A425100526595 /* 1290x2796-4.jpg */,
+				47A2F0932B5A425100526595 /* 1290x2796-5.jpg */,
+				47A2F0942B5A425100526595 /* 2048x2732-4.jpg */,
+				47A2F0952B5A425100526595 /* 1242x2208-3.jpg */,
+				47A2F0962B5A425100526595 /* 1242x2208-2.jpg */,
 			);
 			path = "五图ICON";
 			sourceTree = "<group>";
 		};
-		4704B9912B33E5B70012BBBB /* fmdb */ = {
+		47A2F0972B5A425100526595 /* fmdb */ = {
 			isa = PBXGroup;
 			children = (
-				4704B9932B33E5B70012BBBB /* FMDatabase.h */,
-				4704B9942B33E5B70012BBBB /* FMDatabaseQueue.m */,
-				4704B9952B33E5B70012BBBB /* FMResultSet.h */,
-				4704B9962B33E5B70012BBBB /* FMDatabasePool.h */,
-				4704B9972B33E5B70012BBBB /* FMDatabaseAdditions.m */,
-				4704B9982B33E5B70012BBBB /* FMDatabase.m */,
-				4704B9992B33E5B70012BBBB /* FMDatabaseQueue.h */,
-				4704B99A2B33E5B70012BBBB /* FMDB.h */,
-				4704B99B2B33E5B70012BBBB /* FMDatabaseAdditions.h */,
-				4704B99C2B33E5B70012BBBB /* FMDatabasePool.m */,
-				4704B99D2B33E5B70012BBBB /* FMResultSet.m */,
+				47A2F0982B5A425100526595 /* FMDatabase.h */,
+				47A2F0992B5A425100526595 /* FMDatabaseQueue.m */,
+				47A2F09A2B5A425100526595 /* FMResultSet.h */,
+				47A2F09B2B5A425200526595 /* FMDatabasePool.h */,
+				47A2F09C2B5A425200526595 /* FMDatabaseAdditions.m */,
+				47A2F09D2B5A425200526595 /* FMDatabase.m */,
+				47A2F09E2B5A425200526595 /* FMDatabaseQueue.h */,
+				47A2F09F2B5A425200526595 /* FMDB.h */,
+				47A2F0A02B5A425200526595 /* FMDatabaseAdditions.h */,
+				47A2F0A12B5A425200526595 /* FMDatabasePool.m */,
+				47A2F0A22B5A425200526595 /* FMResultSet.m */,
 			);
 			path = fmdb;
-			sourceTree = "<group>";
-		};
-		472457E02B50092400A1EE68 /* Mini */ = {
-			isa = PBXGroup;
-			children = (
-				472457E12B50092400A1EE68 /* cls_equipValueModel.m */,
-				472457E22B50092400A1EE68 /* cls_ViewNameTag.m */,
-				472457E32B50092400A1EE68 /* cls_baseModel.h */,
-				4724585F2B50092400A1EE68 /* cls_SignViewController.m */,
-				472458602B50092400A1EE68 /* cls_itemSpriteNode.h */,
-				472458612B50092400A1EE68 /* cls_xuetiaoNode.h */,
-				472458622B50092400A1EE68 /* cls_victoryViewController.m */,
-				472458632B50092400A1EE68 /* cls_loseViewController.h */,
-				472458642B50092400A1EE68 /* cls_BaseViewController.m */,
-				472458652B50092400A1EE68 /* cls_UIViewFrameCategory.m */,
-				472458662B50092400A1EE68 /* cls_buttonBlock.h */,
-				472458672B50092400A1EE68 /* cls_warehouseModel.m */,
-				472458682B50092400A1EE68 /* MSYHL.TTC */,
-				472458692B50092400A1EE68 /* cls_userInfo.m */,
-				4724586A2B50092400A1EE68 /* cls_gamescene.m */,
-				4724586B2B50092400A1EE68 /* cls_GameSenceViewController.m */,
-				4724586C2B50092400A1EE68 /* cls_guankaViewController.m */,
-				4724586D2B50092400A1EE68 /* cls_StashViewController.m */,
-				4724586E2B50092400A1EE68 /* cls_MainHomePageViewController.m */,
-				4724586F2B50092400A1EE68 /* cls_SkillupgradeViewController.m */,
-				472458702B50092400A1EE68 /* cls_equipModel.m */,
-				472458722B50092400A1EE68 /* cls_SigninModel.m */,
-				472458732B50092400A1EE68 /* cls_conjzebutton.m */,
-				472458742B50092400A1EE68 /* cls_Tool.m */,
-				472458752B50092400A1EE68 /* cls_shopViewController.m */,
-				472458762B50092400A1EE68 /* cls_MonsterNode.m */,
-				472458772B50092400A1EE68 /* cls_SignViewController.h */,
-				472458782B50092400A1EE68 /* cls_ViewNameTag.h */,
-				472458792B50092400A1EE68 /* cls_equipValueModel.h */,
-				4724587A2B50092400A1EE68 /* cls_baseModel.m */,
-				4724587B2B50092400A1EE68 /* cls_warehouseModel.h */,
-				4724587C2B50092400A1EE68 /* cls_buttonBlock.m */,
-				4724587D2B50092400A1EE68 /* cls_BaseViewController.h */,
-				4724587E2B50092400A1EE68 /* cls_loseViewController.m */,
-				4724587F2B50092400A1EE68 /* cls_UIViewFrameCategory.h */,
-				472458802B50092400A1EE68 /* cls_victoryViewController.h */,
-				472458812B50092400A1EE68 /* cls_xuetiaoNode.m */,
-				472458822B50092400A1EE68 /* cls_itemSpriteNode.m */,
-				472458832B50092400A1EE68 /* cls_StashViewController.h */,
-				472458842B50092400A1EE68 /* cls_MainHomePageViewController.h */,
-				472458852B50092400A1EE68 /* cls_guankaViewController.h */,
-				472458862B50092400A1EE68 /* cls_GameSenceViewController.h */,
-				472458872B50092400A1EE68 /* cls_gamescene.h */,
-				472458882B50092400A1EE68 /* cls_userInfo.h */,
-				472458892B50092400A1EE68 /* cls_MonsterNode.h */,
-				4724588A2B50092400A1EE68 /* cls_shopViewController.h */,
-				4724588B2B50092400A1EE68 /* cls_Tool.h */,
-				4724588C2B50092400A1EE68 /* cls_conjzebutton.h */,
-				4724588D2B50092400A1EE68 /* cls_SigninModel.h */,
-				4724588F2B50092400A1EE68 /* cls_equipModel.h */,
-				472458902B50092400A1EE68 /* cls_SkillupgradeViewController.h */,
-			);
-			path = Mini;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -630,108 +502,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4704B9472B33E3B70012BBBB /* tiaoz4.png in Resources */,
-				4704B9502B33E3B70012BBBB /* 钻石4.png in Resources */,
-				4704B97E2B33E3B70012BBBB /* 7天福利-提示.jpg in Resources */,
-				4704B9812B33E3B70012BBBB /* 二次元icon.jpg in Resources */,
-				4704B96C2B33E3B70012BBBB /* 选角按钮.png in Resources */,
-				4704B95F2B33E3B70012BBBB /* 活动更新.png in Resources */,
-				4704B9642B33E3B70012BBBB /* zhuangbeikuang.png in Resources */,
-				4704B9382B33E3B70012BBBB /* 主界面.jpg in Resources */,
-				4704B96E2B33E3B70012BBBB /* mofabang.png in Resources */,
-				4704B9872B33E3B70012BBBB /* 2048x2732-2.jpg in Resources */,
+				47A2F0BE2B5A425200526595 /* tiaoz4.png in Resources */,
+				47A2F0C72B5A425200526595 /* 钻石4.png in Resources */,
+				47A2F0F52B5A425200526595 /* 7天福利-提示.jpg in Resources */,
+				47A2F0F82B5A425200526595 /* 二次元icon.jpg in Resources */,
+				47A2F0E32B5A425200526595 /* 选角按钮.png in Resources */,
+				47A2F0D62B5A425200526595 /* 活动更新.png in Resources */,
+				47A2F0DB2B5A425200526595 /* zhuangbeikuang.png in Resources */,
+				47A2F0AF2B5A425200526595 /* 主界面.jpg in Resources */,
+				47A2F0E52B5A425200526595 /* mofabang.png in Resources */,
+				47A2F0FE2B5A425200526595 /* 2048x2732-2.jpg in Resources */,
 				4704B8C02B33DC970012BBBB /* LaunchScreen.storyboard in Resources */,
-				4704B93E2B33E3B70012BBBB /* 主界面信息条.png in Resources */,
-				4704B9732B33E3B70012BBBB /* 技能2.png in Resources */,
-				4704B95A2B33E3B70012BBBB /* 角色2场景.png in Resources */,
-				4704B95C2B33E3B70012BBBB /* 鞋子.png in Resources */,
-				4704B93C2B33E3B70012BBBB /* 钻石3.png in Resources */,
-				4704B9442B33E3B70012BBBB /* 按钮3.png in Resources */,
-				4704B9842B33E3B70012BBBB /* 2048x2732-3.jpg in Resources */,
-				4704B9302B33E3B70012BBBB /* 7天福利.jpg in Resources */,
-				4704B9402B33E3B70012BBBB /* 角色3场景.png in Resources */,
-				4704B9892B33E3B70012BBBB /* 1242x2208-4.jpg in Resources */,
-				4704B9412B33E3B70012BBBB /* tiaoz6.png in Resources */,
-				4704B94C2B33E3B70012BBBB /* 钻石5.png in Resources */,
-				4704B9422B33E3B70012BBBB /* 按钮1.png in Resources */,
-				4704B9672B33E3B70012BBBB /* caisxieann.png in Resources */,
-				4704B93B2B33E3B70012BBBB /* 选角2.jpg in Resources */,
+				47A2F0B52B5A425200526595 /* 主界面信息条.png in Resources */,
+				47A2F0EA2B5A425200526595 /* 技能2.png in Resources */,
+				47A2F0D12B5A425200526595 /* 角色2场景.png in Resources */,
+				47A2F0D32B5A425200526595 /* 鞋子.png in Resources */,
+				47A2F0B32B5A425200526595 /* 钻石3.png in Resources */,
+				47A2F0BB2B5A425200526595 /* 按钮3.png in Resources */,
+				47A2F0FB2B5A425200526595 /* 2048x2732-3.jpg in Resources */,
+				47A2F0A72B5A425200526595 /* 7天福利.jpg in Resources */,
+				47A2F0B72B5A425200526595 /* 角色3场景.png in Resources */,
+				47A2F1002B5A425200526595 /* 1242x2208-4.jpg in Resources */,
+				47A2F0B82B5A425200526595 /* tiaoz6.png in Resources */,
+				47A2F0C32B5A425200526595 /* 钻石5.png in Resources */,
+				47A2F0B92B5A425200526595 /* 按钮1.png in Resources */,
+				47A2F0DE2B5A425200526595 /* caisxieann.png in Resources */,
+				47A2F0B22B5A425200526595 /* 选角2.jpg in Resources */,
 				4704B8BD2B33DC970012BBBB /* Assets.xcassets in Resources */,
-				4704B9852B33E3B70012BBBB /* 1290x2796-2.jpg in Resources */,
-				4704B9782B33E3B70012BBBB /* 界面背景.png in Resources */,
-				4704B96A2B33E3B70012BBBB /* chibang.png in Resources */,
-				4704B96D2B33E3B70012BBBB /* nengliangping.png in Resources */,
-				4704B9802B33E3B70012BBBB /* 对战失败.jpg in Resources */,
-				4704B95E2B33E3B70012BBBB /* jiemianlan.png in Resources */,
-				4704B9902B33E3B70012BBBB /* 1242x2208-2.jpg in Resources */,
-				4704B9772B33E3B70012BBBB /* zuans.png in Resources */,
-				4704B95B2B33E3B70012BBBB /* 失败.png in Resources */,
-				4704B98F2B33E3B70012BBBB /* 1242x2208-3.jpg in Resources */,
-				4704B9612B33E3B70012BBBB /* zhouyu.png in Resources */,
-				4704B98C2B33E3B70012BBBB /* 1290x2796-4.jpg in Resources */,
-				4704B9452B33E3B70012BBBB /* 阵容1.png in Resources */,
-				4704B9562B33E3B70012BBBB /* 主界面下方条.png in Resources */,
-				4704B97B2B33E3B70012BBBB /* xuanwo.png in Resources */,
-				4704B9552B33E3B70012BBBB /* tiaoz3.png in Resources */,
-				4704B92F2B33E3B70012BBBB /* 对战.jpg in Resources */,
-				4704B97A2B33E3B70012BBBB /* mogu.png in Resources */,
-				4704B9702B33E3B70012BBBB /* 福利礼物.png in Resources */,
-				4704B9582B33E3B70012BBBB /* 按钮4.png in Resources */,
-				4704B9392B33E3B70012BBBB /* 商城-提示.jpg in Resources */,
-				4704B9492B33E3B70012BBBB /* 按钮2.png in Resources */,
-				4704B94A2B33E3B70012BBBB /* 钻石1.png in Resources */,
-				4704B94D2B33E3B70012BBBB /* 角色2.png in Resources */,
-				472459032B50092400A1EE68 /* MSYHL.TTC in Resources */,
+				47A2F0FC2B5A425200526595 /* 1290x2796-2.jpg in Resources */,
+				47A2F0EF2B5A425200526595 /* 界面背景.png in Resources */,
+				47A2F0E12B5A425200526595 /* chibang.png in Resources */,
+				47A2F0E42B5A425200526595 /* nengliangping.png in Resources */,
+				47A2F0F72B5A425200526595 /* 对战失败.jpg in Resources */,
+				47A2F0D52B5A425200526595 /* jiemianlan.png in Resources */,
+				47A2F1072B5A425200526595 /* 1242x2208-2.jpg in Resources */,
+				47A2F0EE2B5A425200526595 /* zuans.png in Resources */,
+				47A2F0D22B5A425200526595 /* 失败.png in Resources */,
+				47A2F1062B5A425200526595 /* 1242x2208-3.jpg in Resources */,
+				47A2F0D82B5A425200526595 /* zhouyu.png in Resources */,
+				47A2F1032B5A425200526595 /* 1290x2796-4.jpg in Resources */,
+				47A2F0BC2B5A425200526595 /* 阵容1.png in Resources */,
+				47A2F0CD2B5A425200526595 /* 主界面下方条.png in Resources */,
+				47A2F0F22B5A425200526595 /* xuanwo.png in Resources */,
+				47A2F0CC2B5A425200526595 /* tiaoz3.png in Resources */,
+				47A2F0A62B5A425200526595 /* 对战.jpg in Resources */,
+				47A2F0F12B5A425200526595 /* mogu.png in Resources */,
+				47A2F0E72B5A425200526595 /* 福利礼物.png in Resources */,
+				47A2F0CF2B5A425200526595 /* 按钮4.png in Resources */,
+				47A2F0B02B5A425200526595 /* 商城-提示.jpg in Resources */,
+				47A2F0C02B5A425200526595 /* 按钮2.png in Resources */,
+				47A2F0C12B5A425200526595 /* 钻石1.png in Resources */,
+				47A2F0C42B5A425200526595 /* 角色2.png in Resources */,
 				4704B8BB2B33DC940012BBBB /* Main.storyboard in Resources */,
-				4704B9342B33E3B70012BBBB /* 商城-钻石.jpg in Resources */,
-				4704B94F2B33E3B70012BBBB /* 角色3.png in Resources */,
-				4704B9532B33E3B70012BBBB /* 角色1.png in Resources */,
-				4704B98B2B33E3B70012BBBB /* 2048x2732-5.jpg in Resources */,
-				4704B9572B33E3B70012BBBB /* tiaoz2.png in Resources */,
-				4704B9692B33E3B70012BBBB /* xurtiao.png in Resources */,
-				4704B98D2B33E3B70012BBBB /* 1290x2796-5.jpg in Resources */,
-				4704B9462B33E3B70012BBBB /* tiaoz5.png in Resources */,
-				4704B9882B33E3B70012BBBB /* 1242x2208-5.jpg in Resources */,
-				4704B9752B33E3B70012BBBB /* chuandaiann.png in Resources */,
-				4704B9592B33E3B70012BBBB /* 开始按钮.png in Resources */,
-				4704B9792B33E3B70012BBBB /* 提示框.png in Resources */,
-				4704B9352B33E3B70012BBBB /* 对战-是否终止挑战.jpg in Resources */,
-				4704B9512B33E3B70012BBBB /* shali.png in Resources */,
-				4704B97F2B33E3B70012BBBB /* 选角1.jpg in Resources */,
-				4704B97C2B33E3B70012BBBB /* shujing.png in Resources */,
-				4704B93D2B33E3B70012BBBB /* 对战技能.png in Resources */,
-				4704B98E2B33E3B70012BBBB /* 2048x2732-4.jpg in Resources */,
-				4704B9602B33E3B70012BBBB /* jiesejiemianbeij.png in Resources */,
-				4704B94E2B33E3B70012BBBB /* tiaoz1.png in Resources */,
-				4704B9632B33E3B70012BBBB /* shoutao.png in Resources */,
-				4704B9322B33E3B70012BBBB /* 背包.jpg in Resources */,
-				4704B9482B33E3B70012BBBB /* 角色1场景.png in Resources */,
-				4704B9762B33E3B70012BBBB /* 技能3.png in Resources */,
-				4704B9332B33E3B70012BBBB /* 商城-提示2.jpg in Resources */,
-				4704B9432B33E3B70012BBBB /* 钻石2.png in Resources */,
-				4704B9862B33E3B70012BBBB /* 1290x2796-3.jpg in Resources */,
-				4704B9362B33E3B70012BBBB /* 商城-道具.jpg in Resources */,
-				4704B95D2B33E3B70012BBBB /* 确定按钮.png in Resources */,
-				4704B93A2B33E3B70012BBBB /* 选角3.jpg in Resources */,
-				4704B96F2B33E3B70012BBBB /* 界面人物.png in Resources */,
-				4704B94B2B33E3B70012BBBB /* 头像.png in Resources */,
-				4704B9722B33E3B70012BBBB /* shuxlan.png in Resources */,
-				4704B9832B33E3B70012BBBB /* 1242x2208.jpg in Resources */,
-				4704B9742B33E3B70012BBBB /* yifu.png in Resources */,
-				4704B96B2B33E3B70012BBBB /* 技能.png in Resources */,
-				4704B9822B33E3B70012BBBB /* 1290x2796.jpg in Resources */,
-				4704B9712B33E3B70012BBBB /* vs.png in Resources */,
-				4704B9622B33E3B70012BBBB /* x血条.png in Resources */,
-				4704B9372B33E3B70012BBBB /* 挑战.jpg in Resources */,
-				4704B97D2B33E3B70012BBBB /* 加载页.jpg in Resources */,
-				4704B9682B33E3B70012BBBB /* 商店框.png in Resources */,
-				4704B9652B33E3B70012BBBB /* wuzhi.png in Resources */,
-				4704B9662B33E3B70012BBBB /* shu.png in Resources */,
-				4704B98A2B33E3B70012BBBB /* 2048x2732.jpg in Resources */,
-				4704B9522B33E3B70012BBBB /* 钻石6.png in Resources */,
-				4704B93F2B33E3B70012BBBB /* 阵容2.png in Resources */,
-				4704B9312B33E3B70012BBBB /* 角色界面.jpg in Resources */,
-				4704B9542B33E3B70012BBBB /* 阵营3.png in Resources */,
+				47A2F0AB2B5A425200526595 /* 商城-钻石.jpg in Resources */,
+				47A2F0C62B5A425200526595 /* 角色3.png in Resources */,
+				47A2F10D2B5A425200526595 /* YpImMessage.json in Resources */,
+				47A2F0CA2B5A425200526595 /* 角色1.png in Resources */,
+				47A2F1022B5A425200526595 /* 2048x2732-5.jpg in Resources */,
+				47A2F0CE2B5A425200526595 /* tiaoz2.png in Resources */,
+				47A2F0E02B5A425200526595 /* xurtiao.png in Resources */,
+				47A2F1042B5A425200526595 /* 1290x2796-5.jpg in Resources */,
+				47A2F0BD2B5A425200526595 /* tiaoz5.png in Resources */,
+				47A2F0FF2B5A425200526595 /* 1242x2208-5.jpg in Resources */,
+				47A2F0EC2B5A425200526595 /* chuandaiann.png in Resources */,
+				47A2F0D02B5A425200526595 /* 开始按钮.png in Resources */,
+				47A2F0F02B5A425200526595 /* 提示框.png in Resources */,
+				47A2F0AC2B5A425200526595 /* 对战-是否终止挑战.jpg in Resources */,
+				47A2F0C82B5A425200526595 /* shali.png in Resources */,
+				47A2F0F62B5A425200526595 /* 选角1.jpg in Resources */,
+				47A2F0F32B5A425200526595 /* shujing.png in Resources */,
+				47A2F0B42B5A425200526595 /* 对战技能.png in Resources */,
+				47A2F1052B5A425200526595 /* 2048x2732-4.jpg in Resources */,
+				47A2F0D72B5A425200526595 /* jiesejiemianbeij.png in Resources */,
+				47A2F0C52B5A425200526595 /* tiaoz1.png in Resources */,
+				47A2F0DA2B5A425200526595 /* shoutao.png in Resources */,
+				47A2F0A92B5A425200526595 /* 背包.jpg in Resources */,
+				47A2F0BF2B5A425200526595 /* 角色1场景.png in Resources */,
+				47A2F0ED2B5A425200526595 /* 技能3.png in Resources */,
+				47A2F0AA2B5A425200526595 /* 商城-提示2.jpg in Resources */,
+				47A2F0BA2B5A425200526595 /* 钻石2.png in Resources */,
+				47A2F0FD2B5A425200526595 /* 1290x2796-3.jpg in Resources */,
+				47A2F0AD2B5A425200526595 /* 商城-道具.jpg in Resources */,
+				47A2F0D42B5A425200526595 /* 确定按钮.png in Resources */,
+				47A2F0B12B5A425200526595 /* 选角3.jpg in Resources */,
+				47A2F0E62B5A425200526595 /* 界面人物.png in Resources */,
+				47A2F0C22B5A425200526595 /* 头像.png in Resources */,
+				47A2F0E92B5A425200526595 /* shuxlan.png in Resources */,
+				47A2F0FA2B5A425200526595 /* 1242x2208.jpg in Resources */,
+				47A2F0EB2B5A425200526595 /* yifu.png in Resources */,
+				47A2F0E22B5A425200526595 /* 技能.png in Resources */,
+				47A2F0F92B5A425200526595 /* 1290x2796.jpg in Resources */,
+				47A2F0E82B5A425200526595 /* vs.png in Resources */,
+				47A2F0D92B5A425200526595 /* x血条.png in Resources */,
+				47A2F0AE2B5A425200526595 /* 挑战.jpg in Resources */,
+				47A2F0F42B5A425200526595 /* 加载页.jpg in Resources */,
+				47A2F0DF2B5A425200526595 /* 商店框.png in Resources */,
+				47A2F0DC2B5A425200526595 /* wuzhi.png in Resources */,
+				47A2F0DD2B5A425200526595 /* shu.png in Resources */,
+				47A2F1012B5A425200526595 /* 2048x2732.jpg in Resources */,
+				47A2F0C92B5A425200526595 /* 钻石6.png in Resources */,
+				47A2F0B62B5A425200526595 /* 阵容2.png in Resources */,
+				47A2F0A82B5A425200526595 /* 角色界面.jpg in Resources */,
+				47A2F0CB2B5A425200526595 /* 阵营3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -742,40 +614,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				472458FE2B50092400A1EE68 /* cls_SignViewController.m in Sources */,
-				4724590B2B50092500A1EE68 /* cls_equipModel.m in Sources */,
-				4704B9A02B33E5B70012BBBB /* FMDatabaseQueue.m in Sources */,
+				47A2F1082B5A425200526595 /* FMDatabaseQueue.m in Sources */,
+				47A2F10E2B5A425200526595 /* YpImMessageDao.m in Sources */,
 				4704B8B82B33DC940012BBBB /* ViewController.m in Sources */,
 				4704B8B22B33DC940012BBBB /* AppDelegate.m in Sources */,
-				472459022B50092400A1EE68 /* cls_warehouseModel.m in Sources */,
-				472459002B50092400A1EE68 /* cls_BaseViewController.m in Sources */,
-				472459012B50092400A1EE68 /* cls_UIViewFrameCategory.m in Sources */,
-				472459162B50092500A1EE68 /* cls_itemSpriteNode.m in Sources */,
-				472458FF2B50092400A1EE68 /* cls_victoryViewController.m in Sources */,
-				472458912B50092400A1EE68 /* cls_equipValueModel.m in Sources */,
-				4724590E2B50092500A1EE68 /* cls_conjzebutton.m in Sources */,
-				4704B9A22B33E5B70012BBBB /* FMDatabase.m in Sources */,
-				472459092B50092400A1EE68 /* cls_MainHomePageViewController.m in Sources */,
+				47A2F10A2B5A425200526595 /* FMDatabase.m in Sources */,
 				4704B8C32B33DC970012BBBB /* main.m in Sources */,
-				4704B9A32B33E5B70012BBBB /* FMDatabasePool.m in Sources */,
-				472459072B50092400A1EE68 /* cls_guankaViewController.m in Sources */,
-				4704B9A42B33E5B70012BBBB /* FMResultSet.m in Sources */,
+				47A2F10B2B5A425200526595 /* FMDatabasePool.m in Sources */,
+				47A2F10C2B5A425200526595 /* FMResultSet.m in Sources */,
 				4704B8B52B33DC940012BBBB /* SceneDelegate.m in Sources */,
-				472459082B50092400A1EE68 /* cls_StashViewController.m in Sources */,
-				472459062B50092400A1EE68 /* cls_GameSenceViewController.m in Sources */,
-				472459132B50092500A1EE68 /* cls_buttonBlock.m in Sources */,
-				472458922B50092400A1EE68 /* cls_ViewNameTag.m in Sources */,
-				472459152B50092500A1EE68 /* cls_xuetiaoNode.m in Sources */,
-				472459112B50092500A1EE68 /* cls_MonsterNode.m in Sources */,
-				4724590D2B50092500A1EE68 /* cls_SigninModel.m in Sources */,
-				472459052B50092400A1EE68 /* cls_gamescene.m in Sources */,
-				4724590A2B50092400A1EE68 /* cls_SkillupgradeViewController.m in Sources */,
-				472459102B50092500A1EE68 /* cls_shopViewController.m in Sources */,
-				472459122B50092500A1EE68 /* cls_baseModel.m in Sources */,
-				4724590F2B50092500A1EE68 /* cls_Tool.m in Sources */,
-				4704B9A12B33E5B70012BBBB /* FMDatabaseAdditions.m in Sources */,
-				472459042B50092400A1EE68 /* cls_userInfo.m in Sources */,
-				472459142B50092500A1EE68 /* cls_loseViewController.m in Sources */,
+				47A2F1092B5A425200526595 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

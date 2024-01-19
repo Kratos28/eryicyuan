@@ -1,0 +1,28 @@
+{
+  "mode": "DAO",
+  "module": "YpImMessage",
+  "table": "yp_im_message",
+  "property": {
+    "id": "long",
+    "msgid": "int64_t",
+    "content": "NSString",
+    "sendTime": "NSString",
+    "isMute": "NSString",
+    "money": "NSString",
+    "sender": "NSString",
+    "receiver": "NSString",
+    "messageType": "NSString",
+    "attachment": "NSString"
+  },
+  "index": {
+    "primary-autoincrement": "id"
+  },
+  "struct": {
+    "YpIdContent": [
+      "id",
+      "content",
+      "money",
+      "ddd"
+    ]
+  }
+}
