@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "cls_Tool.h"
+#import "cls_MainHomePageViewController.h"
 @interface ViewController ()
 
 @end
@@ -15,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [UIView loadCate];
     
     {
         UIImageView *var_imageview = [[UIImageView alloc]init];
@@ -35,8 +36,8 @@
 
         });
         buttonBlock(var_button, ^(UIButton  *btn){
-            
-            UIViewController *mainvc =   [[cls_homepViewController alloc]init];
+          
+            UIViewController *mainvc =   [[cls_MainHomePageViewController alloc]init];
             mainvc.modalPresentationStyle = UIModalPresentationOverCurrentContext|UIModalPresentationFullScreen;
             //设置弹出动画：淡入淡出
             mainvc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
