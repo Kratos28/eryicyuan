@@ -1,0 +1,309 @@
+    //1
+    int @var1@ = @let1@;
+    if (@var1@ > 2) {
+        @var1@ ++;
+    } else {
+	    @var1@ = 2;
+	}
+//@AAAAAAAAAAAAAA@//
+    //2
+	[NSArray new];
+//@AAAAAAAAAAAAAA@//
+    //3
+    NSMutableArray *@var1@ = [NSMutableArray array];
+    [@var1@ addObject:@"@var2@"];
+//@AAAAAAAAAAAAAA@//
+    //4
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UIActivityIndicatorView *@var1@ = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:(UIActivityIndicatorViewStyleGray)];
+        @var1@.frame = CGRectMake(0, 0, 60, 60);
+        [@var1@ startAnimating];
+    });
+//@AAAAAAAAAAAAAA@//
+    //5
+    int @var1@,@var2@,@var3@,@var4@;
+    for(int n=1;n<=3;n++){
+        @var1@=n/100;//百位
+        @var2@=n%100/10;//十位
+        @var3@=n%10;//个位
+        if(n == @var1@*@var1@*@var1@+@var2@*@var2@*@var2@+@var3@*@var3@*@var3@){
+            //printf("%5d ",n);
+            @var4@ = @let1@;
+        }
+    }
+//@AAAAAAAAAAAAAA@//
+    //6
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UIButton *@var1@ = [[UIButton alloc]init];
+        [@var1@ setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        @var1@.titleLabel.font = [UIFont systemFontOfSize:13];
+        @var1@.tag = 66;
+        @var1@.layer.borderColor = [UIColor colorWithRed:204/255.0 green:204/255.0 blue:204/255.0 alpha:1].CGColor;
+        @var1@.layer.borderWidth = 0.5;
+        @var1@.layer.cornerRadius = 2;
+        UIButton*@var2@ = [UIButton buttonWithType:UIButtonTypeCustom];
+        @var2@.titleLabel.font = [UIFont systemFontOfSize:13];
+        @var2@.backgroundColor = [UIColor clearColor];
+        @var2@.userInteractionEnabled = NO;
+        [@var2@ setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    });
+//@AAAAAAAAAAAAAA@//
+    //7
+    dispatch_async(dispatch_get_main_queue(), ^{
+        NSArray *@var1@array = @[@1,@2,@3];
+        [@var1@array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            UIButton *@var1@btn           = [UIButton buttonWithType:UIButtonTypeCustom];
+            @var1@btn.frame               = CGRectMake(2, 60, 65, 95);
+            @var1@btn.titleLabel.font     = [UIFont systemFontOfSize:16];
+            @var1@btn.tag                 = idx + 100;
+            @var1@btn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+            @var1@btn.titleEdgeInsets     = UIEdgeInsetsMake(0, 10, 0, 0);
+            [@var1@btn setTitle:obj forState:UIControlStateNormal];
+            [@var1@btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+            UIView *@var1@line            = [[UIView alloc]initWithFrame:CGRectMake(2, 60, 65, 95)];
+            @var1@line.tag                = idx + 200;
+            @var1@line.backgroundColor    = [UIColor darkGrayColor];
+        }];
+    });
+//@AAAAAAAAAAAAAA@//
+    //8
+    int @var1@ = 0;
+    if (@var1@) {
+        @var1@ += @let1@;
+    }
+//@AAAAAAAAAAAAAA@//
+    //9
+    int @var3@,@var4@,@var5@,@var1@ = 0,@var2@;
+    switch(@var4@) { //先计算某月以前月份的总天数
+        case 1:@var1@=0;break;
+        case 2:@var1@=31;break;
+        case 3:@var1@=59;break;
+        case 4:@var1@=90;break;
+        case 5:@var1@=120;break;
+        case 6:@var1@=151;break;
+        case 7:@var1@=181;break;
+        case 8:@var1@=212;break;
+        case 9:@var1@=243;break;
+        case 10:@var1@=273;break;
+        case 11:@var1@=304;break;
+        case 12:@var1@=334;break;
+        default:@var2@=1;break;
+    }
+    @var1@=@var1@+@var3@;
+    if((@var5@%4==0&&@var5@%100!=0)||(@var5@%400==0)) {
+        @var2@=1;
+    } else {
+        @var2@=0;
+    }
+    if(@var2@==1&&@var4@>2) {
+        @var1@++;
+    }
+//@AAAAAAAAAAAAAA@//
+    //10
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UIButton *@var1@ = [UIButton buttonWithType:0];
+        [@var1@ setTintColor:[UIColor whiteColor]];
+        [@var1@ setBackgroundColor:[UIColor blueColor]];
+        [@var1@ setTag:(int)(random() % 6)];
+        [@var1@ setFrame:CGRectZero];
+    });
+//@AAAAAAAAAAAAAA@//
+    //11
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UIView *@var1@ = [[UIView alloc] initWithFrame:CGRectZero];
+        [@var1@ setAlpha:0.1];
+        [@var1@ setHidden:YES];
+        [@var1@ setClipsToBounds:NO];
+    });
+//@AAAAAAAAAAAAAA@//
+    //12
+    NSMutableDictionary *@var1@ = [NSMutableDictionary dictionaryWithCapacity:3];
+    int @var4@ = 2 + random()%4;
+    for (int i = 0; i < @var4@; i ++) {
+        [@var1@ setObject:[NSNumber numberWithInt:i] forKey:[NSString stringWithFormat:@"%d",i]];
+    }
+    NSUInteger @var2@ = [@var1@.allKeys count];
+    if (@var2@ > 3) {
+        [@var1@ removeAllObjects];
+    } else {
+        [@var1@ setDictionary:@{}];
+    }
+//@AAAAAAAAAAAAAA@//
+    //13
+    int @var1@ = @let1@;
+    int @var2@ = @let2@;
+    int @var3@;
+    for(int i=0; i < @var1@; i++) {
+        @var3@ = @var2@ + i;
+    }
+//@AAAAAAAAAAAAAA@//
+    //14
+    NSArray *@var1@ = [NSArray array];
+    NSString *@var2@ = @"@let1@";
+    @var1@ = [@var2@ componentsSeparatedByString:@","];
+//@AAAAAAAAAAAAAA@//
+    //15
+    NSDictionary *@var1@ = @{@"key" : @"@let1@"};
+    NSString *@var2@ = @var1@[@"key"];
+    int @var3@ = [@var2@ intValue];
+//@AAAAAAAAAAAAAA@//
+    //16
+    int @var1@ = @let1@;
+    int @var2@ = @let2@;
+    @var1@ += @var2@;
+//@AAAAAAAAAAAAAA@//
+    //17
+    NSMutableArray *@var1@ = [[NSMutableArray alloc] init];
+    [@var1@ addObject:@"@let1@"];
+//@AAAAAAAAAAAAAA@//
+    //18
+    NSString *@var1@ = @"@let1@";
+    NSString *@var2@ = [@var1@ stringByAppendingString:@"@let2@"];
+//@AAAAAAAAAAAAAA@//
+    //19
+    NSMutableArray *@var1@ = [[NSMutableArray alloc] init];
+    for (int i = 0; i < @let1@; i++) {
+        NSString *temp = [NSString stringWithFormat:@"@var%d@", i];
+        [@var1@ addObject:temp];
+    }
+//@AAAAAAAAAAAAAA@//
+    //20
+    NSMutableDictionary *@var1@ = [NSMutableDictionary dictionary];
+    [@var1@ setObject:@"@let1@" forKey:@"@let2@"];
+//@AAAAAAAAAAAAAA@//
+    //21
+    float @var1@ = @let1@;
+    float @var2@ = @var1@ / 2.0;
+//@AAAAAAAAAAAAAA@//
+    //22
+    NSString *@var1@ = @"@let1@";
+    bool @var2@ = [@var1@ isEqualToString: @"@let2@"];
+//@AAAAAAAAAAAAAA@//
+    //23
+    NSMutableArray *@var1@ = [@[@"@let1@", @"@let2@"] mutableCopy];
+    NSString *@var2@ = [@var1@ objectAtIndex:0];
+    NSString *@var3@ = @"@var3@";
+    NSString *@var4@ = @"@var4@";
+    NSString *@var5@ = @"@var5@";
+    NSString *@var6@ = @"@var6@";
+    for(int i = 0; i < [@var1@ count]; i++) {
+        @var3@ = [@var1@ objectAtIndex:i];
+        
+        if([@var2@ length] < [@var3@ length]) {
+            @var2@ = @var3@;
+        } else if ([@var2@ length] == [@var3@ length]) {
+            @var4@ = @"Equal";
+        }
+    }
+    @var5@ = @var4@;
+    @var6@ = [@var2@ stringByAppendingString:@var5@];
+//@AAAAAAAAAAAAAA@//
+    //24
+    int @var1@ = 5;
+    int @var2@ = 10;
+    int @var3@ = 0;
+    for (int @var4@ = 1; @var4@ <= @var1@; @var4@++) {
+        @var3@ += @var4@;
+        for (int @var5@ = 0; @var5@ < @var2@; @var5@++) {
+            if (@var5@ % @var4@ == 0) {
+                @var3@ += @var5@;
+            }
+        }
+    }
+//@AAAAAAAAAAAAAA@//
+    //25
+    NSString *@var1@ = @"@var6@,@var7@,@var8@";
+    NSArray *@var2@ = [@var1@ componentsSeparatedByString:@","];
+    long @var3@ = [@var2@ count];
+    for (int @var4@ = 0; @var4@ < @let1@; @var4@++) {
+        NSString *@var5@ = @"@var6@";
+        @var3@ += [@var5@ length];
+    }
+//@AAAAAAAAAAAAAA@//
+    //26
+
+//@AAAAAAAAAAAAAA@//
+    //27
+    NSArray *@var1@ = @[@"@var6@", @"@var7@", @"@var8@"];
+    int @var2@ = (int)[@var1@ count];
+    int @var3@ = 0;
+    for (int @var4@ = 0; @var4@ < @var2@; @var4@++) {
+        NSString *@var5@ = @var1@[@var4@];
+        @var3@ += (int)[@var5@ length];
+    }
+//@AAAAAAAAAAAAAA@//
+    //28
+    int @var1@ = 6;
+    for (int @var2@ = 0; @var2@ < @var1@; @var2@++) {
+        for (int @var3@ = @var2@; @var3@ < @var1@; @var3@++) {
+            if (@var3@ % 2 == 0) {
+                @var1@--;
+            } else {
+                @var1@++;
+            }
+        }
+    }
+//@AAAAAAAAAAAAAA@//
+    //29
+    int @var1@ = 10, @var2@ = 0;
+    for (int @var3@ = 1; @var3@ <= @var1@; @var3@++) {
+        @var2@ = @var3@ * @var3@;
+        for (int @var4@ = 0; @var4@ < @var2@; @var4@++) {
+            @var2@ += @var4@;
+        }
+    }
+//@AAAAAAAAAAAAAA@//
+    //30
+    int @var1@ = 4, @var2@ = 1;
+    while (@var2@ < @var1@) {
+        @var2@ *= 2;
+        for (int @var3@ = 0; @var3@ < @var2@; @var3@++) {
+            @var1@ += @var3@;
+        }
+    }
+//@AAAAAAAAAAAAAA@//
+    //31
+    int @var1@ = 8;
+    for (int @var2@ = 1; @var2@ <= @var1@; @var2@++) {
+        for (int @var3@ = @var2@; @var3@ <= @var1@; @var3@++) {
+            if (@var3@ % @var2@ == 0) {
+                @var1@ -= @var2@;
+            }
+        }
+    }
+//@AAAAAAAAAAAAAA@//
+    //32
+    int @var1@ = 6;
+    int @var2@ = 12;
+    int @var3@;
+    for (int i = 0; i < @var1@; i++) {
+        for (int j = 0; j < @var2@; j++) {
+            @var3@ = i * j;
+        }
+    }
+//@AAAAAAAAAAAAAA@//
+    //33
+    NSMutableArray * @var1@ = [[NSMutableArray alloc] init];
+    for (int i = 0; i < 10; i++) {
+        NSNumber *num = [NSNumber numberWithInt:i];
+        [@var1@ addObject:num];
+    }
+    int @var2@ = 0;
+    for (NSNumber *num in @var1@) {
+        @var2@ += [num intValue];
+    }
+//@AAAAAAAAAAAAAA@//
+    //34
+    int @var1@ = 5;
+    int @var2@ = @let1@;
+    int @var3@ = 0;
+    for (int i = 0; i < @var1@; i++) {
+        @var3@ += i;
+        if (@var3@ > 10) {
+            @var3@ -= 5;
+        } else {
+            @var3@ += 2;
+        }
+    }
+    int @var4@ = @var3@ + @var2@;
+//@AAAAAAAAAAAAAA@//

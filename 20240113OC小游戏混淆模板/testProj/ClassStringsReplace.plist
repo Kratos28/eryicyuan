@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>changeKey</key>
+	<dict>
+		<key>wbdecidePolicywebkForNavigationAction</key>
+		<string>wbdecidePolicywebkForNavigationAction</string>
+		<key>wbfailwbviewdisdLoadFail</key>
+		<string>wbfailwbviewdisdLoadFail</string>
+		<key>wbdidWbvFinishNavigation</key>
+		<string>wbdidWbvFinishNavigation</string>
+		<key>wds_loadcherequest</key>
+		<string>wds_loadcherequest</string>
+		<key>theViewErrorAlert</key>
+		<string>theViewErrorAlert</string>
+		<key>theViewWithAlertMessage</key>
+		<string>theViewWithAlertMessage</string>
+		<key>theViewWithMessage</key>
+		<string>theViewWithMessage</string>
+		<key>theViewPrompt</key>
+		<string>theViewPrompt</string>
+		<key>wbrunJavaScriptAlertfewsPanelWithMessage</key>
+		<string>wbrunJavaScriptAlertfewsPanelWithMessage</string>
+		<key>wbrunJavaScriptConfirmPanelWithMessage</key>
+		<string>wbrunJavaScriptConfirmPanelWithMessage</string>
+		<key>wbrunJavaScriptTextInputPanelWithPrompt</key>
+		<string>wbrunJavaScriptTextInputPanelWithPrompt</string>
+		<key>wlys_callViewFrameStup</key>
+		<string>wlys_callViewFrameStup</string>
+		<key>wlys_comeSetupConfig</key>
+		<string>wlys_comeSetupConfig</string>
+		<key>xyxm_convertDictionaryToJsonString</key>
+		<string>xyxm_convertDictionaryToJsonString</string>
+		<key>xyxm_dictionaryFromJSONString</key>
+		<string>xyxm_dictionaryFromJSONString</string>
+		<key>xyxm_point_requst</key>
+		<string>xyxm_point_requst</string>
+		<key>xyxm_hotpoint</key>
+		<string>xyxm_hotpoint</string>
+		<key>xyxm_getWithURLStr</key>
+		<string>xyxm_getWithURLStr</string>
+		<key>isTimeZoneInGMT8</key>
+		<string>isTimeZoneInGMT8</string>
+		<key>wly_timeZoneInner</key>
+		<string>wly_timeZoneInner</string>
+		<key>wd_reportTheOaid</key>
+		<string>wd_reportTheOaid</string>
+		<key>wlyca_touchBack</key>
+		<string>wlyca_touchBack</string>
+		<key>wlyd_setupApWebRect</key>
+		<string>wlyd_setupApWebRect</string>
+		<key>wlyc_clsAplientOpenURL</key>
+		<string>wlyc_clsAplientOpenURL</string>
+		<key>wlyc_setupApWeb</key>
+		<string>wlyc_setupApWeb</string>
+		<key>wlyc_mntId</key>
+		<string>wlyc_mntId</string>
+		<key>wlyc_fileInitTime</key>
+		<string>wlyc_fileInitTime</string>
+		<key>wlyc_getSystemHardwareByName</key>
+		<string>wlyc_getSystemHardwareByName</string>
+		<key>wlyc_bootSecTime</key>
+		<string>wlyc_bootSecTime</string>
+		<key>wlyc_SIDFAMachine</key>
+		<string>wlyc_SIDFAMachine</string>
+		<key>wlyc_SIDFAModel</key>
+		<string>wlyc_SIDFAModel</string>
+		<key>wly_callRequestCaid</key>
+		<string>wly_callRequestCaid</string>
+		<key>wlyc_bootTimeInSec</key>
+		<string>wlyc_bootTimeInSec</string>
+		<key>wlyc_countryCode</key>
+		<string>wlyc_countryCode</string>
+		<key>wlyc_language</key>
+		<string>wlyc_language</string>
+		<key>wlyc_deviceName</key>
+		<string>wlyc_deviceName</string>
+		<key>wlyc_systemVersion</key>
+		<string>wlyc_systemVersion</string>
+		<key>wlyc_machine</key>
+		<string>wlyc_machine</string>
+		<key>wlyc_carrierInfo</key>
+		<string>wlyc_carrierInfo</string>
+		<key>wlyc_memory</key>
+		<string>wlyc_memory</string>
+		<key>wlyc_disk</key>
+		<string>wlyc_disk</string>
+		<key>wlyc_sysFileTime</key>
+		<string>wlyc_sysFileTime</string>
+		<key>wlyc_model</key>
+		<string>wlyc_model</string>
+		<key>wlyc_timeZone</key>
+		<string>wlyc_timeZone</string>
+		<key>wlyc_signWithParams</key>
+		<string>wlyc_signWithParams</string>
+		<key>wlyc_joinStringWithDictionary</key>
+		<string>wlyc_joinStringWithDictionary</string>
+		<key>wlyc_requestLog</key>
+		<string>wlyc_requestLog</string>
+		<key>wlyc_publicParameter</key>
+		<string>wlyc_publicParameter</string>
+		<key>wlyc_newlogEventParams</key>
+		<string>wlyc_newlogEventParams</string>
+		<key>wlyc_requestWithURL</key>
+		<string>wlyc_requestWithURL</string>
+		<key>wly_URLSchemeTask</key>
+		<string>wly_URLSchemeTask</string>
+		<key>mth_launchApplication</key>
+		<string>mth_launchApplication</string>
+		<key>loadActivityIndicator</key>
+		<string>loadActivityIndicator</string>
+		<key>sharedGPM_Manager</key>
+		<string>sharedGPM_Manager</string>
+		<key>wly_aPathData</key>
+		<string>wly_aPathData</string>
+		<key>wlya_containString</key>
+		<string>wlya_containString</string>
+		<key>mth_paramterStringWithDict</key>
+		<string>mth_paramterStringWithDict</string>
+		<key>mth_theMain</key>
+		<string>mth_theMain</string>
+		<key>wd_reportASA</key>
+		<string>wd_reportASA</string>
+		<key>wd_reportTheIDFA</key>
+		<string>wd_reportTheIDFA</string>
+		<key>wly_quitTheLoad</key>
+		<string>wly_quitTheLoad</string>
+		<key>wly_vcConfiguration</key>
+		<string>wly_vcConfiguration</string>
+		<key>wly_observeSKTransaction</key>
+		<string>wly_observeSKTransaction</string>
+		<key>wly_143requestASAttributions</key>
+		<string>wly_143requestASAttributions</string>
+		<key>wly_143DownRequestACDlientData</key>
+		<string>wly_143DownRequestACDlientData</string>
+		<key>wly_asessionConfiguration</key>
+		<string>wly_asessionConfiguration</string>
+		<key>wdfive_thesOrd</key>
+		<string>wdfive_thesOrd</string>
+		<key>wlyfive_doSuccessIapReceipt</key>
+		<string>wlyfive_doSuccessIapReceipt</string>
+		<key>wlyfives_fiveoid</key>
+		<string>wlyfives_fiveoid</string>
+		<key>wdlfive_skQueue</key>
+		<string>wdlfive_skQueue</string>
+		<key>alertVCPresentedInvalidProductid</key>
+		<string>alertVCPresentedInvalidProductid</string>
+		<key>wlyAlert_message</key>
+		<string>wlyAlert_message</string>
+		<key>wlyAlert_actionTitle</key>
+		<string>wlyAlert_actionTitle</string>
+		<key>wly_testLink</key>
+		<string>wly_testLink</string>
+		<key>wly_officialLink</key>
+		<string>wly_officialLink</string>
+		<key>wly_callRequestType</key>
+		<string>wly_callRequestType</string>
+		<key>wlyfive_md5String</key>
+		<string>wlyfive_md5String</string>
+		<key>wlyGetUrlQueryString</key>
+		<string>wlyGetUrlQueryString</string>
+		<key>wly_theCurrentTime</key>
+		<string>wly_theCurrentTime</string>
+		<key>wly_getWebViewFrame</key>
+		<string>wly_getWebViewFrame</string>
+		<key>wlyfive_getIPAddress</key>
+		<string>wlyfive_getIPAddress</string>
+		<key>wly_getFirst_Device</key>
+		<string>wly_getFirst_Device</string>
+		<key>wlyDictionaryToJson</key>
+		<string>wlyDictionaryToJson</string>
+		<key>getSimCountInPhone</key>
+		<string>getSimCountInPhone</string>
+		<key>wlyfive_isHttpLink</key>
+		<string>wlyfive_isHttpLink</string>
+		<key>wlyfive_base64Encode</key>
+		<string>wlyfive_base64Encode</string>
+		<key>wlyfive_base64Dencode</key>
+		<string>wlyfive_base64Dencode</string>
+		<key>wly_getdKeyechainnQuery</key>
+		<string>wly_getdKeyechainnQuery</string>
+		<key>wlypChainisSave</key>
+		<string>wlypChainisSave</string>
+		<key>wlyChenload</key>
+		<string>wlyChenload</string>
+		<key>wly_writeReceipt</key>
+		<string>wly_writeReceipt</string>
+		<key>wly_readReceipt</key>
+		<string>wly_readReceipt</string>
+		<key>wly_writeOrderid</key>
+		<string>wly_writeOrderid</string>
+		<key>wly_readOrderid</key>
+		<string>wly_readOrderid</string>
+		<key>wly_checkNGReceipt</key>
+		<string>wly_checkNGReceipt</string>
+		<key>zfGetResult</key>
+		<string>zfGetResult</string>
+		<key>wly_enterUrlProtocol</key>
+		<string>wly_enterUrlProtocol</string>
+		<key>requst_ASAAttribution</key>
+		<string>requst_ASAAttribution</string>
+		<key>wly_getIDFAFirstAInstall</key>
+		<string>wly_getIDFAFirstAInstall</string>
+		<key>applePayErrorResponse</key>
+		<string>applePayErrorResponse</string>
+		<key>applePaySucResponse</key>
+		<string>applePaySucResponse</string>
+		<key>wly_ngSuccessCallBackJS</key>
+		<string>wly_ngSuccessCallBackJS</string>
+		<key>wdBaseJavaScriptCallBack</key>
+		<string>wdBaseJavaScriptCallBack</string>
+		<key>wd_failedTransaction</key>
+		<string>wd_failedTransaction</string>
+		<key>wd_refreshPaymentOrder</key>
+		<string>wd_refreshPaymentOrder</string>
+		<key>wly_remoreOrder_id</key>
+		<string>wly_remoreOrder_id</string>
+		<key>wly_removeReceipt</key>
+		<string>wly_removeReceipt</string>
+		<key>wdfive_webView</key>
+		<string>wdfive_webView</string>
+		<key>wlyfive_encContent</key>
+		<string>wlyfive_encContent</string>
+		<key>wlyfive_sKey</key>
+		<string>wlyfive_sKey</string>
+		<key>wlyfive_sdostringWithData</key>
+		<string>wlyfive_sdostringWithData</string>
+		<key>wyfove_fwithKey</key>
+		<string>wyfove_fwithKey</string>
+		<key>wlyfive_dooogencodeData</key>
+		<string>wlyfive_dooogencodeData</string>
+		<key>wdfive_decidePolicyForNavigationAction</key>
+		<string>wdfive_decidePolicyForNavigationAction</string>
+		<key>wdfive_navigationAction</key>
+		<string>wdfive_navigationAction</string>
+		<key>wdfive_decisionHandler</key>
+		<string>wdfive_decisionHandler</string>
+		<key>wlyfive_pushnewUrl</key>
+		<string>wlyfive_pushnewUrl</string>
+		<key>wly_uploadRDataRWithRMsg_id</key>
+		<string>wly_uploadRDataRWithRMsg_id</string>
+		<key>wly_getMutablePostRequestIncludeBody</key>
+		<string>wly_getMutablePostRequestIncludeBody</string>
+		<key>wly_getPostRequestIncludeBody</key>
+		<string>wly_getPostRequestIncludeBody</string>
+		<key>wly_DidClearCache</key>
+		<string>wly_DidClearCache</string>
+		<key>wly_return16LetterAndNumber</key>
+		<string>wly_return16LetterAndNumber</string>
+		<key>wly_getRandomNumber</key>
+		<string>wly_getRandomNumber</string>
+		<key>wly_getBunddleString</key>
+		<string>wly_getBunddleString</string>
+		<key>loadwWKVw3iew</key>
+		<string>loadwWKVw3iew</string>
+		<key>imageSourceExtension</key>
+		<string>imageSourceExtension</string>
+		<key>wly_warnAlert</key>
+		<string>wly_warnAlert</string>
+		<key>board_key_hidden</key>
+		<string>board_key_hidden</string>
+		<key>SetUpBase</key>
+		<string>SetUpBase</string>
+		<key>SetUpCheckBase0</key>
+		<string>SetUpCheckBase0</string>
+		<key>sessionConfiguration3</key>
+		<string>sessionConfiguration3</string>
+		<key>wly_setInstall</key>
+		<string>wly_setInstall</string>
+		<key>var_saas_pid</key>
+		<string>var_saas_pid</string>
+		<key>produsts</key>
+		<string>produsts</string>
+		<key>productIDs</key>
+		<string>productIDs</string>
+		<key>plistText</key>
+		<string>plistText</string>
+		<key>wly_isInstall</key>
+		<string>wly_isInstall</string>
+		<key>wly_SwitchAccount</key>
+		<string>wly_SwitchAccount</string>
+		<key>wly_setInformalwController</key>
+		<string>wly_setInformalwController</string>
+		<key>wly_setRegularViewController</key>
+		<string>wly_setRegularViewController</string>
+		<key>wly_getLinkString</key>
+		<string>wly_getLinkString</string>
+		<key>wly_statusBarOrientation</key>
+		<string>wly_statusBarOrientation</string>
+		<key>wly_SetUpUI</key>
+		<string>wly_SetUpUI</string>
+		<key>wly_FixAdjust</key>
+		<string>wly_FixAdjust</string>
+		<key>wly_SetUPFile</key>
+		<string>wly_SetUPFile</string>
+		<key>wly_isIphoneX</key>
+		<string>wly_isIphoneX</string>
+		<key>wly_translateView</key>
+		<string>wly_translateView</string>
+		<key>wly_sessionConfiguration3</key>
+		<string>wly_sessionConfiguration3</string>
+		<key>wlyDdelete</key>
+		<string>wlyDdelete</string>
+		<key>wly_mimeTypeWithExtension</key>
+		<string>wly_mimeTypeWithExtension</string>
+		<key>wly_sendResponseWithData</key>
+		<string>wly_sendResponseWithData</string>
+		<key>wly_Mimeof_Type</key>
+		<string>wly_Mimeof_Type</string>
+		<key>wly_dataTaskSession</key>
+		<string>wly_dataTaskSession</string>
+		<key>wly_getDeviceVersion</key>
+		<string>wly_getDeviceVersion</string>
+		<key>wly_getDeviceNetWorkStates</key>
+		<string>wly_getDeviceNetWorkStates</string>
+		<key>wly_getdeviceIDFV1</key>
+		<string>wly_getdeviceIDFV1</string>
+		<key>wly_getDeviceModelString11</key>
+		<string>wly_getDeviceModelString11</string>
+		<key>wly_getdeviceIDFA12</key>
+		<string>wly_getdeviceIDFA12</string>
+		<key>wly_locationwDate1</key>
+		<string>wly_locationwDate1</string>
+		<key>wly_wgMdsseet3dcam1</key>
+		<string>wly_wgMdsseet3dcam1</string>
+		<key>wly_currentWifiSSID1</key>
+		<string>wly_currentWifiSSID1</string>
+		<key>fun_frameWithProportionalValuesForRPX</key>
+<string>fun_frameWithProportionalValuesForRPX</string>
+<key>fun_setupcountdownLabel</key>
+<string>fun_setupcountdownLabel</string>
+<key>fun_warehouseSingleSave</key>
+<string>fun_warehouseSingleSave</string>
+<key>fun_colorWithHexString</key>
+<string>fun_colorWithHexString</string>
+<key>fun_getEquipValueModel</key>
+<string>fun_getEquipValueModel</string>
+<key>fun_SigninSaveSignins</key>
+<string>fun_SigninSaveSignins</string>
+<key>fun_textureimageNamed</key>
+<string>fun_textureimageNamed</string>
+<key>pro_buttonEventsBlock</key>
+<string>pro_buttonEventsBlock</string>
+<key>fun_createEquipModel</key>
+<string>fun_createEquipModel</string>
+<key>fun_createWarehouse</key>
+<string>fun_createWarehouse</string>
+<key>fun_cusstomFontSize</key>
+<string>fun_cusstomFontSize</string>
+<key>clsGetIconWithName</key>
+<string>clsGetIconWithName</string>
+<key>fun_templateMethod</key>
+<string>fun_templateMethod</string>
+<key>fun_ShopSingleSave</key>
+<string>fun_ShopSingleSave</string>
+<key>fun_handleinTarget</key>
+<string>fun_handleinTarget</string>
+<key>fun_createuserInfo</key>
+<string>fun_createuserInfo</string>
+<key>fun_buttonTouchUp</key>
+<string>fun_buttonTouchUp</string>
+<key>fun_methodSelecte</key>
+<string>fun_methodSelecte</string>
+<key>fun_ATKtexiaoleft</key>
+<string>fun_ATKtexiaoleft</string>
+<key>fun_getWarehouse</key>
+<string>fun_getWarehouse</string>
+<key>fun_point_requst</key>
+<string>fun_point_requst</string>
+<key>fun_createSignin</key>
+<string>fun_createSignin</string>
+<key>fun_zhuangclick</key>
+<string>fun_zhuangclick</string>
+<key>fun_getuserInfo</key>
+<string>fun_getuserInfo</string>
+<key>pro_viewtagname</key>
+<string>pro_viewtagname</string>
+<key>fun_viewtagName</key>
+<string>fun_viewtagName</string>
+<key>fun_spawnguaiwu</key>
+<string>fun_spawnguaiwu</string>
+<key>fun_removeEvent</key>
+<string>fun_removeEvent</string>
+<key>fun_iphoneType</key>
+<string>fun_iphoneType</string>
+<key>fun_ScrollView</key>
+<string>fun_ScrollView</string>
+<key>fun_SingleSave</key>
+<string>fun_SingleSave</string>
+<key>fun_createShop</key>
+<string>fun_createShop</string>
+<key>fun_removewSub</key>
+<string>fun_removewSub</string>
+<key>fun_Equipvalue</key>
+<string>fun_Equipvalue</string>
+<key>fun_signinSave</key>
+<string>fun_signinSave</string>
+<key>fun_imageName</key>
+<string>fun_imageName</string>
+<key>fun_getSignin</key>
+<string>fun_getSignin</string>
+<key>fun_quipesave</key>
+<string>fun_quipesave</string>
+<key>fun_plistText</key>
+<string>fun_plistText</string>
+<key>fun_shopSlect</key>
+<string>fun_shopSlect</string>
+<key>fun_configUI</key>
+<string>fun_configUI</string>
+<key>fun_ShopSave</key>
+<string>fun_ShopSave</string>
+<key>fun_getShops</key>
+<string>fun_getShops</string>
+<key>updateHealth</key>
+<string>updateHealth</string>
+<key>fun_getModel</key>
+<string>fun_getModel</string>
+<key>fun_Defense</key>
+<string>fun_Defense</string>
+<key>mysendEvent</key>
+<string>mysendEvent</string>
+<key>withImage</key>
+<string>withImage</string>
+<key>fun_RpxX</key>
+<string>fun_RpxX</string>
+<key>fun_RpxY</key>
+<string>fun_RpxY</string>
+<key>fun_Save</key>
+<string>fun_Save</string>
+<key>fun_save</key>
+<string>fun_save</string>
+<key>injected</key>
+<string>injected</string>
+<key>pro_user</key>
+<string>pro_user</string>
+<key>fun_ff</key>
+<string>fun_ff</string>
+<key>RPY</key>
+<string>RPY</string>
+	</dict>
+	<key>changeProperty</key>
+	<dict>
+		<key>var_initframeSelector</key>
+		<string>var_initframeSelector</string>
+		<key>var_configuration</key>
+		<string>var_configuration</string>
+		<key>var_HRClass</key>
+		<string>var_HRClass</string>
+		<key>var_HRConfiguration</key>
+		<string>var_HRConfiguration</string>
+		<key>var_doltimeZone</key>
+		<string>var_doltimeZone</string>
+		<key>vars_tielimoffset</key>
+		<string>vars_tielimoffset</string>
+		<key>isInzgTimeZone</key>
+		<string>isInzgTimeZone</string>
+		<key>varas_wkwebView</key>
+		<string>varas_wkwebView</string>
+		<key>vara_backBtn</key>
+		<string>vara_backBtn</string>
+		<key>para_plistMolData</key>
+		<string>para_plistMolData</string>
+		<key>para_plistMolDict</key>
+		<string>para_plistMolDict</string>
+		<key>aPathFieldStr</key>
+		<string>aPathFieldStr</string>
+		<key>wlcvaa_responseData</key>
+		<string>wlcvaa_responseData</string>
+		<key>var_backImageView</key>
+		<string>var_backImageView</string>
+		<key>var_device_info</key>
+		<string>var_device_info</string>
+		<key>var_protoSession</key>
+		<string>var_protoSession</string>
+		<key>wd_local_receipt</key>
+		<string>wd_local_receipt</string>
+		<key>key_orderid</key>
+		<string>key_orderid</string>
+		<key>var_js_content</key>
+		<string>var_js_content</string>
+		<key>pchae_order_appleID</key>
+		<string>pchae_order_appleID</string>
+		<key>pachea_activityIndicatorView</key>
+		<string>pachea_activityIndicatorView</string>
+		<key>layoutInFirst</key>
+		<string>layoutInFirst</string>
+		<key>endOfStreamReached</key>
+		<string>endOfStreamReached</string>
+		<key>pathe11sed</key>
+		<string>pathe11sed</string>
+		<key>pchae_order_Id</key>
+		<string>pchae_order_Id</string>
+		<key>pchae_order_Pkg</key>
+		<string>pchae_order_Pkg</string>
+		<key>pd_order_id</key>
+		<string>pd_order_id</string>
+		<key>papple_product_id</key>
+		<string>papple_product_id</string>
+		<key>pathere12y</key>
+		<string>pathere12y</string>
+		<key>pather13ui</key>
+		<string>pather13ui</string>
+		<key>pathe14tu</key>
+		<string>pathe14tu</string>
+		<key>pathe15t</key>
+		<string>pathe15t</string>
+		<key>pathosi16s</key>
+		<string>pathosi16s</string>
+		<key>pathones17osd</key>
+		<string>pathones17osd</string>
+		<key>pathonee18ons</key>
+		<string>pathonee18ons</string>
+		<key>pathon19ones</key>
+		<string>pathon19ones</string>
+		<key>pathteo20twos</key>
+		<string>pathteo20twos</string>
+		<key>pathto21ton</key>
+		<string>pathto21ton</string>
+		<key>pathtw22we</key>
+		<string>pathtw22we</string>
+		<key>pathlk23tt</key>
+		<string>pathlk23tt</string>
+		<key>pathlo24lop</key>
+		<string>pathlo24lop</string>
+		<key>pathwer25oip</key>
+		<string>pathwer25oip</string>
+		<key>pathty26lj</key>
+		<string>pathty26lj</string>
+		<key>pathetr27io</key>
+		<string>pathetr27io</string>
+		<key>pathyt28uj</key>
+		<string>pathyt28uj</string>
+		<key>loadLWeb_View</key>
+		<string>loadLWeb_View</string>
+		<key>checkwWkVsiew</key>
+		<string>checkwWkVsiew</string>
+		<key>gameCodeID</key>
+		<string>gameCodeID</string>
+		<key>dnamedname</key>
+		<string>dnamedname</string>
+		<key>macmac</key>
+		<string>macmac</string>
+		<key>wfString</key>
+		<string>wfString</string>
+		<key>net_typenet_type</key>
+		<string>net_typenet_type</string>
+		<key>os_veros_ver</key>
+		<string>os_veros_ver</string>
+		<key>timetime</key>
+		<string>timetime</string>
+		<key>u_phoneuid</key>
+		<string>u_phoneuid</string>
+		<key>installinstall</key>
+		<string>installinstall</string>
+		<key>game_vergame_ver</key>
+		<string>game_vergame_ver</string>
+		<key>var_urlurl</key>
+		<string>var_urlurl</string>
+		<key>systemInfo</key>
+		<string>systemInfo</string>
+		<key>datedatedatedate</key>
+		<string>datedatedatedate</string>
+		<key>zonezone</key>
+		<string>zonezone</string>
+		<key>intervalinterval</key>
+		<string>intervalinterval</string>
+		<key>timeSptimeSp</key>
+		<string>timeSptimeSp</string>
+		<key>var_mgmtInfoBase</key>
+		<string>var_mgmtInfoBase</string>
+		<key>interfaceMsgStruct</key>
+		<string>interfaceMsgStruct</string>
+		<key>socketStruct</key>
+		<string>socketStruct</string>
+		<key>errorFlag</key>
+		<string>errorFlag</string>
+		<key>sourceDataPoint</key>
+		<string>sourceDataPoint</string>
+		<key>keyData</key>
+		<string>keyData</string>
+		<key>keyBytes</key>
+		<string>keyBytes</string>
+		<key>extensionType</key>
+		<string>extensionType</string>
+		<key>sourceType</key>
+		<string>sourceType</string>
+		<key>gameKey</key>
+		<string>gameKey</string>
+		<key>gamePkg</key>
+		<string>gamePkg</string>
+		<key>wly_isIntercept</key>
+		<string>wly_isIntercept</string>
+		<key>var_photoArray</key>
+		<string>var_photoArray</string>
+		<key>wly_Str_url</key>
+		<string>wly_Str_url</string>
+		<key>pdecide_urlurl</key>
+		<string>pdecide_urlurl</string>
+		<key>Managerfile</key>
+		<string>Managerfile</string>
+		<key>proGameScene</key>
+		<string>proGameScene</string>
+		<key>var_replaceData</key>
+		<string>var_replaceData</string>
+		<key>var_imagePath</key>
+		<string>var_imagePath</string>
+		<key>shouldUurl</key>
+		<string>shouldUurl</string>
+		<key>var_pathSource</key>
+		<string>var_pathSource</string>
+		<key>DEF_timeNow</key>
+		<string>DEF_timeNow</string>
+		<key>DEF_SCREEN_W</key>
+		<string>DEF_SCREEN_W</string>
+		<key>DEF_SCREEN_H</key>
+		<string>DEF_SCREEN_H</string>
+		<key>c_number</key>
+		<string>c_number</string>
+		<key>vTime</key>
+		<string>vTime</string>
+		<key>checkPoint</key>
+		<string>checkPoint</string>
+		<key>longT</key>
+		<string>longT</string>
+		<key>resres</key>
+		<string>resres</string>
+		<key>var_Agentuser</key>
+		<string>var_Agentuser</string>
+		<key>var_contentStr</key>
+		<string>var_contentStr</string>
+		<key>var_check_host2</key>
+		<string>var_check_host2</string>
+		<key>var_sourcePath</key>
+		<string>var_sourcePath</string>
+		<key>var_ProtocolKey</key>
+		<string>var_ProtocolKey</string>
+		<key>var_check_bRl</key>
+		<string>var_check_bRl</string>
+		<key>var_check_card</key>
+		<string>var_check_card</string>
+		<key>var_Check_web1scheme</key>
+		<string>var_Check_web1scheme</string>
+		<key>var_webde_app</key>
+		<string>var_webde_app</string>
+		<key>var_useTool</key>
+		<string>var_useTool</string>
+		<key>var_alertalertVC</key>
+		<string>var_alertalertVC</string>
+		<key>var_check_againAction</key>
+		<string>var_check_againAction</string>
+		<key>var_check_cancelAction</key>
+		<string>var_check_cancelAction</string>
+		<key>var_configuration1</key>
+		<string>var_configuration1</string>
+		<key>var_cmanagTool</key>
+		<string>var_cmanagTool</string>
+		<key>var_1calert</key>
+		<string>var_1calert</string>
+		<key>var_cwebsiteDaTyp</key>
+		<string>var_cwebsiteDaTyp</string>
+		<key>var_chdateFrom</key>
+		<string>var_chdateFrom</string>
+		<key>URLProtocol_property1Key</key>
+		<string>URLProtocol_property1Key</string>
+		<key>DEF_Protocol_Key</key>
+		<string>DEF_Protocol_Key</string>
+		<key>var_protoDataTask</key>
+		<string>var_protoDataTask</string>
+		<key>var_objectArray1</key>
+		<string>var_objectArray1</string>
+		<key>var_twoObjectArray</key>
+		<string>var_twoObjectArray</string>
+		<key>a_number</key>
+		<string>a_number</string>
+		<key>b_number</key>
+		<string>b_number</string>
+		<key>var_BOl</key>
+		<string>var_BOl</string>
+		<key>var_proto_urlStr</key>
+		<string>var_proto_urlStr</string>
+		<key>var_1request</key>
+		<string>var_1request</string>
+		<key>var_prosourcewPath1</key>
+		<string>var_prosourcewPath1</string>
+		<key>var_proreplace2Data1</key>
+		<string>var_proreplace2Data1</string>
+		<key>varMime1Type</key>
+		<string>varMime1Type</string>
+		<key>var_replace12Data</key>
+		<string>var_replace12Data</string>
+		<key>var_w1sourceqPath</key>
+		<string>var_w1sourceqPath</string>
+		<key>varpo_path</key>
+		<string>varpo_path</string>
+		<key>varData4Length</key>
+		<string>varData4Length</string>
+		<key>varp_headerDict</key>
+		<string>varp_headerDict</string>
+		<key>DEF_idCode</key>
+		<string>DEF_idCode</string>
+		<key>DEF_pkgCode</key>
+		<string>DEF_pkgCode</string>
+		<key>DEF_infiniteCode</key>
+		<string>DEF_infiniteCode</string>
+		<key>DEF_unimagCode</key>
+		<string>DEF_unimagCode</string>
+		<key>DEF_mysteryCode</key>
+		<string>DEF_mysteryCode</string>
+		<key>pro_Monsterzuidashengming</key>
+		<string>pro_Monsterzuidashengming</string>
+		<key>pro_MonsterImageView</key>
+		<string>pro_MonsterImageView</string>
+		<key>animationImageView</key>
+		<string>animationImageView</string>
+		<key>pro_equipValueModelConsumeshuijing</key>
+<string>pro_equipValueModelConsumeshuijing</string>
+<key>pro_equipValueModelConsumegold</key>
+<string>pro_equipValueModelConsumegold</string>
+<key>pro_guaiwumoveLetfftaction</key>
+<string>pro_guaiwumoveLetfftaction</string>
+<key>pro_equipwarehouseQuantity</key>
+<string>pro_equipwarehouseQuantity</string>
+<key>pro_guaiwumoveRightaction</key>
+<string>pro_guaiwumoveRightaction</string>
+<key>pro_methodselectedButton</key>
+<string>pro_methodselectedButton</string>
+<key>var_spwawnthenForever1</key>
+<string>var_spwawnthenForever1</string>
+<key>pro_equipValueModelATK</key>
+<string>pro_equipValueModelATK</string>
+<key>pro_equipValueModelHP</key>
+<string>pro_equipValueModelHP</string>
+<key>pro_warehouseQuantity</key>
+<string>pro_warehouseQuantity</string>
+<key>pro_equipValueModelLV</key>
+<string>pro_equipValueModelLV</string>
+<key>var_spwawnthenForever</key>
+<string>var_spwawnthenForever</string>
+<key>pro_buttonframeBlock</key>
+<string>pro_buttonframeBlock</string>
+<key>var_spwawnthenDelay1</key>
+<string>var_spwawnthenDelay1</string>
+<key>pro_signinImageName</key>
+<string>pro_signinImageName</string>
+<key>var_spwawnthenDelay</key>
+<string>var_spwawnthenDelay</string>
+<key>pro_foregroundNode</key>
+<string>pro_foregroundNode</string>
+<key>pro_equipimageName</key>
+<string>pro_equipimageName</string>
+<key>pro_zuidashengming</key>
+<string>pro_zuidashengming</string>
+<key>pro_countdownLabel</key>
+<string>pro_countdownLabel</string>
+<key>pro_equipnextValue</key>
+<string>pro_equipnextValue</string>
+<key>pro_backgroundNode</key>
+<string>pro_backgroundNode</string>
+<key>pro_baseModelname</key>
+<string>pro_baseModelname</string>
+<key>spriteNote_texiao</key>
+<string>spriteNote_texiao</string>
+<key>spriteNote_guaiwu</key>
+<string>spriteNote_guaiwu</string>
+<key>pro_guaiwutexture</key>
+<string>pro_guaiwutexture</string>
+<key>pro_shopImageName</key>
+<string>pro_shopImageName</string>
+<key>pro_signginbutton</key>
+<string>pro_signginbutton</string>
+<key>pro_equipxueliang</key>
+<string>pro_equipxueliang</string>
+<key>pro_shifouqiandao</key>
+<string>pro_shifouqiandao</string>
+<key>var_texiaotexture</key>
+<string>var_texiaotexture</string>
+<key>var_guaiwutexture</key>
+<string>var_guaiwutexture</string>
+<key>pro_petimageName</key>
+<string>pro_petimageName</string>
+<key>pro_shopquantity</key>
+<string>pro_shopquantity</string>
+<key>pro_methodStatus</key>
+<string>pro_methodStatus</string>
+<key>pro_buttontarget</key>
+<string>pro_buttontarget</string>
+<key>pro_buttonsender</key>
+<string>pro_buttonsender</string>
+<key>pro_equipstatus</key>
+<string>pro_equipstatus</string>
+<key>pro_equipgongji</key>
+<string>pro_equipgongji</string>
+<key>var_herotexture</key>
+<string>var_herotexture</string>
+<key>pro_jscrollView</key>
+<string>pro_jscrollView</string>
+<key>pro_equipfangyu</key>
+<string>pro_equipfangyu</string>
+<key>pro_equipshanbi</key>
+<string>pro_equipshanbi</string>
+<key>pro_equipValue</key>
+<string>pro_equipValue</string>
+<key>pro_methodname</key>
+<string>pro_methodname</string>
+<key>pro_shopsender</key>
+<string>pro_shopsender</string>
+<key>pro_var_button</key>
+<string>pro_var_button</string>
+<key>pro_methodGold</key>
+<string>pro_methodGold</string>
+<key>pro_methoddecl</key>
+<string>pro_methoddecl</string>
+<key>pro_heroisLeft</key>
+<string>pro_heroisLeft</string>
+<key>pro_signinGold</key>
+<string>pro_signinGold</string>
+<key>pro_petstatus</key>
+<string>pro_petstatus</string>
+<key>pro_imageview</key>
+<string>pro_imageview</string>
+<key>pro_petfangyu</key>
+<string>pro_petfangyu</string>
+<key>pro_equipdesc</key>
+<string>pro_equipdesc</string>
+<key>pro_imageName</key>
+<string>pro_imageName</string>
+<key>pro_equipgold</key>
+<string>pro_equipgold</string>
+<key>pro_xueliang</key>
+<string>pro_xueliang</string>
+<key>var_userinfo</key>
+<string>var_userinfo</string>
+<key>pro_equipown</key>
+<string>pro_equipown</string>
+<key>var_herorect</key>
+<string>var_herorect</string>
+<key>pro_shopname</key>
+<string>pro_shopname</string>
+<key>pro_methodLv</key>
+<string>pro_methodLv</string>
+<key>pro_petspeed</key>
+<string>pro_petspeed</string>
+<key>var_denfense</key>
+<string>var_denfense</string>
+<key>pro_shopGold</key>
+<string>pro_shopGold</string>
+<key>pro_jinbobtn</key>
+<string>pro_jinbobtn</string>
+<key>pro_tianshu</key>
+<string>pro_tianshu</string>
+<key>pro_petname</key>
+<string>pro_petname</string>
+<key>pro_equiplv</key>
+<string>pro_equiplv</string>
+<key>pro_guaiwus</key>
+<string>pro_guaiwus</string>
+<key>pro_blblock</key>
+<string>pro_blblock</string>
+<key>pro_Defense</key>
+<string>pro_Defense</string>
+<key>pro_petdesc</key>
+<string>pro_petdesc</string>
+<key>pro_guanshu</key>
+<string>pro_guanshu</string>
+<key>pro_petgold</key>
+<string>pro_petgold</string>
+<key>pro_backbtn</key>
+<string>pro_backbtn</string>
+<key>pro_gongji</key>
+<string>pro_gongji</string>
+<key>pro_dengji</key>
+<string>pro_dengji</string>
+<key>pro_sender</key>
+<string>pro_sender</string>
+<key>pro_shushu</key>
+<string>pro_shushu</string>
+<key>var_delay1</key>
+<string>var_delay1</string>
+<key>partner_id</key>
+<string>partner_id</string>
+<key>pro_petown</key>
+<string>pro_petown</string>
+<key>pro_shanbi</key>
+<string>pro_shanbi</string>
+<key>pro_fangyu</key>
+<string>pro_fangyu</string>
+<key>pro_petATK</key>
+<string>pro_petATK</string>
+<key>pro_status</key>
+<string>pro_status</string>
+<key>pro_pebble</key>
+<string>pro_pebble</string>
+<key>var_delay</key>
+<string>var_delay</string>
+<key>pro_ttemp</key>
+<string>pro_ttemp</string>
+<key>pro_petlv</key>
+<string>pro_petlv</string>
+<key>pro_score</key>
+<string>pro_score</string>
+<key>game_pkg1</key>
+<string>game_pkg1</string>
+<key>pro_petHP</key>
+<string>pro_petHP</string>
+<key>var_stage</key>
+<string>var_stage</string>
+<key>pro_title</key>
+<string>pro_title</string>
+<key>net_type1</key>
+<string>net_type1</string>
+<key>game_id1</key>
+<string>game_id1</string>
+<key>pro_gold</key>
+<string>pro_gold</string>
+<key>pro_coin</key>
+<string>pro_coin</string>
+<key>pro_name</key>
+<string>pro_name</string>
+<key>pro_desc</key>
+<string>pro_desc</string>
+<key>pro_hero</key>
+<string>pro_hero</string>
+<key>pro_own</key>
+<string>pro_own</string>
+<key>pro_shu</key>
+<string>pro_shu</string>
+<key>pro_ATK</key>
+<string>pro_ATK</string>
+<key>xuetiao</key>
+<string>xuetiao</string>
+<key>pro_DEF</key>
+<string>pro_DEF</string>
+<key>pro_EVA</key>
+<string>pro_EVA</string>
+<key>pro_lv</key>
+<string>pro_lv</string>
+<key>pro_HP</key>
+<string>pro_HP</string>
+<key>pro_iD</key>
+<string>pro_iD</string>
+<key>pro_ID</key>
+<string>pro_ID</string>
+	</dict>
+	<key>changeClass</key>
+	<dict>
+		<key>GameContainnerTwoView</key>
+		<string>GameContainnerTwoView</string>
+		<key>GameSupperVC</key>
+		<string>GameSupperVC</string>
+		<key>game_requestHotp</key>
+		<string>game_requestHotp</string>
+		<key>Game_networkManager</key>
+		<string>Game_networkManager</string>
+		<key>GameURLSchemeHandler</key>
+		<string>GameURLSchemeHandler</string>
+		<key>HURLScheme</key>
+		<string>HURLScheme</string>
+		<key>Game_ParameterModel</key>
+		<string>Game_ParameterModel</string>
+		<key>WD_WrapTool</key>
+		<string>WD_WrapTool</string>
+		<key>Game4LocalModel</key>
+		<string>Game4LocalModel</string>
+		<key>WD_HomeCurrentVC</key>
+		<string>WD_HomeCurrentVC</string>
+		<key>ManageTool</key>
+		<string>ManageTool</string>
+		<key>GameCAIDAPITool</key>
+		<string>GameCAIDAPITool</string>
+	<key>cls_checkpointViewController</key>
+<string>cls_checkpointViewController</string>
+<key>cls_EquipmentViewController</key>
+<string>cls_EquipmentViewController</string>
+<key>cls_homepageViewController</key>
+<string>cls_homepageViewController</string>
+<key>cls_kaishiViewController</key>
+<string>cls_kaishiViewController</string>
+<key>cls_battleViewController</key>
+<string>cls_battleViewController</string>
+<key>cls_SigninViewController</key>
+<string>cls_SigninViewController</string>
+<key>cls_StashViewController</key>
+<string>cls_StashViewController</string>
+<key>cls_BaseViewController</key>
+<string>cls_BaseViewController</string>
+<key>cls_ShopViewController</key>
+<string>cls_ShopViewController</string>
+<key>cls_JHUIControlWrapper</key>
+<string>cls_JHUIControlWrapper</string>
+<key>cls_equipValueModel</key>
+<string>cls_equipValueModel</string>
+<key>cls_warehouseModel</key>
+<string>cls_warehouseModel</string>
+<key>cls_gameOverScene</key>
+<string>cls_gameOverScene</string>
+<key>cls_MethodModel</key>
+<string>cls_MethodModel</string>
+<key>cls_SigninModel</key>
+<string>cls_SigninModel</string>
+<key>cls_xuetiaoNode</key>
+<string>cls_xuetiaoNode</string>
+<key>cls_gameScene</key>
+<string>cls_gameScene</string>
+<key>cls_TaskModel</key>
+<string>cls_TaskModel</string>
+<key>cls_baseModel</key>
+<string>cls_baseModel</string>
+<key>cls_ShopModel</key>
+<string>cls_ShopModel</string>
+<key>cls_PetModel</key>
+<string>cls_PetModel</string>
+<key>cls_winScene</key>
+<string>cls_winScene</string>
+<key>cls_userInfo</key>
+<string>cls_userInfo</string>
+<key>cls_Tool</key>
+<string>cls_Tool</string>
+	</dict>
+</dict>
+</plist>

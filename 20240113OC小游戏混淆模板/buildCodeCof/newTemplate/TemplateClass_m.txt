@@ -1,0 +1,34 @@
+//
+//  @ClassName@.m
+//
+
+#import "@ClassName@.h"
+
+@interface @ClassName@ ()
+
+@property (nonatomic, strong) NSString* @classValue1@;
+
+@end
+
+@implementation @ClassName@
+{
+@classKeyValue2@ *@classValue2@;
+
+@classKeyValue3@ *@classValue3@;
+}
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
+
+@funclistvalue@
+
+
+
+
+@end
+

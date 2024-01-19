@@ -1,0 +1,13 @@
+//
+//  @ClassName@.h
+
+//
+
+#import <Foundation/Foundation.h>
+@headfile@
+
+@interface @ClassName@ : NSObject
+
+@funclistkey@
+
+@end

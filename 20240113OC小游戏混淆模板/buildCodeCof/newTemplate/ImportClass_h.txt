@@ -1,0 +1,10 @@
+//
+//  @ImportClassName@.h
+//
+
+#import <Foundation/Foundation.h>
+
+@interface @ImportClassName@ : NSObject
+
+
+@end

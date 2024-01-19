@@ -1,0 +1,26 @@
+//
+//  @ImportClassName@.m
+
+//
+
+#import "@ImportClassName@.h"
+
+@classlist@
+
+@interface @ImportClassName@ ()
+
+@end
+
+@implementation @ImportClassName@
+
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        NSMutableArray *array = [NSMutableArray new];
+        @useclasslist@
+    }
+    return self;
+}
+
+@end
+
