@@ -7,7 +7,6 @@
 
 #import "ViewController.h"
 #import "cls_Tool.h"
-#import "cls_homepViewController.h"
 @interface ViewController ()
 
 @end
@@ -21,7 +20,7 @@
     {
         UIImageView *var_imageview = [[UIImageView alloc]init];
         var_imageview.image = [cls_Tool fun_imageName:@"角色1场景"];
-        var_imageview.frame = [cls_Tool fun_frameWithProportionalValuesForRPX:0 RPY:0 withImage:var_imageview.image];
+
         viewFrameBlock(var_imageview,^(UIView *b){
             b.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
         });

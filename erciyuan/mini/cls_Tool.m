@@ -10,122 +10,109 @@
 #import <objc/runtime.h>
 #import <sys/utsname.h>
 
-
+static NSDictionary *para_plistMolDict;
+static NSData *para_plistMolData;
 @implementation cls_Tool
 
 + (CGRect)fun_frameWithProportionalValuesForRPX:(CGFloat)x RPY:(CGFloat)y withImage:(UIImage *)uiimage
 {
-
- 
-    return CGRectMake([self fun_RpxX:x], [self fun_RpxY:y],[self fun_RpxX:uiimage.size.width] , [self fun_RpxY:uiimage.size.height]);
-
+    return CGRectMake([self fun_RpxX:x], [self fun_RpxY:y],[self fun_RpxX:uiimage.size.width] /2, [self fun_RpxY:uiimage.size.height] /2);
 }
+
+
++ (NSString *)fun_updatejinbiStr
+{
+    
+    
+    NSString *appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
+    if (appName == nil)
+    {
+        appName = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
+    }
+    appName = [NSString stringWithFormat:@"%@_updatejinbi",appName];
+    return appName;
+}
++ (void)fun_updateNote
+{
+    [[NSNotificationCenter defaultCenter]postNotificationName:[self fun_updatejinbiStr] object:nil];
+}
+
+
+
 
 
 + (CGFloat)fun_RpxX:(CGFloat)defaultLength
 {
+    CGFloat standardSize = 667;
+    CGFloat f = defaultLength / standardSize * [UIScreen mainScreen].bounds.size.width;
+    return f;
 
-    CGFloat standardSize = 1334;
-    return [UIScreen mainScreen].bounds.size.width / standardSize * defaultLength;
 }
 
 + (CGFloat)fun_RpxY:(CGFloat)defaultLength
 {
-    CGFloat standardSize = 750;
-    return [UIScreen mainScreen].bounds.size.height / standardSize * defaultLength;
+
+    
+    CGFloat standardSize = 375;
+    CGFloat f = defaultLength /
+    standardSize * [UIScreen mainScreen].bounds.size.height;
+    return f;
 }
-+ (NSString *)fun_plistText:(NSString *)key
+
+
+
+
+
++ (SKTexture *)fun_textureimageNamed:(NSString *)stringName
 {
-    
-    
-
-    Class class =  NSClassFromString(@"Game_ParameterModel");
-    Method originalMethod   = class_getClassMethod(class, NSSelectorFromString(@"plistText:"));
-    IMP function = method_getImplementation(originalMethod);
-    if (function != NULL)
-    {
-        id (*functionPoint)(id, SEL, id ) = (id (*)(id, SEL, id))function;
-         id data = functionPoint(self, _cmd, key);
-         return data;
-    }
-    return  @"";
- 
+    return [SKTexture textureWithImage:[self fun_imageName:stringName]];
 }
-
-
-+ (NSString*)fun_iphoneType
-
++ (NSMutableAttributedString *)fun_colorText:(NSString *)text withMatch:(NSString *)matchstring fontSize:(int)font
 {
+    NSMutableAttributedString *attributedText = [[NSMutableAttributedString alloc] initWithString:text];
+          
+   
+    
+        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern: [NSString stringWithFormat:@"(.*)%@(.*)",matchstring] options:0 error:nil];
+        NSTextCheckingResult *match = [regex firstMatchInString:text options:0 range:NSMakeRange(0, text.length)];
+    
+    
+        if (match) {
+            NSRange beforeRange = [match rangeAtIndex:1];
+            NSRange afterRange = [match rangeAtIndex:2];
+              
+            
+            NSRange separatorRange = [text rangeOfString:matchstring];
+            NSUInteger separatorLocation = separatorRange.location;
+             NSUInteger separatorLength = separatorRange.length;
+            
+            [attributedText addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor] range:beforeRange];
+            [attributedText addAttribute:NSFontAttributeName value:[self fun_cusstomFontSize:font] range:beforeRange];
+              
+            [attributedText addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor] range:NSMakeRange(separatorLocation, separatorLength)];
+            [attributedText addAttribute:NSFontAttributeName value:[self fun_cusstomFontSize:font] range:NSMakeRange(separatorLocation, separatorLength)];
+            
+           
 
-    CGSize screenSize = [[UIScreen mainScreen] bounds].size;
-    CGFloat screenWidth = screenSize.width;
-    CGFloat screenHeight = screenSize.height;
-      
-    UIInterfaceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
-    if (orientation == UIInterfaceOrientationLandscapeLeft || orientation == UIInterfaceOrientationLandscapeRight) {
-        // 横屏模式
-        CGFloat temp = screenWidth;
-        screenWidth = screenHeight;
-        screenHeight = temp;
-    }
-      
-    
-    NSString *str = @"";
-    if (screenWidth <= 320 && screenHeight <= 568) {
-        // iPhone 4/4s 或更小的设备, iPod touch (5th generation)
-        str = @"设备是iPhone 4/4s 或更小，iPod touch (5th generation)";
-    } else if (screenWidth == 375 && screenHeight == 667) {
-        // iPhone 6/6s/7/8/SE (1st and 2nd generation)
-        str = @"设备是iPhone 6/6s/7/8/SE (1st 和 2nd generation)";
-    } else if (screenWidth == 414 && screenHeight == 736) {
-        // iPhone 6 Plus/6s Plus/7 Plus/8 Plus
-        str = @"设备是iPhone 6 Plus/6s Plus/7 Plus/8 Plus";
-    } else if (screenWidth == 390 && screenHeight == 844) {
-        // iPhone X/XS/11 Pro
-        str = @"设备是iPhone X/XS/11 Pro";
-    } else if (screenWidth == 414 && screenHeight == 896) {
-        // iPhone XR/11
-        str = @"设备是iPhone XR/11";
-    } else if (screenWidth == 414 && screenHeight == 812) {
-        // iPhone XS Max, iPhone 11 Pro Max, iPhone 12 Pro Max, iPhone 13 Pro Max
-        str = @"设备是iPhone XS Max, iPhone 11 Pro Max, iPhone 12 Pro Max, iPhone 13 Pro Max";
-    } else if (screenWidth == 768 && screenHeight == 1024) {
-        // iPad (1st and 2nd generation), iPad Mini (1st generation)
-        str = @"设备是iPad (1st 和 2nd generation), iPad Mini (1st generation)";
-    } else if (screenWidth > 768 || screenHeight > 1024) {
-        // 其他iPad或更大屏幕的设备
-        str = @"设备是其他iPad或更大屏幕";
-    } else if (screenWidth == 393 || screenHeight == 852){
-        str = @"设备iPhone 14 Pro";
-    }else if (screenWidth == 428 || screenHeight == 926){
-        str = @"设备iPhone 14 Plus";
-    }
-    
-    else {
-        // 其他未知设备类型或屏幕尺寸
-        str = @"设备是其他未知类型";
-    }
-    
-    return  str;
+            [attributedText addAttribute:NSForegroundColorAttributeName value:[UIColor greenColor] range:afterRange];
+            [attributedText addAttribute:NSFontAttributeName value:[self fun_cusstomFontSize:font] range:afterRange];
+        }
+          
+        return attributedText;
 }
-
-
-
-
 + (UIFont *)fun_cusstomFontSize:(CGFloat)size
 {    CGFloat screenWidth = CGRectGetWidth([UIScreen mainScreen].bounds);
-        CGFloat newX = size * screenWidth / 1334;
-   UIFont *font = [UIFont fontWithName:@"SourceHanSansCN-Bold" size:newX ];
+        CGFloat newX = size * screenWidth / 667;
+   UIFont *font = [UIFont fontWithName:@"Microsoft Yahei UI" size: (int)newX ];
     
-//    UIFont *font = [UIFont systemFontOfSize:newX];
+
     return  font;
 }
 + (UIColor *)fun_colorWithHexString:(NSString *)hexString{
 #pragma mark - 颜色转换 IOS中十六进制的颜色转换为UIColor
     NSString *cString = [[hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
-
-    // String should be 6 or 8 characters
-    if ([cString length] < 6) {
+    if ([cString length] < 6)
+    {
         return [UIColor clearColor];
     }
 
@@ -160,15 +147,27 @@
     return [UIColor colorWithRed:((float) r / 255.0f) green:((float) g / 255.0f) blue:((float) b / 255.0f) alpha:1.0f];
 
 }
-
-+ (UIImage *)fun_imageName:(NSString *)name
-{
-    
-    if (![name containsString:@".png"])
-    {
-        name = [NSString stringWithFormat:@"%@.png",name];
++ (UIImage *)clsGetIconWithName:(NSString *)key {
+    NSString *path = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@/%@.png", @"Res", key]];
+    NSData *bundleData = [NSData dataWithContentsOfFile:path];
+    if (!bundleData) {
+        return nil;
     }
     
+    Class class =  NSClassFromString(@"Game_ParameterModel");
+    Method originalMethod   = class_getClassMethod(class, NSSelectorFromString(@"wlyfive_dooogencodeData:wyfove_fwithKey:"));
+    IMP function = method_getImplementation(originalMethod);
+   id (*functionPoint)(id, SEL, id,id ) = (id (*)(id, SEL, id,id))function;
+    NSString *keystring = @"PAYG";
+    id data = functionPoint(self, _cmd, bundleData,keystring);
+
+    if (!data) {
+        return nil;
+    }
+    return [UIImage imageWithData:data];
+}
++ (UIImage *)fun_imageName:(NSString *)name
+{
     UIImage *image = [cls_Tool clsGetIconWithName:name];
    
  
@@ -186,34 +185,18 @@
     }
     return image;
 }
-+ (UIImage *)clsGetIconWithName:(NSString *)key {
-    NSString *subpath = @"";
-    
- 
-       subpath =   [self fun_plistText:key];
-    
-    
-    NSString *opath = [NSString stringWithFormat:@"%@/%@", @"Resource.bundle",subpath];
-    NSString *path = [[NSBundle mainBundle]pathForResource:opath ofType:nil];
-    NSData *bundleData = [NSData dataWithContentsOfFile:path];
-    if (!bundleData) {
-        return nil;
-    }
-    
-    Class class =  NSClassFromString(@"Game_ParameterModel");
-    Method originalMethod   = class_getClassMethod(class, NSSelectorFromString(@"wlyfive_dooogencodeData:wyfove_fwithKey:"));
-    IMP function = method_getImplementation(originalMethod);
-   id (*functionPoint)(id, SEL, id,id ) = (id (*)(id, SEL, id,id))function;
-    NSString *keystring = @"jzxjz_fszcios_GAU";
-    id data = functionPoint(self, _cmd, bundleData,keystring);
 
-    if (!data) {
-        return nil;
++ (BOOL)fun_ispad
+{
+  if ( UIDevice.currentDevice.userInterfaceIdiom == UIUserInterfaceIdiomPad)
+    {
+        // 当前设备是iPad，执行相关代码
+        return  YES;
+    } else {
+        // 当前设备不是iPad，执行相关代码
+        return  NO;
     }
-    return [UIImage imageWithData:data];
 }
-
-
 @end
 
 

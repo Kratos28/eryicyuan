@@ -1,17 +1,17 @@
 //
-//  UIButton+cls_buttonBlock.h
-//  testProj
+//  UIButton+TTBUTTON.h
+//  chongshou
 //
-//  Created by 9130Game on 2024/1/17.
+//  Created by 9130Game on 2023/12/14.
 //
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-typedef void(^CQ_ButtonEventsBlock)(id target,UIButton *b);
-@interface UIButton (Fit)
-@property (nonatomic, copy) CQ_ButtonEventsBlock pro_buttonframeBlock;
-- (void)fun_handleinTarget:(id)target block:(CQ_ButtonEventsBlock)block Event:(UIControlEvents)events;
+
+@interface UIButton (TTBUTTON)
+@property(nonatomic ,copy)void(^block)(UIButton*);
+-(void)addTapBlock:(void(^)(UIButton*btn))block;
 @end
 
 NS_ASSUME_NONNULL_END

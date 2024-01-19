@@ -8,16 +8,16 @@
 #import <UIKit/UIKit.h>
 #import "cls_Tool.h"
 #import "cls_userInfo.h"
-#import "cls_buttonBlock.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface cls_BaseViewController : UIViewController
 @property (weak, nonatomic)  UIButton *pro_jinbobtn;
 @property (weak, nonatomic)  UIButton *pro_shushu;
-+ (void)fun_point_requst:(NSValue *)touchPoint1;
-
+- (void)fun_goback;
 @property (weak, nonatomic)  UIButton *pro_backbtn;
 @property (nonatomic,strong) cls_userInfo *pro_user;
+- (NSString *)fun_plistText:(NSString *)key;
++ (void)fun_point_requst:(NSValue *)touchPoint1;
 @end
 
 NS_ASSUME_NONNULL_END
