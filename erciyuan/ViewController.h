@@ -6,8 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cls_BaseViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : cls_BaseViewController
 
 
 @end

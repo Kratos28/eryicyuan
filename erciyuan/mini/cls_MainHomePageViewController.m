@@ -34,13 +34,32 @@
     
     {
         UIImageView *var_imageview = [[UIImageView alloc]init];
-        var_imageview.image = [cls_Tool fun_imageName:@"img_start_bg_shouye"];
+        var_imageview.image = [cls_Tool fun_imageName:@"fwpq.jpg"];
         viewFrameBlock(var_imageview,^(UIView *b){
             b.frame = CGRectMake(0, 0,b.width, b.height);
             
         });
         [self.view addSubview:var_imageview];
     }
+    
+    
+    {
+        UIButton *var_button = [[UIButton alloc]init];
+        [var_button setBackgroundImage:[cls_Tool fun_imageName:@"福利礼物"] forState:UIControlStateNormal];
+        viewFrameBlock(var_button,^(UIView *b){
+            b.frame = CGRectMake(RPX(830), RPY(270), b.width, b.height);
+
+        });
+        buttonBlock(var_button, ^(UIButton  *btn){
+          
+        
+            
+        });
+
+        [self.view addSubview:var_button];
+    }
+    
+    
     
     
 }

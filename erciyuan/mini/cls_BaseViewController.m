@@ -38,7 +38,7 @@
 
         [var_button setBackgroundImage:[cls_Tool fun_imageName:@"img_skill_btn_back"] forState:0];
         viewFrameBlock(var_button,^(UIView *b){
-            b.frame = CGRectMake(RPX(10), RPY(20), b.width, b.height);
+            b.frame = CGRectMake(RPX(10), RPY(20), RPX(150), RPY(30));
         });
 //        var_button.frame = CGRectMake(0, 0, 100, 50);
         [var_button addTarget:self action:@selector(fun_goback) forControlEvents:64];
@@ -52,7 +52,7 @@
 
         UIButton *var_button = [[UIButton alloc]init];
         viewFrameBlock(var_button,^(UIView *b){
-            b.frame = CGRectMake(RPX(10), RPY(15),b.width, b.height);
+            b.frame = CGRectMake(RPX(540), RPY(20), RPX(150), RPY(30));
         });
 
 
@@ -66,7 +66,23 @@
     }
 
 
+    {
 
+
+        UIButton *var_button = [[UIButton alloc]init];
+        viewFrameBlock(var_button,^(UIView *b){
+            b.frame = CGRectMake(RPX(800), RPY(20), RPX(150), RPY(30));
+        });
+
+
+        var_button.titleLabel.font = [cls_Tool fun_cusstomFontSize:16];
+        [var_button setBackgroundImage:[cls_Tool fun_imageName:@"img_mian city_icon_gold"]  forState:UIControlStateNormal];
+        [var_button setTitleColor:[UIColor colorWithRed:255/255.0 green:219/255.0 blue:158/255.0 alpha:1] forState:0];
+        [var_button setTitle:[NSString stringWithFormat:@" %d",userinfo.pro_gold] forState:0];
+
+        [self.view addSubview:var_button];
+        self.pro_shushu = var_button;
+    }
 
 
 

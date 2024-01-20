@@ -43,7 +43,7 @@ static NSData *para_plistMolData;
 
 + (CGFloat)fun_RpxX:(CGFloat)defaultLength
 {
-    CGFloat standardSize = 667;
+    CGFloat standardSize = 1024;
     CGFloat f = defaultLength / standardSize * [UIScreen mainScreen].bounds.size.width;
     return f;
 
@@ -53,7 +53,7 @@ static NSData *para_plistMolData;
 {
 
     
-    CGFloat standardSize = 375;
+    CGFloat standardSize = 1336;
     CGFloat f = defaultLength /
     standardSize * [UIScreen mainScreen].bounds.size.height;
     return f;

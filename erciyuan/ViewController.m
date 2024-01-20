@@ -32,14 +32,13 @@
         UIButton *var_button = [[UIButton alloc]init];
         [var_button setBackgroundImage:[cls_Tool fun_imageName:@"开始按钮"] forState:UIControlStateNormal];
         viewFrameBlock(var_button,^(UIView *b){
-            b.frame = CGRectMake(b.centerX, b.centerY, b.width, b.height);
+            b.frame = CGRectMake(b.centerX, RPY(1000), b.width, b.height);
 
         });
         buttonBlock(var_button, ^(UIButton  *btn){
           
             UIViewController *mainvc =   [[cls_MainHomePageViewController alloc]init];
             mainvc.modalPresentationStyle = UIModalPresentationOverCurrentContext|UIModalPresentationFullScreen;
-            //设置弹出动画：淡入淡出
             mainvc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
             [self presentViewController:mainvc animated:NO completion:nil];
             
