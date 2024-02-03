@@ -447,6 +447,8 @@
 				658D5D852B5C0E920079C1A3 /* cls_MainHomePageViewController.m */,
 				658D5DA02B5C0E920079C1A3 /* cls_MonsterNode.h */,
 				658D5D8C2B5C0E920079C1A3 /* cls_MonsterNode.m */,
+				658901382B653E24006F1884 /* cls_qiantianfuliViewController.h */,
+				658901392B653E24006F1884 /* cls_qiantianfuliViewController.m */,
 				658D5DA12B5C0E920079C1A3 /* cls_shopViewController.h */,
 				658D5D8B2B5C0E920079C1A3 /* cls_shopViewController.m */,
 				658D5DA42B5C0E920079C1A3 /* cls_SigninModel.h */,
@@ -466,8 +468,6 @@
 				658D5D912B5C0E920079C1A3 /* cls_warehouseModel.h */,
 				658D5D7E2B5C0E920079C1A3 /* cls_warehouseModel.m */,
 				658D5D772B5C0E920079C1A3 /* cls_xuetiaoNode.h */,
-				658901382B653E24006F1884 /* cls_qiantianfuliViewController.h */,
-				658901392B653E24006F1884 /* cls_qiantianfuliViewController.m */,
 				658D5D982B5C0E920079C1A3 /* cls_xuetiaoNode.m */,
 				658D5D7F2B5C0E920079C1A3 /* MSYHL.TTC */,
 			);

@@ -105,6 +105,11 @@
         [b.topAnchor constraintEqualToAnchor:self.view.topAnchor constant:startY + row * (mariginH + itemH)].active = YES;
         [b addTarget:self action:@selector(fun_click:) forControlEvents:64];
         
+        
+        UIButton *label = [[UIButton alloc]init];
+        [b addSubview:label];
+        label.translatesAutoresizingMaskIntoConstraints = NO;
+        
     }
     
 }
