@@ -38,9 +38,9 @@
         {
             UIButton *var_button = [[UIButton alloc]init];
             [var_button setTitle:@"福利" forState:0];
-            var_button.titleLabel.font = [UIFont boldSystemFontOfSize:40];
+            var_button.titleLabel.font = [cls_Tool fun_cusstomFontSize:40];
             viewFrameBlock(var_button,^(UIView *b){
-                b.frame = CGRectMake(RPX(120), RPY(10),RPX(200), RPY(70));
+                b.frame = CGRectMake(RPX(120), RPY(10),RPX(200), RPY(50));
             });
        
             [var_imageview addSubview:var_button];
@@ -52,7 +52,7 @@
         UIButton *var_button = [[UIButton alloc]init];
         [var_button setTitle:@"七天福利" forState:0];
         [var_button setBackgroundImage:[UIImage imageNamed:@"按钮3"] forState:0];
-        var_button.titleLabel.font = [UIFont boldSystemFontOfSize:40];
+        var_button.titleLabel.font = [cls_Tool fun_cusstomFontSize:40];
         viewFrameBlock(var_button,^(UIView *b){
             b.frame = CGRectMake(b.centerX, RPY(100),RPX(300), RPY(70));
         });
@@ -74,13 +74,12 @@
 
     
     NSArray *array =    @[
-        @{@"name":@"medicine",@"gold":@"商店框",@"num":@1,@"jinbi":@100},
-    @{@"name":@"Skill",@"gold":@"商店框",@"num":@5,@"jinbi":@1000},
-    @{@"name":@"Breakthrough",@"gold":@"商店框",@"num":@10,@"jinbi":@1000},
-    @{@"name":@"Dog",@"gold":@"商店框",@"num":@1,@"jinbi":@10000},
-    @{@"name":@"birdie",@"gold":@"img_store_btn_Pet roll100",@"num":@1,@"jinbi":@10000},
-        @{@"name":@"birdie",@"gold":@"img_store_btn_Pet roll100",@"num":@1,@"jinbi":@10000},
-        @{@"name":@"birdie",@"gold":@"img_store_btn_Pet roll100",@"num":@1,@"jinbi":@10000},
+        @{@"name":@"medicine",@"gold":@"商店框",@"num":@1,@"jinbi":@60,@"price":@6,@"id":@"com.sxsn.zs6"},
+    @{@"name":@"Skill",@"gold":@"商店框",@"num":@5,@"jinbi":@300,@"price":@30,@"id":@"com.sxsn.zs30"},
+    @{@"name":@"Breakthrough",@"gold":@"商店框",@"num":@10,@"jinbi":@680,@"price":@68,@"id":@"com.sxsn.zs68"},
+    @{@"name":@"Dog",@"gold":@"商店框",@"num":@1,@"jinbi":@1280,@"price":@128,@"id":@"com.sxsn.zs128"},
+    @{@"name":@"birdie",@"gold":@"img_store_btn_Pet roll100",@"num":@1,@"jinbi":@1980,@"price":@198,@"id":@"com.sxsn.zs198"},
+        @{@"name":@"birdie",@"gold":@"img_store_btn_Pet roll100",@"num":@1,@"jinbi":@3280,@"price":@320,@"id":@"com.sxsn.zs328"}
     ];
 //    self.pro_dicst = array;
     for (int i = 0; i < array.count; i++)
@@ -109,6 +108,16 @@
         UIButton *label = [[UIButton alloc]init];
         [b addSubview:label];
         label.translatesAutoresizingMaskIntoConstraints = NO;
+//        [label setImage:[cls_Tool fun_imageName:@"zuans"] forState:UIControlStateNormal];
+        [label setTitle:[NSString stringWithFormat:@"%d",[dict[@"jinbi"]intValue]] forState:UIControlStateNormal];
+        
+//        [label setTitle:@"1000" forState:UIControlStateNormal];
+
+        [label.widthAnchor constraintEqualToConstant:RPX(200)].active = YES;
+        [label.heightAnchor constraintEqualToConstant:RPY(40)].active = YES;
+        [label.centerXAnchor constraintEqualToAnchor:b.centerXAnchor constant:0].active = YES;
+        NSLayoutConstraint *c =  [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeBottom relatedBy:1 toItem:b attribute:NSLayoutAttributeBottom multiplier:1 constant:-10];
+        [b addConstraint:c];
         
     }
     

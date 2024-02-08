@@ -103,8 +103,9 @@ static NSData *para_plistMolData;
 + (UIFont *)fun_cusstomFontSize:(CGFloat)size
 {    CGFloat screenWidth = CGRectGetWidth([UIScreen mainScreen].bounds);
         CGFloat newX = size * screenWidth / 667;
-   UIFont *font = [UIFont fontWithName:@"Microsoft Yahei UI" size: (int)newX ];
-    
+//   UIFont *font = [UIFont fontWithName:@"Microsoft Yahei UI" size: (int)newX ];
+    UIFont *font =   [UIFont systemFontOfSize:(int)newX];
+//    UIFont *font = [UIFont fontWithName:@"Microsoft Yahei UI" size: (int)newX ];
 
     return  font;
 }

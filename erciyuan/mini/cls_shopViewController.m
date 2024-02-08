@@ -38,7 +38,7 @@
         var_imageview.userInteractionEnabled  = YES;
         var_imageview.image = [cls_Tool fun_imageName:@"img_store_bg_store2"];
         viewFrameBlock(var_imageview,^(UIView *b){
-            b.frame = CGRectMake(b.centerX, b.centerY,RPX(550), RPY(300));
+//            b.frame = CGRectMake(b.centerX, b.centerY,RPX(550), RPY(300));
         });
         [self.view addSubview:var_imageview];
         
