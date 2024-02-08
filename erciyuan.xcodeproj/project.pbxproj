@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1FF5A62B752B5000048D78 /* cls_RoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FF5A52B752B5000048D78 /* cls_RoleViewController.m */; };
 		4704B8B22B33DC940012BBBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B8B12B33DC940012BBBB /* AppDelegate.m */; };
 		4704B8B82B33DC940012BBBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B8B72B33DC940012BBBB /* ViewController.m */; };
 		4704B8BB2B33DC940012BBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8B92B33DC940012BBBB /* Main.storyboard */; };
@@ -130,6 +131,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1FF5A42B752B5000048D78 /* cls_RoleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cls_RoleViewController.h; sourceTree = "<group>"; };
+		0A1FF5A52B752B5000048D78 /* cls_RoleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cls_RoleViewController.m; sourceTree = "<group>"; };
 		4704B8AD2B33DC940012BBBB /* erciyuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = erciyuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4704B8B02B33DC940012BBBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4704B8B12B33DC940012BBBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -469,6 +472,8 @@
 				658D5D7E2B5C0E920079C1A3 /* cls_warehouseModel.m */,
 				658D5D772B5C0E920079C1A3 /* cls_xuetiaoNode.h */,
 				658D5D982B5C0E920079C1A3 /* cls_xuetiaoNode.m */,
+				0A1FF5A42B752B5000048D78 /* cls_RoleViewController.h */,
+				0A1FF5A52B752B5000048D78 /* cls_RoleViewController.m */,
 				658D5D7F2B5C0E920079C1A3 /* MSYHL.TTC */,
 			);
 			path = mini;
@@ -671,6 +676,7 @@
 				658D5DBA2B5C0E920079C1A3 /* cls_Tool.m in Sources */,
 				658D5DAA2B5C0E920079C1A3 /* cls_VWWViewController.m in Sources */,
 				4704B8B22B33DC940012BBBB /* AppDelegate.m in Sources */,
+				0A1FF5A62B752B5000048D78 /* cls_RoleViewController.m in Sources */,
 				658D5DB92B5C0E920079C1A3 /* cls_conjzebutton.m in Sources */,
 				658D5DAE2B5C0E920079C1A3 /* cls_warehouseModel.m in Sources */,
 				658D5DAC2B5C0E920079C1A3 /* cls_BaseViewController.m in Sources */,

@@ -10,9 +10,7 @@
 #import "cls_UIViewFrameCategory.h"
 //#import "cls_StashViewController.h"
 #import "cls_qiantianfuliViewController.h"
-//#import "cls_SignViewController.h"
-//#import "cls_shopViewController.h"
-//#import "cls_guankaViewController.h"
+#import "cls_RoleViewController.h"
 @interface cls_MainHomePageViewController ()
 
 @end
@@ -74,7 +72,7 @@
             
         });
         [self.view addSubview:var_imageview];
-        
+        var_imageview.userInteractionEnabled = YES;
         
         
         {
@@ -173,13 +171,14 @@
             [var_button setTitle:@"fwe" forState:0];
             [var_button setImage:[cls_Tool fun_imageName:@"角色"] forState:UIControlStateNormal];
             viewFrameBlock(var_button,^(UIView *b){
-                b.frame = CGRectMake(RPX(895), RPY(47), b.width, b.height);
+                b.frame = CGRectMake(RPX(895), RPY(30), RPX(60),RPY(60));
 
             });
             buttonBlock(var_button, ^(UIButton  *btn){
-              
             
-                
+                UIViewController *v = [[cls_RoleViewController alloc]init];
+                v.modalPresentationStyle =  UIModalPresentationFullScreen;
+                [self presentViewController:v animated:NO completion:nil];
             });
 
             [var_imageview addSubview:var_button];
