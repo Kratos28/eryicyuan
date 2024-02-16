@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) int16_t pro_equiplv;
 @property (nonatomic,assign) BOOL pro_equipown;
 @property (nonatomic,assign) int16_t pro_equipshanbi;
+@property (nonatomic,assign) bool pro_shifouchudandai;
 @property (nonatomic,assign) int16_t pro_equipstatus;
 @property (nonatomic,assign) int16_t pro_equipxueliang;
 @property (nonatomic,assign) int16_t pro_equipwarehouseQuantity;

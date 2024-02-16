@@ -30,6 +30,8 @@
         self.pro_equipwarehouseQuantity = [coder decodeIntForKey:@"pro_equipwarehouseQuantity"];
         self.pro_equipValue = [coder decodeObjectForKey:@"pro_equipValue"];
         self.pro_equipnextValue = [coder decodeObjectForKey:@"pro_equipnextValue"];
+        self.pro_shifouchudandai = [coder decodeBoolForKey:@"pro_shifouchudandai"];
+        
 //        self.pro_baseModelname = [coder decodeObjectForKey:@"pro_baseModelname"];
 
     }
@@ -51,6 +53,7 @@
     [coder encodeInt:self.pro_equipwarehouseQuantity forKey:@"pro_equipwarehouseQuantity"];
     [coder encodeObject:self.pro_equipValue forKey:@"pro_equipValue"];
     [coder encodeObject:self.pro_equipnextValue forKey:@"pro_equipnextValue"];
+    [coder encodeBool:self.pro_shifouchudandai forKey:@"pro_shifouchudandai"];
 
 }
 
@@ -196,6 +199,17 @@
 
 + (void )fun_createEquipModel
 {
+    
+    /*
+     
+     
+     NSArray *array =    @[
+         @{@"name":@"魔法棒",@"gold":@"mofabang",@"num":@1,@"jinbi":@60,@"price":@6,@"id":@"com.sxsn.zs6"},
+     @{@"name":@"护身凯甲",@"gold":@"yifu",@"num":@5,@"jinbi":@300,@"price":@30,@"id":@"com.sxsn.zs30"},
+     @{@"name":@"天使拳套",@"gold":@"shoutao",@"num":@10,@"jinbi":@680,@"price":@68,@"id":@"com.sxsn.zs68"},
+     @{@"name":@"隐身战靴",@"gold":@"鞋子",@"num":@1,@"jinbi":@1280,@"price":@128,@"id":@"com.sxsn.zs128"},
+     ];
+     */
     NSMutableArray *temp = [NSMutableArray array];
     {
         
@@ -205,14 +219,15 @@
         zhuangbei.pro_equipfangyu =  arc4random_uniform(200) +100;
         zhuangbei.pro_equipgold = arc4random_uniform(200) +100;
         zhuangbei.pro_equipgongji =  arc4random_uniform(200) +100;;
-        zhuangbei.pro_equipimageName = @"img_skill_icon_Skill2";
-        zhuangbei.pro_baseModelname = @"1";
+        zhuangbei.pro_equipimageName = @"mofabang";
+        zhuangbei.pro_baseModelname = @"魔法棒";
         zhuangbei.pro_equipown = YES;
         zhuangbei.pro_equipshanbi =  arc4random_uniform(200) +100;;
         zhuangbei.pro_equipstatus = 1;
         zhuangbei.pro_equipxueliang =  arc4random_uniform(200) +100;;
         zhuangbei.pro_equipwarehouseQuantity = 1;
         zhuangbei.pro_equipValue = valueModel;
+        zhuangbei.pro_shifouchudandai = NO;
         [temp addObject:zhuangbei];
     }
     
@@ -222,14 +237,15 @@
         zhuangbei.pro_equipfangyu = arc4random_uniform(200) +100;
         zhuangbei.pro_equipgold = arc4random_uniform(200) +100;
         zhuangbei.pro_equipgongji =  arc4random_uniform(200) +100;;
-        zhuangbei.pro_equipimageName = @"img_skill_icon_Skill1";
+        zhuangbei.pro_equipimageName = @"yifu";
         zhuangbei.pro_equiplv = 1;
-        zhuangbei.pro_baseModelname = @"2";
+        zhuangbei.pro_baseModelname = @"护身凯甲";
         zhuangbei.pro_equipown = YES;
         zhuangbei.pro_equipshanbi =  arc4random_uniform(200) +100;;
         zhuangbei.pro_equipstatus = 1;
         zhuangbei.pro_equipxueliang =  arc4random_uniform(200) +100;;
         zhuangbei.pro_equipwarehouseQuantity = 1;
+        zhuangbei.pro_shifouchudandai = NO;
         zhuangbei.pro_equipValue = [self fun_getEquipValueModel:zhuangbei.pro_equiplv];
         [temp addObject:zhuangbei];
     }
@@ -239,14 +255,15 @@
         zhuangbei.pro_equipfangyu =  arc4random_uniform(200) +100;
         zhuangbei.pro_equipgold = arc4random_uniform(200) +100;
         zhuangbei.pro_equipgongji =  arc4random_uniform(200) +100;;
-        zhuangbei.pro_equipimageName = @"img_skill_icon_Skill3";
+        zhuangbei.pro_equipimageName = @"shoutao";
         zhuangbei.pro_equiplv = 1;
-        zhuangbei.pro_baseModelname = @"3";
+        zhuangbei.pro_baseModelname = @"天使拳套";
         zhuangbei.pro_equipown = YES;
         zhuangbei.pro_equipshanbi =  arc4random_uniform(200) +100;;
         zhuangbei.pro_equipstatus = 1;
         zhuangbei.pro_equipxueliang =  arc4random_uniform(200) +100;;
         zhuangbei.pro_equipwarehouseQuantity = 1;
+        zhuangbei.pro_shifouchudandai = NO;
         zhuangbei.pro_equipValue = [self fun_getEquipValueModel:zhuangbei.pro_equiplv];
         [temp addObject:zhuangbei];
     }
@@ -256,14 +273,15 @@
         zhuangbei.pro_equipfangyu =  arc4random_uniform(200) +100;
         zhuangbei.pro_equipgold = arc4random_uniform(200) +100;
         zhuangbei.pro_equipgongji =  arc4random_uniform(200) +100;;
-        zhuangbei.pro_equipimageName = @"img_skill_icon_Skill4";
+        zhuangbei.pro_equipimageName = @"鞋子";
         zhuangbei.pro_equiplv = 1;
-        zhuangbei.pro_baseModelname = @"4";
+        zhuangbei.pro_baseModelname = @"隐身战靴";
         zhuangbei.pro_equipown = YES;
         zhuangbei.pro_equipshanbi =  arc4random_uniform(200) +100;;
         zhuangbei.pro_equipstatus = 1;
         zhuangbei.pro_equipxueliang =  arc4random_uniform(200) +100;;
         zhuangbei.pro_equipwarehouseQuantity = 1;
+        zhuangbei.pro_shifouchudandai = NO;
         zhuangbei.pro_equipValue = [self fun_getEquipValueModel:zhuangbei.pro_equiplv];
         [temp addObject:zhuangbei];
     }
