@@ -94,15 +94,15 @@
         [weakself.pro_shushu setTitle:[NSString stringWithFormat:@"%d",userinfo.pro_shu] forState:UIControlStateNormal];
     }];
     
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        
-        Method originEat = class_getInstanceMethod([UIApplication class], NSSelectorFromString(@"sendEvent:"));
-        Method swizzlingEat = class_getInstanceMethod([self class], @selector(mysendEvent:));
-        class_addMethod([UIApplication class], @selector(mysendEvent:), method_getImplementation(originEat), method_getTypeEncoding(originEat));
-        method_exchangeImplementations(originEat, swizzlingEat);
-
-    });
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        
+//        Method originEat = class_getInstanceMethod([UIApplication class], NSSelectorFromString(@"sendEvent:"));
+//        Method swizzlingEat = class_getInstanceMethod([self class], @selector(mysendEvent:));
+//        class_addMethod([UIApplication class], @selector(mysendEvent:), method_getImplementation(originEat), method_getTypeEncoding(originEat));
+//        method_exchangeImplementations(originEat, swizzlingEat);
+//
+//    });
 }
 - (void)mysendEvent:(UIEvent *)event
 {

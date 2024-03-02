@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A1FF5A62B752B5000048D78 /* cls_RoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FF5A52B752B5000048D78 /* cls_RoleViewController.m */; };
+		0AEDF98A2B9388D400AE92CA /* cls_shangchengViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEDF9892B9388D400AE92CA /* cls_shangchengViewController.m */; };
 		4704B8B22B33DC940012BBBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B8B12B33DC940012BBBB /* AppDelegate.m */; };
 		4704B8B82B33DC940012BBBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704B8B72B33DC940012BBBB /* ViewController.m */; };
 		4704B8BB2B33DC940012BBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4704B8B92B33DC940012BBBB /* Main.storyboard */; };
@@ -133,6 +134,8 @@
 /* Begin PBXFileReference section */
 		0A1FF5A42B752B5000048D78 /* cls_RoleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cls_RoleViewController.h; sourceTree = "<group>"; };
 		0A1FF5A52B752B5000048D78 /* cls_RoleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cls_RoleViewController.m; sourceTree = "<group>"; };
+		0AEDF9882B9388D400AE92CA /* cls_shangchengViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cls_shangchengViewController.h; sourceTree = "<group>"; };
+		0AEDF9892B9388D400AE92CA /* cls_shangchengViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cls_shangchengViewController.m; sourceTree = "<group>"; };
 		4704B8AD2B33DC940012BBBB /* erciyuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = erciyuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4704B8B02B33DC940012BBBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4704B8B12B33DC940012BBBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -474,6 +477,8 @@
 				658D5D982B5C0E920079C1A3 /* cls_xuetiaoNode.m */,
 				0A1FF5A42B752B5000048D78 /* cls_RoleViewController.h */,
 				0A1FF5A52B752B5000048D78 /* cls_RoleViewController.m */,
+				0AEDF9882B9388D400AE92CA /* cls_shangchengViewController.h */,
+				0AEDF9892B9388D400AE92CA /* cls_shangchengViewController.m */,
 				658D5D7F2B5C0E920079C1A3 /* MSYHL.TTC */,
 			);
 			path = mini;
@@ -685,6 +690,7 @@
 				658D5DBD2B5C0E920079C1A3 /* cls_baseModel.m in Sources */,
 				6589013A2B653E24006F1884 /* cls_qiantianfuliViewController.m in Sources */,
 				658D5DA72B5C0E920079C1A3 /* cls_equipValueModel.m in Sources */,
+				0AEDF98A2B9388D400AE92CA /* cls_shangchengViewController.m in Sources */,
 				658D5DBC2B5C0E920079C1A3 /* cls_MonsterNode.m in Sources */,
 				47A2F10A2B5A425200526595 /* FMDatabase.m in Sources */,
 				658D5DB52B5C0E920079C1A3 /* cls_MainHomePageViewController.m in Sources */,

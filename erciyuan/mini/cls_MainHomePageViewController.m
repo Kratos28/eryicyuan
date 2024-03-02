@@ -11,6 +11,7 @@
 //#import "cls_StashViewController.h"
 #import "cls_qiantianfuliViewController.h"
 #import "cls_RoleViewController.h"
+#import "cls_shangchengViewController.h"
 @interface cls_MainHomePageViewController ()
 
 @end
@@ -85,8 +86,10 @@
             });
             buttonBlock(var_button, ^(UIButton  *btn){
               
-            
                 
+                    UIViewController *v = [[cls_shangchengViewController alloc]init];
+                    v.modalPresentationStyle =  UIModalPresentationFullScreen;
+                    [self presentViewController:v animated:NO completion:nil];
             });
 
             [var_imageview addSubview:var_button];

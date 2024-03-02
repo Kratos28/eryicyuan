@@ -122,5 +122,10 @@
     }
     
 }
+- (void)fun_click:(UIButton *)sender
+{
+    
+}
+
 
 @end

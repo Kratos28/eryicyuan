@@ -98,6 +98,28 @@
     
     [self dibu];
     
+    
+    {
+        UIButton *var_button = [[UIButton alloc]init];
+        var_button.titleLabel.font = [cls_Tool fun_cusstomFontSize:40];
+      
+        var_button.frame = CGRectMake(RPX(860), RPY(1020),RPX(100), RPY(60));
+
+        [var_button addTapBlock:^(UIButton * _Nonnull btn) {
+            
+            
+            UIAlertController *vc = [UIAlertController  alertControllerWithTitle:@"" message:@"Insufficient condition" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *action = [UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+                
+            }];
+            
+            [vc addAction:action];
+            [self presentViewController:vc animated:NO completion:nil];
+            
+        }];
+            [self.view addSubview:var_button];
+        
+    }
 }
 
 - (void)zhaungbei
