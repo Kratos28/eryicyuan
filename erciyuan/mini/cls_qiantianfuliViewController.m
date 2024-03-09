@@ -20,7 +20,7 @@
     UIImageView *var_imageview = [[UIImageView alloc]init];
     var_imageview.image = [cls_Tool fun_imageName:@"界面背景"];
     viewFrameBlock(var_imageview,^(UIView *b){
-        b.frame = CGRectMake(RPX(0), RPY(0),b.width, b.height);
+        b.frame = CGRectMake(RPX(0), RPY(0),self.view.frame.size.width,self.view.frame.size.height);
         
     });
     [self.view addSubview:var_imageview];
@@ -124,7 +124,14 @@
 }
 - (void)fun_click:(UIButton *)sender
 {
-    
+    if (sender.tag == 0)
+    {
+         cls_userInfo * u = [cls_userInfo fun_getuserInfo];
+        u.pro_gold += 100;
+        [u fun_save];
+        [cls_Tool fun_updateNote];
+                sender.enabled = NO;
+    }
 }
 
 
