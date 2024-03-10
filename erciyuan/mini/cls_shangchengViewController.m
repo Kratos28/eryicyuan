@@ -335,7 +335,7 @@ self.daojus = [NSMutableArray array];
         [label.centerXAnchor constraintEqualToAnchor:b.centerXAnchor constant:15].active = YES;
         NSLayoutConstraint *c =  [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeBottom relatedBy:1 toItem:b attribute:NSLayoutAttributeBottom multiplier:1 constant:-10];
         [b addConstraint:c];
-        [self.zuanshis addObject:b];
+        [self.daojus addObject:b];
     }
 }
 - (void)fun_setupzuanshi
