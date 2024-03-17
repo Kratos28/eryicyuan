@@ -38,7 +38,7 @@
 
         [var_button setBackgroundImage:[cls_Tool fun_imageName:@"img_skill_btn_back"] forState:0];
         viewFrameBlock(var_button,^(UIView *b){
-            b.frame = CGRectMake(RPX(10), RPY(20), RPX(150), RPY(30));
+            b.frame = CGRectMake(RPX(10), RPY(20), RPX(150), RPY(70));
         });
 //        var_button.frame = CGRectMake(0, 0, 100, 50);
         [var_button addTarget:self action:@selector(fun_goback) forControlEvents:64];

@@ -13,6 +13,7 @@
 #import "cls_RoleViewController.h"
 #import "cls_shangchengViewController.h"
 #import "cls_paceViewController.h"
+#import "cls_tiaozhanViewController.h"
 @interface cls_MainHomePageViewController ()
 
 @end
@@ -21,6 +22,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [[NSUserDefaults standardUserDefaults]setBool:NO forKey:@"qiandao"];
+
     self.pro_backbtn.hidden = YES;
     {
         UIImageView *var_imageview = [[UIImageView alloc]init];
@@ -165,8 +169,9 @@
             });
             buttonBlock(var_button, ^(UIButton  *btn){
               
-            
-                
+                UIViewController *v = [[cls_tiaozhanViewController alloc]init];
+                v.modalPresentationStyle =  UIModalPresentationFullScreen;
+                [self presentViewController:v animated:NO completion:nil];
             });
 
             [var_imageview addSubview:var_button];

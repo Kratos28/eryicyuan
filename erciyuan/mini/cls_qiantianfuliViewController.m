@@ -119,6 +119,12 @@
         NSLayoutConstraint *c =  [NSLayoutConstraint constraintWithItem:label attribute:NSLayoutAttributeBottom relatedBy:1 toItem:b attribute:NSLayoutAttributeBottom multiplier:1 constant:-10];
         [b addConstraint:c];
         
+        
+        if ([[NSUserDefaults standardUserDefaults]boolForKey:@"qiandao"] == YES && i== 0)
+        {
+            b.enabled = NO;
+        }
+        
     }
     
 }
@@ -126,11 +132,25 @@
 {
     if (sender.tag == 0)
     {
-         cls_userInfo * u = [cls_userInfo fun_getuserInfo];
-        u.pro_gold += 100;
-        [u fun_save];
-        [cls_Tool fun_updateNote];
-                sender.enabled = NO;
+
+        
+        UIAlertController *a = [UIAlertController alertControllerWithTitle:@"成功" message:nil preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction *aaction = [UIAlertAction actionWithTitle:@"ok" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            
+            
+            cls_userInfo * u = [cls_userInfo fun_getuserInfo];
+           u.pro_gold += 100;
+           [u fun_save];
+           [cls_Tool fun_updateNote];
+                   sender.enabled = NO;
+            [[NSUserDefaults standardUserDefaults]setBool:TRUE forKey:@"qiandao"];
+            [[NSUserDefaults standardUserDefaults]synchronize];
+        }];
+        
+        [a addAction:aaction];
+        [self presentViewController:a animated:YES completion:nil];
+        
     }
 }
 

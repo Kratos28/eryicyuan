@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "cls_Tool.h"
 #import "cls_MainHomePageViewController.h"
+#import "cls_xuanjiaoViewController.h"
 @interface ViewController ()
 
 @end
@@ -37,7 +38,7 @@
         });
         buttonBlock(var_button, ^(UIButton  *btn){
           
-            UIViewController *mainvc =   [[cls_MainHomePageViewController alloc]init];
+            UIViewController *mainvc =   [[cls_xuanjiaoViewController alloc]init];
             mainvc.modalPresentationStyle = UIModalPresentationOverCurrentContext|UIModalPresentationFullScreen;
             mainvc.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
             [self presentViewController:mainvc animated:NO completion:nil];
