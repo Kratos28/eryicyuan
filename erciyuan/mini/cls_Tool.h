@@ -54,7 +54,11 @@ block(btn);\
 
 #define RPX(x) [cls_Tool fun_RpxX:(x)]
 #define RPY(y) [cls_Tool fun_RpxY:(y)]
+#define gongjiWillwangchengNote @"gongjiWillwangchengNote"
+#define gongjiDIDwangchengNote @"gongjiDIDwangchengNote"
 
+#define siwang @"siwang"
+typedef void(^blockokcancel)(int a);
 @interface cls_Tool : NSObject
 + (UIFont *)fun_cusstomFontSize:(CGFloat)size;
 + (UIColor *)fun_colorWithHexString:(NSString *)hexString;
@@ -69,6 +73,43 @@ block(btn);\
 @end
 
 
+static inline int rand_num(int min,int max)
+{
+    return min + arc4random()%(max - min + 1);
+}
+
+
+static __attribute__((always_inline,unused)) void alertWithok(UIViewController *vc, NSString *title,NSString *ok,NSString *cancel,blockokcancel com)
+{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        UIAlertController *avc = [UIAlertController alertControllerWithTitle:title message:title preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:ok style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            if (com != nil) {
+                com(1);
+            }
+            
+        }];
+        
+        
+        UIAlertAction *cancel1 = [UIAlertAction actionWithTitle:cancel style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            if (com != nil) {
+                com(0);
+            }
+            
+        }];
+        [avc addAction:action];
+        [avc addAction:cancel1];
+
+        
+        
+        
+        if (@available(iOS 13.0, *)) {
+               avc.modalPresentationStyle = UIModalPresentationFullScreen;
+           }
+        
+        [vc presentViewController:avc animated:YES completion:nil];
+    });
+}
 
 
 NS_ASSUME_NONNULL_END

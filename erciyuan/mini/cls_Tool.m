@@ -109,6 +109,9 @@ static NSData *para_plistMolData;
 
     return  font;
 }
+
+
+
 + (UIColor *)fun_colorWithHexString:(NSString *)hexString{
 #pragma mark - 颜色转换 IOS中十六进制的颜色转换为UIColor
     NSString *cString = [[hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];

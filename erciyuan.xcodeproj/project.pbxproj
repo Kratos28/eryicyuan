@@ -119,6 +119,12 @@
 		0AA13F5F2BA584D70029EB98 /* 2048x2732-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AA13EF32BA584D70029EB98 /* 2048x2732-4.jpg */; };
 		0AA13F602BA584D70029EB98 /* 1242x2208-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AA13EF42BA584D70029EB98 /* 1242x2208-3.jpg */; };
 		0AA13F612BA584D70029EB98 /* 1242x2208-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0AA13EF52BA584D70029EB98 /* 1242x2208-2.jpg */; };
+		0AA13F642BA6C5A00029EB98 /* GAME01PlayGroundPlayGround.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA13F632BA6C5A00029EB98 /* GAME01PlayGroundPlayGround.m */; };
+		0AA13F672BA6C5E00029EB98 /* GAME01RenWuPlayGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA13F662BA6C5E00029EB98 /* GAME01RenWuPlayGroundView.m */; };
+		0AA13F6A2BA6C62B0029EB98 /* GAME01renwu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA13F682BA6C62B0029EB98 /* GAME01renwu.m */; };
+		0AA13F6D2BA6C7360029EB98 /* cls_zr.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA13F6C2BA6C7360029EB98 /* cls_zr.m */; };
+		0AA13F702BA6CEC00029EB98 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA13F6F2BA6CEC00029EB98 /* ProgressView.m */; };
+		0AA13F732BA6FB890029EB98 /* cls_shibaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA13F722BA6FB890029EB98 /* cls_shibaiViewController.m */; };
 		0AAD883A2B9C50DC002069CD /* YQInAppPurchaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD88382B9C50DC002069CD /* YQInAppPurchaseTool.m */; };
 		0AAD883D2B9C51BD002069CD /* QF_HZActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD883B2B9C51BD002069CD /* QF_HZActivityIndicatorView.m */; };
 		0AAD88402B9C60A3002069CD /* cls_paceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD883F2B9C60A3002069CD /* cls_paceViewController.m */; };
@@ -275,6 +281,18 @@
 		0AA13EF32BA584D70029EB98 /* 2048x2732-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2048x2732-4.jpg"; sourceTree = "<group>"; };
 		0AA13EF42BA584D70029EB98 /* 1242x2208-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-3.jpg"; sourceTree = "<group>"; };
 		0AA13EF52BA584D70029EB98 /* 1242x2208-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1242x2208-2.jpg"; sourceTree = "<group>"; };
+		0AA13F622BA6C5A00029EB98 /* GAME01PlayGroundPlayGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAME01PlayGroundPlayGround.h; sourceTree = "<group>"; };
+		0AA13F632BA6C5A00029EB98 /* GAME01PlayGroundPlayGround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAME01PlayGroundPlayGround.m; sourceTree = "<group>"; };
+		0AA13F652BA6C5E00029EB98 /* GAME01RenWuPlayGroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAME01RenWuPlayGroundView.h; sourceTree = "<group>"; };
+		0AA13F662BA6C5E00029EB98 /* GAME01RenWuPlayGroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAME01RenWuPlayGroundView.m; sourceTree = "<group>"; };
+		0AA13F682BA6C62B0029EB98 /* GAME01renwu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAME01renwu.m; sourceTree = "<group>"; };
+		0AA13F692BA6C62B0029EB98 /* GAME01renwu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAME01renwu.h; sourceTree = "<group>"; };
+		0AA13F6B2BA6C7360029EB98 /* cls_zr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cls_zr.h; sourceTree = "<group>"; };
+		0AA13F6C2BA6C7360029EB98 /* cls_zr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cls_zr.m; sourceTree = "<group>"; };
+		0AA13F6E2BA6CEC00029EB98 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		0AA13F6F2BA6CEC00029EB98 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		0AA13F712BA6FB890029EB98 /* cls_shibaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cls_shibaiViewController.h; sourceTree = "<group>"; };
+		0AA13F722BA6FB890029EB98 /* cls_shibaiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cls_shibaiViewController.m; sourceTree = "<group>"; };
 		0AAD88382B9C50DC002069CD /* YQInAppPurchaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQInAppPurchaseTool.m; sourceTree = "<group>"; };
 		0AAD88392B9C50DC002069CD /* YQInAppPurchaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQInAppPurchaseTool.h; sourceTree = "<group>"; };
 		0AAD883B2B9C51BD002069CD /* QF_HZActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QF_HZActivityIndicatorView.m; sourceTree = "<group>"; };
@@ -563,6 +581,14 @@
 		658D5D712B5C0E920079C1A3 /* mini */ = {
 			isa = PBXGroup;
 			children = (
+				0AA13F6E2BA6CEC00029EB98 /* ProgressView.h */,
+				0AA13F6F2BA6CEC00029EB98 /* ProgressView.m */,
+				0AA13F692BA6C62B0029EB98 /* GAME01renwu.h */,
+				0AA13F682BA6C62B0029EB98 /* GAME01renwu.m */,
+				0AA13F652BA6C5E00029EB98 /* GAME01RenWuPlayGroundView.h */,
+				0AA13F662BA6C5E00029EB98 /* GAME01RenWuPlayGroundView.m */,
+				0AA13F622BA6C5A00029EB98 /* GAME01PlayGroundPlayGround.h */,
+				0AA13F632BA6C5A00029EB98 /* GAME01PlayGroundPlayGround.m */,
 				0AAD883C2B9C51BD002069CD /* QF_HZActivityIndicatorView.h */,
 				0AAD883B2B9C51BD002069CD /* QF_HZActivityIndicatorView.m */,
 				0AAD88392B9C50DC002069CD /* YQInAppPurchaseTool.h */,
@@ -575,6 +601,8 @@
 				658D5D922B5C0E920079C1A3 /* cls_buttonBlock.m */,
 				658D5DA32B5C0E920079C1A3 /* cls_conjzebutton.h */,
 				658D5D892B5C0E920079C1A3 /* cls_conjzebutton.m */,
+				0AA13F6B2BA6C7360029EB98 /* cls_zr.h */,
+				0AA13F6C2BA6C7360029EB98 /* cls_zr.m */,
 				658D5DA52B5C0E920079C1A3 /* cls_equipModel.h */,
 				658D5D872B5C0E920079C1A3 /* cls_equipModel.m */,
 				658D5D8F2B5C0E920079C1A3 /* cls_equipValueModel.h */,
@@ -622,6 +650,8 @@
 				0AF135DC2B9DBD400029899C /* cls_renwwuwwViewController.m */,
 				0AA13E7A2BA574B70029EB98 /* cls_tiaozhanViewController.h */,
 				0AA13E7B2BA574B70029EB98 /* cls_tiaozhanViewController.m */,
+				0AA13F712BA6FB890029EB98 /* cls_shibaiViewController.h */,
+				0AA13F722BA6FB890029EB98 /* cls_shibaiViewController.m */,
 			);
 			path = mini;
 			sourceTree = "<group>";
@@ -805,12 +835,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA13F6D2BA6C7360029EB98 /* cls_zr.m in Sources */,
+				0AA13F672BA6C5E00029EB98 /* GAME01RenWuPlayGroundView.m in Sources */,
 				47A2F1082B5A425200526595 /* FMDatabaseQueue.m in Sources */,
 				658D5DB72B5C0E920079C1A3 /* cls_equipModel.m in Sources */,
 				4704B8B82B33DC940012BBBB /* ViewController.m in Sources */,
+				0AA13F702BA6CEC00029EB98 /* ProgressView.m in Sources */,
 				658D5DBA2B5C0E920079C1A3 /* cls_Tool.m in Sources */,
 				658D5DAA2B5C0E920079C1A3 /* cls_VWWViewController.m in Sources */,
 				4704B8B22B33DC940012BBBB /* AppDelegate.m in Sources */,
+				0AA13F732BA6FB890029EB98 /* cls_shibaiViewController.m in Sources */,
+				0AA13F642BA6C5A00029EB98 /* GAME01PlayGroundPlayGround.m in Sources */,
 				0A1FF5A62B752B5000048D78 /* cls_RoleViewController.m in Sources */,
 				658D5DB92B5C0E920079C1A3 /* cls_conjzebutton.m in Sources */,
 				658D5DAE2B5C0E920079C1A3 /* cls_warehouseModel.m in Sources */,
@@ -831,6 +866,7 @@
 				0AAD883D2B9C51BD002069CD /* QF_HZActivityIndicatorView.m in Sources */,
 				4704B8C32B33DC970012BBBB /* main.m in Sources */,
 				47A2F10B2B5A425200526595 /* FMDatabasePool.m in Sources */,
+				0AA13F6A2BA6C62B0029EB98 /* GAME01renwu.m in Sources */,
 				658D5DB82B5C0E920079C1A3 /* cls_SigninModel.m in Sources */,
 				0AAD88402B9C60A3002069CD /* cls_paceViewController.m in Sources */,
 				658D5DA82B5C0E920079C1A3 /* cls_ViewNameTag.m in Sources */,
