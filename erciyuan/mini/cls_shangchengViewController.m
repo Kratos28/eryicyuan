@@ -13,6 +13,7 @@
 @property (nonatomic,strong)NSMutableArray *daojus;
 @property (nonatomic,strong)NSMutableArray * data;
 @property (nonatomic,strong) NSMutableArray *productArray;
+@property (nonatomic,assign) int idnex;
 @end
 
 @implementation cls_shangchengViewController
@@ -80,7 +81,8 @@ NSString * JavascriptBridge_js() {
 //支付成功了，并开始向苹果服务器进行验证（若CheckAfterPay为NO，则不会经过此步骤）
 -(void)IAPToolBeginCheckingdWithProductID:(NSString *)productID {
     
-    for (int i =0; i<self.data.count; i++) {
+    for (int i =0; i<self.data.count; i++)
+    {
          NSDictionary *Dd =  self.data[i];
         if ([productID isEqualToString:Dd[@"id"]]) {
                 
@@ -90,16 +92,13 @@ NSString * JavascriptBridge_js() {
                 
                 
                 cls_userInfo *p =  [cls_userInfo fun_getuserInfo];
-                
                 p.pro_gold   = [Dd[@"goods"] intValue] + p.pro_gold;
                 [p fun_save];;
                 [cls_Tool fun_updateNote];
             }];
             [vc addAction:ac1];
             [self presentViewController:vc animated:false completion:nil];
-            
             break;;
-            
         }
     }
     [QF_HZActivityIndicatorView hide];
@@ -404,6 +403,20 @@ self.daojus = [NSMutableArray array];
     [QF_HZActivityIndicatorView showLoading:@"正在拉起，请稍后"];
     NSDictionary * dd =  self.data[sender.tag];
     [[YQInAppPurchaseTool defaultTool]buyProduct:dd[@"id"]];
+    self.idnex = sender.tag;
 }
+
+/**
+ *  代理：购买成功
+ *
+ *  @param productID 购买成功的商品ID
+ */
+-(void)IAPToolBoughtProductSuccessedWithProductID:(NSString *)productID
+                                            andInfo:(NSDictionary *)infoDic;
+{
+    NSDictionary * dd =  self.data[self.idnex];
+    [QF_HZActivityIndicatorView hide];
+}
+
 
 @end
